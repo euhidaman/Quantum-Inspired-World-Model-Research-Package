@@ -1,0 +1,8 @@
+﻿
+
+Algorithm : SHA256
+Hash      : AEF065DF70A5BD7C42CD62E30F98D13EA88DF5709616B5D1D8ABA8B495B8592D
+Path      : C:\Users\Euhid Aman\Desktop\Quantum-Inspired-World-Model-Research-Package\outputs\review_protocol.md
+
+
+

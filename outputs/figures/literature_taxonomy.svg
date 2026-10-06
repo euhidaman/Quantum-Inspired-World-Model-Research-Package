@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="936pt" height="576pt" viewBox="0 0 936 576" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-10-06T22:06:00.214114</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.11.2, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 576 
+L 936 576 
+L 936 0 
+L 0 0 
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 49.824 261.684 
+L 312.48 261.684 
+Q 319.392 261.684 319.392 255.42 
+L 319.392 133.272 
+Q 319.392 127.008 312.48 127.008 
+L 49.824 127.008 
+Q 42.912 127.008 42.912 133.272 
+L 42.912 255.42 
+Q 42.912 261.684 49.824 261.684 
+z
+" clip-path="url(#p162f71c138)" style="fill: #eaf1f7; stroke: #26445d; stroke-width: 1.2; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_3">
+    <path d="M 343.584 261.684 
+L 606.24 261.684 
+Q 613.152 261.684 613.152 255.42 
+L 613.152 133.272 
+Q 613.152 127.008 606.24 127.008 
+L 343.584 127.008 
+Q 336.672 127.008 336.672 133.272 
+L 336.672 255.42 
+Q 336.672 261.684 343.584 261.684 
+z
+" clip-path="url(#p162f71c138)" style="fill: #eaf1f7; stroke: #26445d; stroke-width: 1.2; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 637.344 261.684 
+L 900 261.684 
+Q 906.912 261.684 906.912 255.42 
+L 906.912 133.272 
+Q 906.912 127.008 900 127.008 
+L 637.344 127.008 
+Q 630.432 127.008 630.432 133.272 
+L 630.432 255.42 
+Q 630.432 261.684 637.344 261.684 
+z
+" clip-path="url(#p162f71c138)" style="fill: #eaf1f7; stroke: #26445d; stroke-width: 1.2; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_5">
+    <path d="M 49.824 424.548 
+L 312.48 424.548 
+Q 319.392 424.548 319.392 418.284 
+L 319.392 296.136 
+Q 319.392 289.872 312.48 289.872 
+L 49.824 289.872 
+Q 42.912 289.872 42.912 296.136 
+L 42.912 418.284 
+Q 42.912 424.548 49.824 424.548 
+z
+" clip-path="url(#p162f71c138)" style="fill: #eaf1f7; stroke: #26445d; stroke-width: 1.2; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_6">
+    <path d="M 343.584 424.548 
+L 606.24 424.548 
+Q 613.152 424.548 613.152 418.284 
+L 613.152 296.136 
+Q 613.152 289.872 606.24 289.872 
+L 343.584 289.872 
+Q 336.672 289.872 336.672 296.136 
+L 336.672 418.284 
+Q 336.672 424.548 343.584 424.548 
+z
+" clip-path="url(#p162f71c138)" style="fill: #eaf1f7; stroke: #26445d; stroke-width: 1.2; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_7">
+    <path d="M 637.344 424.548 
+L 900 424.548 
+Q 906.912 424.548 906.912 418.284 
+L 906.912 296.136 
+Q 906.912 289.872 900 289.872 
+L 637.344 289.872 
+Q 630.432 289.872 630.432 296.136 
+L 630.432 418.284 
+Q 630.432 424.548 637.344 424.548 
+z
+" clip-path="url(#p162f71c138)" style="fill: #eaf1f7; stroke: #26445d; stroke-width: 1.2; stroke-linejoin: miter"/>
+   </g>
+   <g id="text_1">
+    <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #45576a" x="36" y="76.977638" transform="rotate(-0 36 76.977638)">Themes describe verified prior art and experimental roles; box size does not encode evidence strength.</text>
+   </g>
+   <g id="text_2">
+    <text style="font-weight: 700; font-size: 11px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #142d45" x="181.152" y="152.279081" transform="rotate(-0 181.152 152.279081)">World prediction</text>
+   </g>
+   <g id="text_3">
+    <text style="font-size: 10px; font-family: 'DejaVu Sans'; fill: #263b4d" transform="translate(98.8395 181.700369)">RSSM, tokens, features, diffusion</text>
+    <text style="font-size: 10px; font-family: 'DejaVu Sans'; fill: #263b4d" transform="translate(156.0395 196.122244)">W01–W05</text>
+   </g>
+   <g id="text_4">
+    <text style="font-weight: 700; font-size: 11px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #142d45" x="474.912" y="152.279081" transform="rotate(-0 474.912 152.279081)">Joint object futures</text>
+   </g>
+   <g id="text_5">
+    <text style="font-size: 10px; font-family: 'DejaVu Sans'; fill: #263b4d" transform="translate(385.00575 181.241775)">Slots, trajectories, flows, occupancy</text>
+    <text style="font-size: 10px; font-family: 'DejaVu Sans'; fill: #263b4d" transform="translate(421.508875 195.612088)">W06–W11, W21–W23</text>
+   </g>
+   <g id="text_6">
+    <text style="font-weight: 700; font-size: 11px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #142d45" x="768.672" y="152.279081" transform="rotate(-0 768.672 152.279081)">Classical beliefs</text>
+   </g>
+   <g id="text_7">
+    <text style="font-size: 10px; font-family: 'DejaVu Sans'; fill: #263b4d" transform="translate(696.9845 181.700369)">Particles, mixtures, RFS, PSR</text>
+    <text style="font-size: 10px; font-family: 'DejaVu Sans'; fill: #263b4d" transform="translate(717.2845 195.548806)">W12–W18, Q05–Q06</text>
+   </g>
+   <g id="text_8">
+    <text style="font-weight: 700; font-size: 11px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #142d45" x="181.152" y="315.143081" transform="rotate(-0 181.152 315.143081)">Quantum-inspired mathematics</text>
+   </g>
+   <g id="text_9">
+    <text style="font-size: 10px; font-family: 'DejaVu Sans'; fill: #263b4d" transform="translate(93.092625 344.105775)">HQMM, purification, projective rays</text>
+    <text style="font-size: 10px; font-family: 'DejaVu Sans'; fill: #263b4d" transform="translate(158.055125 358.412806)">Q01–Q19</text>
+   </g>
+   <g id="text_10">
+    <text style="font-weight: 700; font-size: 11px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #142d45" x="474.912" y="315.143081" transform="rotate(-0 474.912 315.143081)">Robot control</text>
+   </g>
+   <g id="text_11">
+    <text style="font-size: 10px; font-family: 'DejaVu Sans'; fill: #263b4d" transform="translate(391.172938 344.564369)">Reactive, time-aware, risk, belief-</text>
+    <text style="font-size: 10px; font-family: 'DejaVu Sans'; fill: #263b4d" transform="translate(460.24325 357.106556)">space</text>
+    <text style="font-size: 10px; font-family: 'DejaVu Sans'; fill: #263b4d" transform="translate(452.738563 372.986244)">R01–R12</text>
+   </g>
+   <g id="text_12">
+    <text style="font-weight: 700; font-size: 11px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #142d45" x="768.672" y="315.143081" transform="rotate(-0 768.672 315.143081)">Validation</text>
+   </g>
+   <g id="text_13">
+    <text style="font-size: 10px; font-family: 'DejaVu Sans'; fill: #263b4d" transform="translate(690.200906 344.564369)">Social benchmarks, calibration,</text>
+    <text style="font-size: 10px; font-family: 'DejaVu Sans'; fill: #263b4d" transform="translate(748.926688 359.074525)">transfer</text>
+    <text style="font-size: 10px; font-family: 'DejaVu Sans'; fill: #263b4d" transform="translate(718.207938 372.476088)">R13–R16, W19–W20</text>
+   </g>
+   <g id="text_14">
+    <text style="font-weight: 700; font-size: 11px; font-family: 'DejaVu Sans'; text-anchor: start" x="53.28" y="502.848" transform="rotate(-0 53.28 502.848)">Research question: which explicit structure earns a useful accuracy–safety–cost tradeoff?</text>
+   </g>
+  </g>
+  <g id="text_15">
+   <text style="font-weight: 700; font-size: 20px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #142d45" x="37.44" y="26.716875" transform="rotate(-0 37.44 26.716875)">Literature taxonomy</text>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="p162f71c138">
+   <rect x="18.72" y="51.84" width="898.56" height="501.12"/>
+  </clipPath>
+ </defs>
+</svg>

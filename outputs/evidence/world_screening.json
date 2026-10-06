@@ -1,0 +1,221 @@
+[
+  {
+    "id": "W01",
+    "title": "Mastering diverse control tasks through world models",
+    "decision": "INCLUDE",
+    "reason": "Primary full text opened; scoped relevance; publication uncertainty retained",
+    "publication_type": "published study verified through metadata or paper header",
+    "reports_deduplicated": "Earlier arXiv and published version linked as one study when identified"
+  },
+  {
+    "id": "W02",
+    "title": "TD-MPC2: Scalable, Robust World Models for Continuous Control",
+    "decision": "INCLUDE",
+    "reason": "Primary full text opened; scoped relevance; publication uncertainty retained",
+    "publication_type": "published study verified through metadata or paper header",
+    "reports_deduplicated": "Earlier arXiv and published version linked as one study when identified"
+  },
+  {
+    "id": "W03",
+    "title": "Transformers are Sample-Efficient World Models",
+    "decision": "INCLUDE",
+    "reason": "Primary full text opened; scoped relevance; publication uncertainty retained",
+    "publication_type": "published study verified through metadata or paper header",
+    "reports_deduplicated": "Earlier arXiv and published version linked as one study when identified"
+  },
+  {
+    "id": "W04",
+    "title": "Diffusion for World Modeling: Visual Details Matter in Atari",
+    "decision": "INCLUDE",
+    "reason": "Primary full text opened; scoped relevance; publication uncertainty retained",
+    "publication_type": "published study verified through metadata or paper header",
+    "reports_deduplicated": "Earlier arXiv and published version linked as one study when identified"
+  },
+  {
+    "id": "W05",
+    "title": "DINO-WM: World Models on Pre-trained Visual Features enable Zero-shot Planning",
+    "decision": "INCLUDE",
+    "reason": "Primary full text opened; scoped relevance; publication uncertainty retained",
+    "publication_type": "published study verified through metadata or paper header",
+    "reports_deduplicated": "Earlier arXiv and published version linked as one study when identified"
+  },
+  {
+    "id": "W06",
+    "title": "Conditional Object-Centric Learning from Video",
+    "decision": "INCLUDE",
+    "reason": "Primary full text opened; scoped relevance; publication uncertainty retained",
+    "publication_type": "published study verified through metadata or paper header",
+    "reports_deduplicated": "Earlier arXiv and published version linked as one study when identified"
+  },
+  {
+    "id": "W07",
+    "title": "SlotFormer: Unsupervised Visual Dynamics Simulation with Object-Centric Models",
+    "decision": "INCLUDE",
+    "reason": "Primary full text opened; scoped relevance; publication uncertainty retained",
+    "publication_type": "published study verified through metadata or paper header",
+    "reports_deduplicated": "Earlier arXiv and published version linked as one study when identified"
+  },
+  {
+    "id": "W08",
+    "title": "Trajectron++: Dynamically-Feasible Trajectory Forecasting With Heterogeneous Data",
+    "decision": "INCLUDE",
+    "reason": "Primary full text opened; scoped relevance; publication uncertainty retained",
+    "publication_type": "published study verified through metadata or paper header",
+    "reports_deduplicated": "Earlier arXiv and published version linked as one study when identified"
+  },
+  {
+    "id": "W09",
+    "title": "Scene Transformer: A unified architecture for predicting multiple agent trajectories",
+    "decision": "INCLUDE",
+    "reason": "Primary full text opened; scoped relevance; publication uncertainty retained",
+    "publication_type": "published study verified through metadata or paper header",
+    "reports_deduplicated": "Earlier arXiv and published version linked as one study when identified"
+  },
+  {
+    "id": "W10",
+    "title": "MotionDiffuser: Controllable Multi-Agent Motion Prediction using Diffusion",
+    "decision": "INCLUDE",
+    "reason": "Primary full text opened; scoped relevance; publication uncertainty retained",
+    "publication_type": "published study verified through metadata or paper header",
+    "reports_deduplicated": "Earlier arXiv and published version linked as one study when identified"
+  },
+  {
+    "id": "W11",
+    "title": "Diverse Yet Consistent: Context-Guided Diffusion with Energy-Based Joint Refinement for Multi-Agent Motion Prediction",
+    "decision": "INCLUDE",
+    "reason": "Primary full text opened; scoped relevance; publication uncertainty retained",
+    "publication_type": "verified preprint; other publication status unverified",
+    "reports_deduplicated": "Earlier arXiv and published version linked as one study when identified"
+  },
+  {
+    "id": "W12",
+    "title": "Differentiable Particle Filters: End-to-End Learning with Algorithmic Priors",
+    "decision": "INCLUDE",
+    "reason": "Primary full text opened; scoped relevance; publication uncertainty retained",
+    "publication_type": "published study verified through metadata or paper header",
+    "reports_deduplicated": "Earlier arXiv and published version linked as one study when identified"
+  },
+  {
+    "id": "W13",
+    "title": "Differentiable Particle Filtering via Entropy-Regularized Optimal Transport",
+    "decision": "INCLUDE",
+    "reason": "Primary full text opened; scoped relevance; publication uncertainty retained",
+    "publication_type": "published study verified through metadata or paper header",
+    "reports_deduplicated": "Earlier arXiv and published version linked as one study when identified"
+  },
+  {
+    "id": "W14",
+    "title": "Differentiable Particle Filtering without Modifying the Forward Pass",
+    "decision": "INCLUDE",
+    "reason": "Primary full text opened; scoped relevance; publication uncertainty retained",
+    "publication_type": "verified preprint; other publication status unverified",
+    "reports_deduplicated": "Earlier arXiv and published version linked as one study when identified"
+  },
+  {
+    "id": "W15",
+    "title": "The Gaussian Mixture Probability Hypothesis Density Filter",
+    "decision": "INCLUDE",
+    "reason": "Primary full text opened; scoped relevance; publication uncertainty retained",
+    "publication_type": "published study verified through metadata or paper header",
+    "reports_deduplicated": "Earlier arXiv and published version linked as one study when identified"
+  },
+  {
+    "id": "W16",
+    "title": "The Labeled Multi-Bernoulli Filter",
+    "decision": "INCLUDE",
+    "reason": "Primary full text opened; scoped relevance; publication uncertainty retained",
+    "publication_type": "published study verified through metadata or paper header",
+    "reports_deduplicated": "Earlier arXiv and published version linked as one study when identified"
+  },
+  {
+    "id": "W17",
+    "title": "Labeled Random Finite Sets and Multi-Object Conjugate Priors",
+    "decision": "INCLUDE",
+    "reason": "Primary full text opened; scoped relevance; publication uncertainty retained",
+    "publication_type": "published study verified through metadata or paper header",
+    "reports_deduplicated": "Earlier arXiv and published version linked as one study when identified"
+  },
+  {
+    "id": "W18",
+    "title": "Labeled Random Finite Sets and the Bayes Multi-Target Tracking Filter",
+    "decision": "INCLUDE",
+    "reason": "Primary full text opened; scoped relevance; publication uncertainty retained",
+    "publication_type": "published study verified through metadata or paper header",
+    "reports_deduplicated": "Earlier arXiv and published version linked as one study when identified"
+  },
+  {
+    "id": "W19",
+    "title": "Strictly Proper Scoring Rules, Prediction, and Estimation",
+    "decision": "INCLUDE",
+    "reason": "Primary full text opened; scoped relevance; publication uncertainty retained",
+    "publication_type": "published study verified through metadata or paper header",
+    "reports_deduplicated": "Earlier arXiv and published version linked as one study when identified"
+  },
+  {
+    "id": "W20",
+    "title": "Accurate Uncertainties for Deep Learning Using Calibrated Regression",
+    "decision": "INCLUDE",
+    "reason": "Primary full text opened; scoped relevance; publication uncertainty retained",
+    "publication_type": "published study verified through metadata or paper header",
+    "reports_deduplicated": "Earlier arXiv and published version linked as one study when identified"
+  },
+  {
+    "id": "WL01",
+    "title": "Multitarget Bayes filtering via first-order multitarget moments",
+    "decision": "UNVERIFIED",
+    "reason": "Found citation/metadata snippets; primary original not opened. GM-PHD primary paper used for scoped intensity claims instead.",
+    "url": "https://doi.org/10.1109/TAES.2003.1261119"
+  },
+  {
+    "id": "WL02",
+    "title": "Motion Transformer with Global Intention Localization and Local Movement Refinement",
+    "decision": "UNVERIFIED",
+    "reason": "Search-discovered primary record; not opened/extracted in this bounded component review.",
+    "url": "https://arxiv.org/abs/2209.13508"
+  },
+  {
+    "id": "WL03",
+    "title": "Back to the Features: DINO as a Foundation for Video World Models",
+    "decision": "UNVERIFIED",
+    "reason": "Search-discovered lead; not opened/extracted.",
+    "url": "https://arxiv.org/abs/2507.19468"
+  },
+  {
+    "id": "WL04",
+    "title": "Diffusion Forcing for Multi-Agent Interaction Sequence Modeling",
+    "decision": "UNVERIFIED",
+    "reason": "Search-discovered lead; not opened/extracted.",
+    "url": "https://arxiv.org/abs/2512.17900"
+  },
+  {
+    "id": "WL05",
+    "title": "Diverse yet consistent: How mathematicians position computational thinking across research and teaching",
+    "decision": "EXCLUDE",
+    "reason": "Irrelevant title collision during exact-title search; no scientific claims use it.",
+    "url": "https://arxiv.org/abs/2605.11681"
+  },
+  {
+    "id": "W21",
+    "title": "FloMo: Tractable Motion Prediction with Normalizing Flows",
+    "decision": "INCLUDE",
+    "reason": "Focused coverage-gap follow-up; full primary text and official metadata opened",
+    "publication_type": "Peer-reviewed conference paper",
+    "reports_deduplicated": "arXiv and official publication record linked as one study"
+  },
+  {
+    "id": "W22",
+    "title": "Occupancy Flow Fields for Motion Forecasting in Autonomous Driving",
+    "decision": "INCLUDE",
+    "reason": "Focused coverage-gap follow-up; full primary text and official metadata opened",
+    "publication_type": "Peer-reviewed journal article",
+    "reports_deduplicated": "arXiv and official publication record linked as one study"
+  },
+  {
+    "id": "W23",
+    "title": "Implicit Occupancy Flow Fields for Perception and Prediction in Self-Driving",
+    "decision": "INCLUDE",
+    "reason": "Focused coverage-gap follow-up; full primary text and official metadata opened",
+    "publication_type": "Peer-reviewed conference paper",
+    "reports_deduplicated": "arXiv and official publication record linked as one study"
+  }
+]

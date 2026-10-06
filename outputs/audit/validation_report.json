@@ -1,0 +1,12 @@
+{
+  "python": "3.14.6",
+  "paper_records": 58,
+  "claim_records": 103,
+  "baseline_rows": 41,
+  "bib_entries": 59,
+  "source_links_valid": true,
+  "required_files_present": true,
+  "figures": 6,
+  "power_rows": 12,
+  "scope": "Structural validation, not verification of every scholarly statement or proposed experiment"
+}

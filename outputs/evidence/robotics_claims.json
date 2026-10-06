@@ -1,0 +1,256 @@
+[
+  {
+    "claim_id": "RC01",
+    "claim": "DWA restricts velocities by dynamic reachability and ability to stop before sensed obstacles.",
+    "claim_type": "ESTABLISHED",
+    "source_ids": [
+      "R01_DWA"
+    ],
+    "exact_source_location": "Author manuscript Fig.3, Eqs.13–15, PDF pages8–10.",
+    "confidence": "high",
+    "contradictions": "None identified within inspected scope",
+    "verification_scope": "Source-supported method description; not an independently reproduced experiment"
+  },
+  {
+    "claim_id": "RC02",
+    "claim": "ORCA collision-free conditions assume pairwise shared avoidance responsibility; this does not guarantee safety against arbitrary non-cooperative pedestrians.",
+    "claim_type": "INFERENCE",
+    "source_ids": [
+      "R03_ORCA"
+    ],
+    "exact_source_location": "Author project Description; inference from reciprocity assumption.",
+    "confidence": "high",
+    "contradictions": "Non-reciprocal agents violate the assumption; differential-drive variants are separate work.",
+    "verification_scope": "Source-supported method description; not an independently reproduced experiment"
+  },
+  {
+    "claim_id": "RC03",
+    "claim": "SIPP reduces temporal search to configuration/safe-interval states under supplied obstacle trajectories.",
+    "claim_type": "ESTABLISHED",
+    "source_ids": [
+      "R04_SIPP"
+    ],
+    "exact_source_location": "Sec.III and introductory guarantee statement.",
+    "confidence": "high",
+    "contradictions": "None identified within inspected scope",
+    "verification_scope": "Source-supported method description; not an independently reproduced experiment"
+  },
+  {
+    "claim_id": "RC04",
+    "claim": "Asymptotic RRT* optimality is not a finite-latency dynamic-obstacle safety guarantee.",
+    "claim_type": "INFERENCE",
+    "source_ids": [
+      "R05_RRTSTAR"
+    ],
+    "exact_source_location": "Institutional abstract; scope of asymptotic property.",
+    "confidence": "high",
+    "contradictions": "None identified within inspected scope",
+    "verification_scope": "Source-supported method description; not an independently reproduced experiment"
+  },
+  {
+    "claim_id": "RC05",
+    "claim": "TEB optimizes timed poses under kinodynamic constraints and explores multiple topological classes.",
+    "claim_type": "ESTABLISHED",
+    "source_ids": [
+      "R06_TEB"
+    ],
+    "exact_source_location": "Secs.2.1–2.3 and abstract.",
+    "confidence": "high",
+    "contradictions": "None identified within inspected scope",
+    "verification_scope": "Source-supported method description; not an independently reproduced experiment"
+  },
+  {
+    "claim_id": "RC06",
+    "claim": "A sampling-MPC planner can be fixed while the predicted trajectory distribution is varied across representation cores.",
+    "claim_type": "INFERENCE",
+    "source_ids": [
+      "R07_ITMPC",
+      "R11_RAMPP",
+      "RD01_NAV2"
+    ],
+    "exact_source_location": "IT-MPC Sec.III; RA-MPPI Algorithm1; Nav2 MPPI critic interface.",
+    "confidence": "high",
+    "contradictions": "Prediction cost interface still requires implementation and profiling.",
+    "verification_scope": "Proposed experimental control, not completed integration."
+  },
+  {
+    "claim_id": "RC07",
+    "claim": "Blackmore et al.'s extracted chance-constrained formulation relies on linear-Gaussian assumptions.",
+    "claim_type": "ESTABLISHED",
+    "source_ids": [
+      "R08_CHANCE"
+    ],
+    "exact_source_location": "Institutional abstract lines61–63.",
+    "confidence": "high",
+    "contradictions": "None identified within inspected scope",
+    "verification_scope": "Source-supported method description; not an independently reproduced experiment"
+  },
+  {
+    "claim_id": "RC08",
+    "claim": "Particle belief update plus Monte Carlo tree search already provides a classical generative-model POMDP baseline.",
+    "claim_type": "ESTABLISHED",
+    "source_ids": [
+      "R09_POMCP"
+    ],
+    "exact_source_location": "Abstract; Secs.3–4.",
+    "confidence": "high",
+    "contradictions": "None identified within inspected scope",
+    "verification_scope": "Source-supported method description; not an independently reproduced experiment"
+  },
+  {
+    "claim_id": "RC09",
+    "claim": "Gaussian belief-space iLQG provides sensing-aware local planning but does not preserve general multimodal beliefs.",
+    "claim_type": "INFERENCE",
+    "source_ids": [
+      "R10_BELIEFILQG"
+    ],
+    "exact_source_location": "Publisher abstract's Gaussian/EKF/local value approximation.",
+    "confidence": "high",
+    "contradictions": "None identified within inspected scope",
+    "verification_scope": "Source-supported method description; not an independently reproduced experiment"
+  },
+  {
+    "claim_id": "RC10",
+    "claim": "RA-MPPI uses additional disturbed rollouts to estimate CVaR, requiring uncertainty-sampling budgets to be reported.",
+    "claim_type": "INFERENCE",
+    "source_ids": [
+      "R11_RAMPP"
+    ],
+    "exact_source_location": "Secs.III–IV and Algorithm1.",
+    "confidence": "high",
+    "contradictions": "Publication status beyond retrieved preprint not verified.",
+    "verification_scope": "Source-supported method description; not an independently reproduced experiment"
+  },
+  {
+    "claim_id": "RC11",
+    "claim": "DR-CVaR safety filtering uses linear ego dynamics, compact convex geometry, and distributional conditions; its constraints are interpreted per obstacle and time point.",
+    "claim_type": "ESTABLISHED",
+    "source_ids": [
+      "R12_DRCVAR"
+    ],
+    "exact_source_location": "Sec.II-A; Sec.II-D Lemma1; Sec.III step1.",
+    "confidence": "high",
+    "contradictions": "None identified within inspected scope",
+    "verification_scope": "Source-supported method description; not an independently reproduced experiment"
+  },
+  {
+    "claim_id": "RC12",
+    "claim": "A bound on each obstacle/time collision probability is not itself a bound of the same magnitude on collision anywhere over the horizon.",
+    "claim_type": "INFERENCE",
+    "source_ids": [
+      "R12_DRCVAR"
+    ],
+    "exact_source_location": "Sec.III pointwise constraints; union bound derivation in robotics_review.md.",
+    "confidence": "high",
+    "contradictions": "Dependence changes exact joint risk; sum bound requires no independence.",
+    "verification_scope": "Mathematical deduction; no empirical claim."
+  },
+  {
+    "claim_id": "RC13",
+    "claim": "For binary collision loss and upper-tail mass q, CVaR equals min(1,p_collision/q); severity-sensitive CVaR requires a richer loss.",
+    "claim_type": "INFERENCE",
+    "source_ids": [],
+    "exact_source_location": "robotics_review.md risk-measure derivation using the variational CVaR definition.",
+    "confidence": "high",
+    "contradictions": "Tail-level conventions vary across papers; explicitly define q.",
+    "verification_scope": "Algebraic deduction from Bernoulli loss, not a retrieved theorem claim."
+  },
+  {
+    "claim_id": "RC14",
+    "claim": "SocNavBench replays pedestrian trajectories that do not react to ego actions.",
+    "claim_type": "ESTABLISHED",
+    "source_ids": [
+      "R13_SOCNAVBENCH"
+    ],
+    "exact_source_location": "Sec.5.3.",
+    "confidence": "high",
+    "contradictions": "None identified within inspected scope",
+    "verification_scope": "Source-supported method description; not an independently reproduced experiment"
+  },
+  {
+    "claim_id": "RC15",
+    "claim": "HuNavSim supplies behavior-tree-controlled reactions and social metrics; human behavioral realism remains a model-validation question.",
+    "claim_type": "INFERENCE",
+    "source_ids": [
+      "R16_HUNAVSIM"
+    ],
+    "exact_source_location": "Secs.III-B–C; TableI; Sec.V.",
+    "confidence": "high",
+    "contradictions": "Simulated reaction diversity does not establish human realism.",
+    "verification_scope": "Source-supported method description; not an independently reproduced experiment"
+  },
+  {
+    "claim_id": "RC16",
+    "claim": "Arena5 is a current verified RSS2025 benchmark/framework candidate, but exact current backend compatibility and code license remain unverified here.",
+    "claim_type": "ESTABLISHED",
+    "source_ids": [
+      "R15_ARENA5"
+    ],
+    "exact_source_location": "Official proceedings abstract/BibTeX.",
+    "confidence": "medium",
+    "contradictions": "Official author list differs from indexed PDF header; official metadata retained.",
+    "verification_scope": "Abstract-level evidence only; no performance comparison."
+  },
+  {
+    "claim_id": "RC17",
+    "claim": "The current Isaac Sim documentation requires RT-capable hardware and more resources for Isaac Lab training than simulator minimums.",
+    "claim_type": "ESTABLISHED",
+    "source_ids": [
+      "RD02_ISAAC"
+    ],
+    "exact_source_location": "System Requirements table and notes.",
+    "confidence": "high",
+    "contradictions": "Version-specific requirements; retrieved latest page may change.",
+    "verification_scope": "Source-supported method description; not an independently reproduced experiment"
+  },
+  {
+    "claim_id": "RC18",
+    "claim": "Habitat-Sim's official repository warns that Meta teams no longer actively maintain it beyond v0.3.4.",
+    "claim_type": "ESTABLISHED",
+    "source_ids": [
+      "RD08_HABITAT"
+    ],
+    "exact_source_location": "README Warning.",
+    "confidence": "high",
+    "contradictions": "Community forks may remain active; not assessed.",
+    "verification_scope": "Source-supported method description; not an independently reproduced experiment"
+  },
+  {
+    "claim_id": "RC19",
+    "claim": "CARLA UE4 package and UE5 development requirements differ and must not be merged into one minimum specification.",
+    "claim_type": "ESTABLISHED",
+    "source_ids": [
+      "RD07_CARLA"
+    ],
+    "exact_source_location": "Package quickstart versus repo README branch note/recommended system.",
+    "confidence": "high",
+    "contradictions": "Official sources describe different release tracks, not necessarily a documentation error.",
+    "verification_scope": "Source-supported method description; not an independently reproduced experiment"
+  },
+  {
+    "claim_id": "RC20",
+    "claim": "Recommend analytic2D Stage0, then pinned Gazebo/Nav2 with calibrated lidar/state pipeline; add photorealistic Isaac evaluation only when visual evidence and hardware justify it.",
+    "claim_type": "INFERENCE",
+    "source_ids": [
+      "RD01_NAV2",
+      "RD02_ISAAC",
+      "R16_HUNAVSIM"
+    ],
+    "exact_source_location": "robotics_platforms.md selection rationale.",
+    "confidence": "medium",
+    "contradictions": "No measured throughput or task-specific reliability data available.",
+    "verification_scope": "Engineering recommendation conditioned on Stage0 and compatibility smoke test."
+  },
+  {
+    "claim_id": "RC21",
+    "claim": "All real-robot trials should use the same independent stop/safety layer and report its interventions as outcomes.",
+    "claim_type": "HYPOTHESIS",
+    "source_ids": [
+      "RD12_JACKAL"
+    ],
+    "exact_source_location": "Jackal Motion Stop documentation; proposed design in robotics_review.md.",
+    "confidence": "high",
+    "contradictions": "Physical safety protocol and venue/institution approval depend on actual robot and participants.",
+    "verification_scope": "Proposed experimental protocol, no trials run."
+  }
+]

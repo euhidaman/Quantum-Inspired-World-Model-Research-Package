@@ -1,0 +1,316 @@
+[
+  {
+    "claim_id": "Q-C01",
+    "claim": "Density-operator Kraus sequence models predate QLC.",
+    "claim_type": "ESTABLISHED",
+    "source_ids": [
+      "Q01",
+      "Q02"
+    ],
+    "exact_source_location": "Q01 §§4–6; Q02 §§1,3–4",
+    "confidence": "HIGH",
+    "contradictions": "None identified within stated scope",
+    "verification_scope": "Cited original inspected"
+  },
+  {
+    "claim_id": "Q-C02",
+    "claim": "A finite-dimensional HQMM is representable as an OOM with vectorized density state.",
+    "claim_type": "ESTABLISHED",
+    "source_ids": [
+      "Q03"
+    ],
+    "exact_source_location": "Theorem 1 and vectorization identity, PDF pp.4–5",
+    "confidence": "HIGH",
+    "contradictions": "None identified within stated scope",
+    "verification_scope": "Cited original inspected"
+  },
+  {
+    "claim_id": "Q-C03",
+    "claim": "In the stationary finite-alphabet exact-realization setting, finite HMM processes are strictly contained in finite HQMM processes, which are strictly contained in general finite linear/quasi-realization processes.",
+    "claim_type": "ESTABLISHED",
+    "source_ids": [
+      "Q14"
+    ],
+    "exact_source_location": "§§2.1–2.4; Theorems 1,3,4 and §4 proofs",
+    "confidence": "HIGH",
+    "contradictions": "Updates Q03/Q04 historical open question; not a contradiction in assumptions",
+    "verification_scope": "Cited original inspected"
+  },
+  {
+    "claim_id": "Q-C04",
+    "claim": "Non-terminating uniform locally purified sequence models are equivalent to HQMMs under the paper's hypotheses.",
+    "claim_type": "ESTABLISHED",
+    "source_ids": [
+      "Q04"
+    ],
+    "exact_source_location": "Theorem 5.1, PDF p.8",
+    "confidence": "HIGH",
+    "contradictions": "None identified within stated scope",
+    "verification_scope": "Cited original inspected"
+  },
+  {
+    "claim_id": "Q-C05",
+    "claim": "Born/NOOM and HMM families cannot be arranged as a simple strict dominance hierarchy: the finite classes contain processes absent from the other.",
+    "claim_type": "ESTABLISHED",
+    "source_ids": [
+      "Q04"
+    ],
+    "exact_source_location": "Theorem 4.2; Corollary 4.1",
+    "confidence": "HIGH",
+    "contradictions": "Do not infer all Born machines dominate HMMs",
+    "verification_scope": "Cited original inspected"
+  },
+  {
+    "claim_id": "Q-C06",
+    "claim": "PSRs already represent action-conditioned multi-step future predictions using classical state coordinates.",
+    "claim_type": "ESTABLISHED",
+    "source_ids": [
+      "Q06"
+    ],
+    "exact_source_location": "Introduction and Theorem 1",
+    "confidence": "HIGH",
+    "contradictions": "None identified within stated scope",
+    "verification_scope": "Cited original inspected"
+  },
+  {
+    "claim_id": "Q-C07",
+    "claim": "A d-dimensional density state has d²−1 real degrees of freedom, but this does not establish superior observable prediction or compute efficiency.",
+    "claim_type": "INFERENCE",
+    "source_ids": [
+      "Q03"
+    ],
+    "exact_source_location": "quantum_math.md §QLC coordinates; direct parameter count and Q03 Theorem 1",
+    "confidence": "HIGH",
+    "contradictions": "Hidden Hilbert dimension and classical bytes are different costs",
+    "verification_scope": "Elementary count plus formal embedding"
+  },
+  {
+    "claim_id": "Q-C08",
+    "claim": "States with identical diagonals can have different readout probabilities after a common basis-changing operation.",
+    "claim_type": "INFERENCE",
+    "source_ids": [
+      "Q03"
+    ],
+    "exact_source_location": "quantum_math.md §QLC toy construction, explicit two-by-two calculation",
+    "confidence": "HIGH",
+    "contradictions": "A classical scalar can solve this constructed label task",
+    "verification_scope": "Analytic construction; not an executed experiment"
+  },
+  {
+    "claim_id": "Q-C09",
+    "claim": "A dephased QLC only supplies a valid operational null if every reachable readout effect is insensitive to off-diagonal components.",
+    "claim_type": "INFERENCE",
+    "source_ids": [
+      "Q03",
+      "Q15"
+    ],
+    "exact_source_location": "quantum_math.md §Operationality, Heisenberg-effects condition",
+    "confidence": "HIGH",
+    "contradictions": "Commuting operators must be considered in one fixed basis across all steps",
+    "verification_scope": "Direct trace identity; identifiability paper supplies context"
+  },
+  {
+    "claim_id": "Q-C10",
+    "claim": "Locally purified factor truncation preserves positive semidefiniteness of XX†.",
+    "claim_type": "ESTABLISHED",
+    "source_ids": [
+      "Q07"
+    ],
+    "exact_source_location": "Eq. (3), Fig.1 and Algorithm section",
+    "confidence": "HIGH",
+    "contradictions": "None identified within stated scope",
+    "verification_scope": "Cited original inspected"
+  },
+  {
+    "claim_id": "Q-C11",
+    "claim": "For an open-chain LPDO purification with one bond of dimension χ across a contiguous split, physical quantum mutual information obeys I(A:B)≤2 log χ.",
+    "claim_type": "INFERENCE",
+    "source_ids": [
+      "Q07",
+      "Q19"
+    ],
+    "exact_source_location": "quantum_math.md §LPDO bound: purification Schmidt rank, strong-subadditivity/data-processing argument",
+    "confidence": "HIGH",
+    "contradictions": "Not a blanket bound for arbitrary topology, decoder or external shared latent",
+    "verification_scope": "Explicit proof provided; topology-specific project deduction"
+  },
+  {
+    "claim_id": "Q-C12",
+    "claim": "For χ=1, the local-factor LPDO itself is a product over slots, but a joint decoder or shared stochastic context can reintroduce output dependence.",
+    "claim_type": "INFERENCE",
+    "source_ids": [
+      "Q07"
+    ],
+    "exact_source_location": "quantum_math.md §LPDO assumptions",
+    "confidence": "HIGH",
+    "contradictions": "Conditional independence differs from marginal independence",
+    "verification_scope": "Direct factorization and decoder counterexample"
+  },
+  {
+    "claim_id": "Q-C13",
+    "claim": "A local Schmidt discarded weight ε yields a state-distance upper bound for that compression, not a calibrated probability of imminent collision.",
+    "claim_type": "INFERENCE",
+    "source_ids": [
+      "Q07"
+    ],
+    "exact_source_location": "quantum_math.md §Truncation: one-step pure-state trace distance; Q07 Appendix D",
+    "confidence": "HIGH",
+    "contradictions": "Bound requires canonical cut and normalization; arbitrary local SVD residual is not invariant",
+    "verification_scope": "Direct proof; safety calibration remains hypothesis"
+  },
+  {
+    "claim_id": "Q-C14",
+    "claim": "Tensor BP is exact on tree contraction graphs but may be biased, nonunique or nonconvergent on loops.",
+    "claim_type": "ESTABLISHED",
+    "source_ids": [
+      "Q08",
+      "Q09"
+    ],
+    "exact_source_location": "Q08 §II pp.2–3 and Appendix A; Q09 introduction, §2.4",
+    "confidence": "HIGH",
+    "contradictions": "None identified within stated scope",
+    "verification_scope": "Cited original inspected"
+  },
+  {
+    "claim_id": "Q-C15",
+    "claim": "BP-based tensor gauging is existing methodology.",
+    "claim_type": "ESTABLISHED",
+    "source_ids": [
+      "Q09"
+    ],
+    "exact_source_location": "§2.4, §3, §5.1",
+    "confidence": "HIGH",
+    "contradictions": "None identified within stated scope",
+    "verification_scope": "Cited original inspected"
+  },
+  {
+    "claim_id": "Q-C16",
+    "claim": "Different discrete pure-state ensembles can have the same density matrix; classification is prior art.",
+    "claim_type": "ESTABLISHED",
+    "source_ids": [
+      "Q11"
+    ],
+    "exact_source_location": "Author-institution repository Abstract or Description",
+    "confidence": "HIGH",
+    "contradictions": "Full original theorem not retrieved",
+    "verification_scope": "Abstract-level only"
+  },
+  {
+    "claim_id": "Q-C17",
+    "claim": "Two ensembles with identical density operators induce identical outcome-history probabilities under the same linear instruments, same observable action policy, and same readout.",
+    "claim_type": "INFERENCE",
+    "source_ids": [
+      "Q03",
+      "Q11"
+    ],
+    "exact_source_location": "quantum_math.md §Ensemble equivalence induction",
+    "confidence": "HIGH",
+    "contradictions": "Branch-conditioned dynamics or accessible labels change the modeled state",
+    "verification_scope": "Self-contained linearity proof; Q11 supplies context only"
+  },
+  {
+    "claim_id": "Q-C18",
+    "claim": "Persistent branch identity can matter only if it carries additional operational state, constraints or intervention semantics beyond an interchangeable decomposition of ρ.",
+    "claim_type": "INFERENCE",
+    "source_ids": [
+      "Q11",
+      "Q15"
+    ],
+    "exact_source_location": "quantum_math.md §Classical–projective state and label test",
+    "confidence": "HIGH",
+    "contradictions": "Ordinary particle/history models can retain the same information",
+    "verification_scope": "Deduction from operational equivalence"
+  },
+  {
+    "claim_id": "Q-C19",
+    "claim": "Fubini–Study distance between rays is invariant to independent global phases; distance under arbitrary ensemble decomposition changes need not be invariant.",
+    "claim_type": "INFERENCE",
+    "source_ids": [
+      "Q13",
+      "Q11"
+    ],
+    "exact_source_location": "quantum_math.md §Projective metric and ensemble counterexample",
+    "confidence": "HIGH",
+    "contradictions": "Phase gauge and mixture nonuniqueness are different symmetries",
+    "verification_scope": "Metric identity and explicit example; source abstract context"
+  },
+  {
+    "claim_id": "Q-C20",
+    "claim": "Stochastic wave-function unravellings of dissipative master equations precede TEC.",
+    "claim_type": "ESTABLISHED",
+    "source_ids": [
+      "Q12"
+    ],
+    "exact_source_location": "Publisher abstract",
+    "confidence": "HIGH",
+    "contradictions": "Quantum trajectories are not automatically obstacle trajectories",
+    "verification_scope": "Abstract-level only"
+  },
+  {
+    "claim_id": "Q-C21",
+    "claim": "GKSL semigroup results concern linear CP Markovian dynamics with generator assumptions; nonlinear state-conditioned neural maps are outside the basic semigroup theorem.",
+    "claim_type": "INFERENCE",
+    "source_ids": [
+      "Q10",
+      "Q07"
+    ],
+    "exact_source_location": "Q10 abstract; Q07 Eqs. (1)–(2); quantum_math.md §Continuous dynamics",
+    "confidence": "HIGH",
+    "contradictions": "Kraus matrices may depend on exogenous action/context, preserving conditional channel validity",
+    "verification_scope": "Assumption comparison; original Lindblad full text not retrieved"
+  },
+  {
+    "claim_id": "Q-C22",
+    "claim": "Recent quantum HMM compression reports favorable memory–accuracy examples against simple classical state merging, not established classical navigation benefit.",
+    "claim_type": "ESTABLISHED",
+    "source_ids": [
+      "Q16"
+    ],
+    "exact_source_location": "Publisher Abstract",
+    "confidence": "MEDIUM",
+    "contradictions": "Quantum memory cost cannot be imported as classical RAM savings",
+    "verification_scope": "Abstract-level scope only"
+  },
+  {
+    "claim_id": "Q-C23",
+    "claim": "Canonical generalized-process comparisons and minimal quantum-dimension bounds have current prior art.",
+    "claim_type": "ESTABLISHED",
+    "source_ids": [
+      "Q15"
+    ],
+    "exact_source_location": "Theorems 1–3, PDF pp.5–6",
+    "confidence": "MEDIUM",
+    "contradictions": "Preprint; exact-model identification differs from finite-data identifiability",
+    "verification_scope": "Cited original inspected"
+  },
+  {
+    "claim_id": "Q-C24",
+    "claim": "The defensible PSC contribution is a tested robotics-specific structured belief/inference/risk intervention, rather than inventing purification, tensor compression or BP.",
+    "claim_type": "INFERENCE",
+    "source_ids": [
+      "Q07",
+      "Q08",
+      "Q09",
+      "Q17"
+    ],
+    "exact_source_location": "quantum_review.md novelty boundaries",
+    "confidence": "MEDIUM",
+    "contradictions": "Literature coverage is bounded; no absence-of-prior-art claim",
+    "verification_scope": "Research judgment grounded in cited methods"
+  },
+  {
+    "claim_id": "Q-C25",
+    "claim": "Prioritize PSC Stage 0, retain QLC as a formal comparator, and defer TEC unless branch identity beats equally persistent classical particles.",
+    "claim_type": "HYPOTHESIS",
+    "source_ids": [
+      "Q03",
+      "Q07",
+      "Q11",
+      "Q14"
+    ],
+    "exact_source_location": "quantum_review.md recommendation",
+    "confidence": "LOW",
+    "contradictions": "Rankings must change if matched-budget tests favor another core",
+    "verification_scope": "Unmeasured program recommendation"
+  }
+]

@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="936pt" height="576pt" viewBox="0 0 936 576" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-10-06T22:06:01.283984</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.11.2, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 576 
+L 936 576 
+L 936 0 
+L 0 0 
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 49.824 412.02 
+L 312.48 412.02 
+Q 319.392 412.02 319.392 405.756 
+L 319.392 120.744 
+Q 319.392 114.48 312.48 114.48 
+L 49.824 114.48 
+Q 42.912 114.48 42.912 120.744 
+L 42.912 405.756 
+Q 42.912 412.02 49.824 412.02 
+z
+" clip-path="url(#p1179e52947)" style="fill: #eaf1f7; stroke: #26445d; stroke-width: 1.2; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_3">
+    <path d="M 343.584 412.02 
+L 606.24 412.02 
+Q 613.152 412.02 613.152 405.756 
+L 613.152 120.744 
+Q 613.152 114.48 606.24 114.48 
+L 343.584 114.48 
+Q 336.672 114.48 336.672 120.744 
+L 336.672 405.756 
+Q 336.672 412.02 343.584 412.02 
+z
+" clip-path="url(#p1179e52947)" style="fill: #eaf1f7; stroke: #26445d; stroke-width: 1.2; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 637.344 412.02 
+L 900 412.02 
+Q 906.912 412.02 906.912 405.756 
+L 906.912 120.744 
+Q 906.912 114.48 900 114.48 
+L 637.344 114.48 
+Q 630.432 114.48 630.432 120.744 
+L 630.432 405.756 
+Q 630.432 412.02 637.344 412.02 
+z
+" clip-path="url(#p1179e52947)" style="fill: #eaf1f7; stroke: #26445d; stroke-width: 1.2; stroke-linejoin: miter"/>
+   </g>
+   <g id="text_1">
+    <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #45576a" x="36" y="76.977638" transform="rotate(-0 36 76.977638)">All three are classical numerical models. Relative performance is UNKNOWN.</text>
+   </g>
+   <g id="text_2">
+    <text style="font-weight: 700; font-size: 11px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #142d45" x="181.152" y="139.750222" transform="rotate(-0 181.152 139.750222)">QLC</text>
+   </g>
+   <g id="text_3">
+    <text style="font-size: 10px; font-family: 'DejaVu Sans'; fill: #263b4d" transform="translate(112.755906 168.713775)">State: Density operator rho</text>
+    <text style="font-size: 10px; font-family: 'DejaVu Sans'; fill: #263b4d" transform="translate(181.152 179.9544)"/>
+    <text style="font-size: 10px; font-family: 'DejaVu Sans'; fill: #263b4d" transform="translate(104.711375 196.713775)">Test: Operational off-diagonals</text>
+    <text style="font-size: 10px; font-family: 'DejaVu Sans'; fill: #263b4d" transform="translate(181.152 207.9544)"/>
+    <text style="font-size: 10px; font-family: 'DejaVu Sans'; fill: #263b4d" transform="translate(97.661375 225.109087)">Classical rival: HQMM / OOM, real</text>
+    <text style="font-size: 10px; font-family: 'DejaVu Sans'; fill: #263b4d" transform="translate(165.291844 239.394244)">vector</text>
+    <text style="font-size: 10px; font-family: 'DejaVu Sans'; fill: #263b4d" transform="translate(181.152 249.9544)"/>
+    <text style="font-size: 10px; font-family: 'DejaVu Sans'; fill: #263b4d" transform="translate(102.776219 266.713775)">Priority: Baseline / decisive test</text>
+   </g>
+   <g id="text_4">
+    <text style="font-weight: 700; font-size: 11px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #142d45" x="474.912" y="139.750222" transform="rotate(-0 474.912 139.750222)">PSC</text>
+   </g>
+   <g id="text_5">
+    <text style="font-size: 10px; font-family: 'DejaVu Sans'; fill: #263b4d" transform="translate(396.186219 168.713775)">State: Purified joint slot tensors</text>
+    <text style="font-size: 10px; font-family: 'DejaVu Sans'; fill: #263b4d" transform="translate(474.912 179.9544)"/>
+    <text style="font-size: 10px; font-family: 'DejaVu Sans'; fill: #263b4d" transform="translate(385.447938 196.713775)">Test: Cross-slot dependence budget</text>
+    <text style="font-size: 10px; font-family: 'DejaVu Sans'; fill: #263b4d" transform="translate(474.912 207.9544)"/>
+    <text style="font-size: 10px; font-family: 'DejaVu Sans'; fill: #263b4d" transform="translate(386.032313 224.713775)">Classical rival: Joint mixture, graph,</text>
+    <text style="font-size: 10px; font-family: 'DejaVu Sans'; fill: #263b4d" transform="translate(458.987 239.394244)">tensor</text>
+    <text style="font-size: 10px; font-family: 'DejaVu Sans'; fill: #263b4d" transform="translate(474.912 249.9544)"/>
+    <text style="font-size: 10px; font-family: 'DejaVu Sans'; fill: #263b4d" transform="translate(401.965125 266.713775)">Priority: First conditional pilot</text>
+   </g>
+   <g id="text_6">
+    <text style="font-weight: 700; font-size: 11px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #142d45" x="768.672" y="139.750222" transform="rotate(-0 768.672 139.750222)">TEC</text>
+   </g>
+   <g id="text_7">
+    <text style="font-size: 10px; font-family: 'DejaVu Sans'; fill: #263b4d" transform="translate(689.561063 168.713775)">State: Weighted persistent rays</text>
+    <text style="font-size: 10px; font-family: 'DejaVu Sans'; fill: #263b4d" transform="translate(768.672 179.9544)"/>
+    <text style="font-size: 10px; font-family: 'DejaVu Sans'; fill: #263b4d" transform="translate(696.622781 196.713775)">Test: Information beyond rho</text>
+    <text style="font-size: 10px; font-family: 'DejaVu Sans'; fill: #263b4d" transform="translate(768.672 207.9544)"/>
+    <text style="font-size: 10px; font-family: 'DejaVu Sans'; fill: #263b4d" transform="translate(688.847781 224.713775)">Classical rival: Equally informed</text>
+    <text style="font-size: 10px; font-family: 'DejaVu Sans'; fill: #263b4d" transform="translate(747.2095 238.713775)">particles</text>
+    <text style="font-size: 10px; font-family: 'DejaVu Sans'; fill: #263b4d" transform="translate(768.672 249.9544)"/>
+    <text style="font-size: 10px; font-family: 'DejaVu Sans'; fill: #263b4d" transform="translate(726.039969 266.713775)">Priority: Deferred</text>
+   </g>
+   <g id="text_8">
+    <text style="font-weight: 700; font-size: 11px; font-family: 'DejaVu Sans'; text-anchor: start" x="53.28" y="471.528" transform="rotate(-0 53.28 471.528)">Passing a mechanism test does not establish novelty or matched-compute advantage.</text>
+   </g>
+   <g id="text_9">
+    <text style="font-size: 11px; font-family: 'DejaVu Sans'; text-anchor: start" x="53.28" y="512.244" transform="rotate(-0 53.28 512.244)">All empirical gates: NOT RUN. Recommendation is an inference from prior art and testability.</text>
+   </g>
+  </g>
+  <g id="text_10">
+   <text style="font-weight: 700; font-size: 20px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #142d45" x="37.44" y="26.716875" transform="rotate(-0 37.44 26.716875)">Representation comparison</text>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="p1179e52947">
+   <rect x="18.72" y="51.84" width="898.56" height="501.12"/>
+  </clipPath>
+ </defs>
+</svg>

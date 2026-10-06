@@ -1,0 +1,268 @@
+[
+  {
+    "id": "RD01_NAV2",
+    "title": "Nav2 Gazebo setup and MPPI configuration",
+    "url": "https://docs.nav2.org/jazzy/configuration_and_development/first_time_robot_setup_guide/gazebo/",
+    "location": "Setup Guide body; MPPI linked configuration, critics and batch/time-step parameters",
+    "claim": "Nav2 supports modern Gazebo Harmonic/Jazzy setup; MPPI critic/plugin interface is documented.",
+    "cache": "robotics_platforms_03.json; robotics_details_02.json; robotics_details_05.json",
+    "date": "2026-10-06",
+    "verification": "Official documentation/repository opened; no software execution or performance validation."
+  },
+  {
+    "id": "RD02_ISAAC",
+    "title": "Isaac Sim requirements",
+    "url": "https://docs.isaacsim.omniverse.nvidia.com/latest/installation/requirements.html",
+    "location": "System Requirements, x86_64 table and notes",
+    "claim": "Fetched table lists 32GB RAM, RTX4080, 16GB VRAM minimum; additional training resources needed; GPUs without RT cores unsupported.",
+    "cache": "robotics_platforms_01.json",
+    "date": "2026-10-06",
+    "verification": "Official documentation/repository opened; no software execution or performance validation."
+  },
+  {
+    "id": "RD03_ISAACLAB",
+    "title": "Isaac Lab repository",
+    "url": "https://github.com/isaac-sim/IsaacLab",
+    "location": "README version notice and License",
+    "claim": "Development branch targets Isaac Sim6.1; BSD3 core and Apache2 mimic; full-featured workflows involve proprietary Isaac Sim components.",
+    "cache": "robotics_platforms_02.json",
+    "date": "2026-10-06",
+    "verification": "Official documentation/repository opened; no software execution or performance validation."
+  },
+  {
+    "id": "RD04_WEBOTS",
+    "title": "Webots repository and requirements",
+    "url": "https://github.com/cyberbotics/webots",
+    "location": "README; docs/guide/system-requirements.md",
+    "claim": "Apache2; published minimum OpenGL3.3, 2GB RAM and 512MB graphics memory is software startup guidance, not ML workload budget.",
+    "cache": "robotics_platforms_03.json; robotics_details_05.json",
+    "date": "2026-10-06",
+    "verification": "Official documentation/repository opened; no software execution or performance validation."
+  },
+  {
+    "id": "RD05_MUJOCO",
+    "title": "MuJoCo repository",
+    "url": "https://github.com/google-deepmind/mujoco",
+    "location": "README License and Disclaimer",
+    "claim": "General-purpose physics engine; source Apache2; documentation CC-BY4.",
+    "cache": "robotics_platforms_01.json; robotics_platforms_02.json",
+    "date": "2026-10-06",
+    "verification": "Official documentation/repository opened; no software execution or performance validation."
+  },
+  {
+    "id": "RD06_PYBULLET",
+    "title": "Bullet/PyBullet repository",
+    "url": "https://github.com/bulletphysics/bullet3",
+    "location": "README PyBullet and License",
+    "claim": "Python binding recommended for robotics; zlib unless particular file/folder says otherwise.",
+    "cache": "robotics_platforms_01.json; robotics_details_05.json",
+    "date": "2026-10-06",
+    "verification": "Official documentation/repository opened; no software execution or performance validation."
+  },
+  {
+    "id": "RD07_CARLA",
+    "title": "CARLA repository and package quickstart",
+    "url": "https://github.com/carla-simulator/carla",
+    "location": "README branch note, Recommended system, Licenses; separate readthedocs package quickstart",
+    "claim": "UE5 development branch and UE4 package docs have different requirements; source MIT, CARLA assets CC-BY, Unreal separately licensed.",
+    "cache": "robotics_details_01.json",
+    "date": "2026-10-06",
+    "verification": "Official documentation/repository opened; no software execution or performance validation."
+  },
+  {
+    "id": "RD08_HABITAT",
+    "title": "Habitat-Sim repository",
+    "url": "https://github.com/facebookresearch/habitat-sim",
+    "location": "README Warning, features, License",
+    "claim": "MIT engine with configurable RGB-D; warning: no official Meta-team active development/maintenance beyond0.3.4.",
+    "cache": "robotics_platforms_02.json",
+    "date": "2026-10-06",
+    "verification": "Official documentation/repository opened; no software execution or performance validation."
+  },
+  {
+    "id": "RD09_IGIBSON",
+    "title": "iGibson repository and documentation",
+    "url": "https://github.com/StanfordVL/iGibson",
+    "location": "README overview and license marker",
+    "claim": "MIT repository; Bullet-based interactive visual scenes and domain randomization; dataset licenses need separate inspection.",
+    "cache": "robotics_details_01.json",
+    "date": "2026-10-06",
+    "verification": "Official documentation/repository opened; no software execution or performance validation."
+  },
+  {
+    "id": "RD10_COPPELIA",
+    "title": "CoppeliaSim licensing",
+    "url": "https://manual.coppeliarobotics.com/en/licensing.htm",
+    "location": "Licensing sections Pro/Lite/Edu",
+    "claim": "Edu restricted to schools/universities under stated eligibility; commercial editions use separate terms.",
+    "cache": "robotics_details_01.json",
+    "date": "2026-10-06",
+    "verification": "Official documentation/repository opened; no software execution or performance validation."
+  },
+  {
+    "id": "RD11_TURTLEBOT",
+    "title": "TurtleBot4 features",
+    "url": "https://turtlebot.github.io/turtlebot4-user-manual/overview/features.html",
+    "location": "Features table; Sensors",
+    "claim": "RPLIDAR A1M8 in both variants; OAK-D-Lite/Pro differs by variant; declared safe-mode velocity exists but is not an experimental safety certificate.",
+    "cache": "robotics_details_01.json",
+    "date": "2026-10-06",
+    "verification": "Official documentation/repository opened; no software execution or performance validation."
+  },
+  {
+    "id": "RD12_JACKAL",
+    "title": "Jackal User Manual",
+    "url": "https://docs.clearpathrobotics.com/docs_robots/outdoor_robots/jackal/user_manual_jackal/",
+    "location": "Motion Stop Buttons; Connecting and Using Controller",
+    "claim": "Physical Motion Stop and teleoperation deadman documented; latest command may resume upon stop release.",
+    "cache": "robotics_details_03.json",
+    "date": "2026-10-06",
+    "verification": "Official documentation/repository opened; no software execution or performance validation."
+  },
+  {
+    "id": "RD13_RVO2",
+    "title": "RVO2 repository",
+    "url": "https://github.com/snape/RVO2",
+    "location": "README License",
+    "claim": "Current code Apache2, conflicting with historical project's older restrictive description.",
+    "cache": "robotics_details_03.json",
+    "date": "2026-10-06",
+    "verification": "Official documentation/repository opened; no software execution or performance validation."
+  },
+  {
+    "id": "RD14_TEB",
+    "title": "TEB ROS repository",
+    "url": "https://github.com/rst-tu-dortmund/teb_local_planner",
+    "location": "README License and Citing Software",
+    "claim": "ROS1 base_local_planner package; BSD3 with separately licensed dependencies.",
+    "cache": "robotics_details_03.json",
+    "date": "2026-10-06",
+    "verification": "Official documentation/repository opened; no software execution or performance validation."
+  },
+  {
+    "id": "VD01",
+    "title": "CoRL 2026 instructions",
+    "url": "https://2026.corl.org/contributions/instruction-for-authors",
+    "location": "Paper Submission Requirements; Submission Policy; Camera Ready",
+    "claim": "Initial main text is 8 pages, camera-ready 9; parallel archival submissions disallowed by default.",
+    "date": "2026-10-06",
+    "verification": "Opened official webpage; dated snapshot, not future policy guarantee"
+  },
+  {
+    "id": "VD02",
+    "title": "RSS 2027 CFP",
+    "url": "https://roboticsconference.org/information/cfp/index.html",
+    "location": "Important Dates; Two-Stage Process; Paper Format and Length",
+    "claim": "Live opened CFP sets initial December 4 2026 AoE submission with 5 content plus 1 reference page; invited final April 16 2027 has 8 content pages.",
+    "date": "2026-10-06",
+    "verification": "Opened official webpage; dated snapshot, not future policy guarantee"
+  },
+  {
+    "id": "VD03",
+    "title": "ICRA 2027 CFP",
+    "url": "https://2027.ieee-icra.org/contribute/call-for-icra-2027-papers-now-accepting-submissions/",
+    "location": "Closed heading; Formatting Instructions; FAQ",
+    "claim": "Complete paper maximum is 8 pages; opened page says submission closed; final extended date not asserted.",
+    "date": "2026-10-06",
+    "verification": "Opened official webpage; dated snapshot, not future policy guarantee"
+  },
+  {
+    "id": "VD04",
+    "title": "RA-L author instructions",
+    "url": "https://www.ieee-ras.org/publications/ra-l/ra-l-information-for-authors/",
+    "location": "Page Length; Multimedia",
+    "claim": "Six pages including references, up to two extra with charges; supplemental text cannot bypass total limit.",
+    "date": "2026-10-06",
+    "verification": "Opened official webpage; dated snapshot, not future policy guarantee"
+  },
+  {
+    "id": "VD05",
+    "title": "ICML 2026 instructions",
+    "url": "https://icml.cc/Conferences/2026/AuthorInstructions",
+    "location": "Paper Submissions; Camera-ready instructions",
+    "claim": "Eight content pages initially, nine final; anonymous code/data encouraged.",
+    "date": "2026-10-06",
+    "verification": "Opened official webpage; dated snapshot, not future policy guarantee"
+  },
+  {
+    "id": "VD06",
+    "title": "NeurIPS 2026 handbook",
+    "url": "https://nips.cc/Conferences/2026/MainTrackHandbook",
+    "location": "Paper Format; Code and Data Submission",
+    "claim": "Nine content pages initially, ten final; checklist excluded from content limit; supporting code/data encouraged.",
+    "date": "2026-10-06",
+    "verification": "Opened official webpage; dated snapshot, not future policy guarantee"
+  },
+  {
+    "id": "VD07",
+    "title": "ICLR 2027 author guidelines",
+    "url": "https://iclr.cc/Conferences/2027/AuthorGuidelines",
+    "location": "Deadlines; Paper Length; Dual Submission",
+    "claim": "Paper deadline September 25 2026 AoE; nine main pages initially, ten for discussion/final; substantially similar parallel submissions disallowed.",
+    "date": "2026-10-06",
+    "verification": "Opened official webpage; dated snapshot, not future policy guarantee"
+  },
+  {
+    "id": "VD08",
+    "title": "AISTATS 2027 CFP",
+    "url": "https://virtual.aistats.org/Conferences/2027/CallForPapers",
+    "location": "Key Dates; Formatting; Mandatory AI Use Statement",
+    "claim": "Abstract September 29 and full paper October 6 2026; eight content pages initially; AI statement and reproducibility checklist outside limit.",
+    "date": "2026-10-06",
+    "verification": "Opened official webpage; dated snapshot, not future policy guarantee"
+  },
+  {
+    "id": "VD09",
+    "title": "JMLR author information",
+    "url": "https://jmlr.org/author-info.html",
+    "location": "Scope; Originality; Submission procedure",
+    "claim": "No simultaneous conference/journal submission; over 35 pages may prolong review, over 50 requires cover-letter justification.",
+    "date": "2026-10-06",
+    "verification": "Opened official webpage; dated snapshot, not future policy guarantee"
+  },
+  {
+    "id": "VD10",
+    "title": "CVPR 2027 CFP",
+    "url": "https://cvpr.thecvf.com/Conferences/2027/CallForPapers",
+    "location": "Paper Submission; Dual Submission Policy",
+    "claim": "Paper deadline November 16 2026 AoE and supplementary November 23; current author-guideline page limit not verified.",
+    "date": "2026-10-06",
+    "verification": "Opened official webpage; dated snapshot, not future policy guarantee"
+  },
+  {
+    "id": "VD11",
+    "title": "ECCV 2026 policies",
+    "url": "https://eccv.ecva.net/Conferences/2026/SubmissionPolicies",
+    "location": "Paper formatting; Dual submissions; Supplementary material",
+    "claim": "Fourteen content pages plus references; similar concurrent submissions disallowed in stated review window; code encouraged.",
+    "date": "2026-10-06",
+    "verification": "Opened official webpage; dated snapshot, not future policy guarantee"
+  },
+  {
+    "id": "VD12",
+    "title": "T-RO FAQ",
+    "url": "https://www.ieee-ras.org/publications/t-ro/t-ro-faq/",
+    "location": "Strict page limit; dual submission; supplementary material questions",
+    "claim": "Initial regular papers at most eighteen pages; final twenty; simultaneous conference submission disallowed.",
+    "date": "2026-10-06",
+    "verification": "Opened official webpage; dated snapshot, not future policy guarantee"
+  },
+  {
+    "id": "VD13",
+    "title": "IJRR author guidance",
+    "url": "https://journals.sagepub.com/author-instructions/ijr",
+    "location": "Article types; Data availability; Submission",
+    "claim": "Normal length twelve final two-column pages, exceptions on merit; data availability statement expected; work not under consideration elsewhere.",
+    "date": "2026-10-06",
+    "verification": "Opened official webpage; dated snapshot, not future policy guarantee"
+  },
+  {
+    "id": "VD14",
+    "title": "IJCV submission guidelines",
+    "url": "https://link.springer.com/journal/11263/submission-guidelines",
+    "location": "Research Data Policy; Manuscript Submission",
+    "claim": "Official guidelines inspected; fixed maximum page count not verified in retrieved instructions.",
+    "date": "2026-10-06",
+    "verification": "Opened official webpage; dated snapshot, not future policy guarantee"
+  }
+]

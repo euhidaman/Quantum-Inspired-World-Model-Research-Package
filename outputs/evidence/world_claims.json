@@ -1,0 +1,394 @@
+[
+  {
+    "claim_id": "WC01",
+    "claim": "DreamerV3 has a 2025 Nature journal publication; citing only the 2023 preprint misses its verified publication status.",
+    "claim_type": "ESTABLISHED",
+    "source_ids": [
+      "W01"
+    ],
+    "exact_source_location": "PubMed PMID 40175544: bibliographic metadata lines 177–194",
+    "confidence": "high",
+    "contradictions": "None identified within inspected evidence",
+    "verification_scope": "Publication metadata, not reproducibility."
+  },
+  {
+    "claim_id": "WC02",
+    "claim": "DreamerV3 combines a recurrent state with discrete stochastic representations and learns behavior from imagined trajectories.",
+    "claim_type": "ESTABLISHED",
+    "source_ids": [
+      "W01"
+    ],
+    "exact_source_location": "Published article Fig. 1 caption reproduced in PubMed; arXiv 2301.04104 world-model learning pp. 3–5",
+    "confidence": "high",
+    "contradictions": "None identified within inspected evidence",
+    "verification_scope": "Architecture; no claim about navigation calibration."
+  },
+  {
+    "claim_id": "WC03",
+    "claim": "TD-MPC2's SimNorm produces simplex-normalized vectors; its latent dynamics are not categorical draws merely because a softmax normalization is used.",
+    "claim_type": "ESTABLISHED",
+    "source_ids": [
+      "W02"
+    ],
+    "exact_source_location": "Section 3.1, Eq. 2 and Eq. 5; pp. 3–4",
+    "confidence": "high",
+    "contradictions": "None identified within inspected evidence",
+    "verification_scope": "Specific architecture and normalization."
+  },
+  {
+    "claim_id": "WC04",
+    "claim": "TD-MPC2 uses local MPPI trajectory optimization with policy-prior samples and terminal-value bootstrapping.",
+    "claim_type": "ESTABLISHED",
+    "source_ids": [
+      "W02"
+    ],
+    "exact_source_location": "Section 3.2, Eq. 6, pp. 4–5",
+    "confidence": "high",
+    "contradictions": "None identified within inspected evidence",
+    "verification_scope": "Planner architecture."
+  },
+  {
+    "claim_id": "WC05",
+    "claim": "IRIS already generates future token sequences using an action-conditioned autoregressive Transformer.",
+    "claim_type": "ESTABLISHED",
+    "source_ids": [
+      "W03"
+    ],
+    "exact_source_location": "Section 2.2, p. 4",
+    "confidence": "high",
+    "contradictions": "None identified within inspected evidence",
+    "verification_scope": "Generative world-model construction."
+  },
+  {
+    "claim_id": "WC06",
+    "claim": "DIAMOND conditions observation diffusion on action/observation history; denoiser evaluations trade off sampling quality against inference cost.",
+    "claim_type": "ESTABLISHED",
+    "source_ids": [
+      "W04"
+    ],
+    "exact_source_location": "Section 2.3, Eq. 5 and final paragraph, p. 4",
+    "confidence": "high",
+    "contradictions": "None identified within inspected evidence",
+    "verification_scope": "Method and declared compute tradeoff; no claimed best latency."
+  },
+  {
+    "claim_id": "WC07",
+    "claim": "DINO-WM is an ICML 2025 paper, predicts pretrained spatial features, and evaluates trajectory optimization toward visual goals.",
+    "claim_type": "ESTABLISHED",
+    "source_ids": [
+      "W05"
+    ],
+    "exact_source_location": "PMLR 267 metadata; Sections 3.1–3.2",
+    "confidence": "high",
+    "contradictions": "None identified within inspected evidence",
+    "verification_scope": "Verified publication and method."
+  },
+  {
+    "claim_id": "WC08",
+    "claim": "SAVi's interaction predictor is a Transformer; its published heavy-occlusion failure includes losing objects and swapping their identities.",
+    "claim_type": "ESTABLISHED",
+    "source_ids": [
+      "W06"
+    ],
+    "exact_source_location": "Fig. 5(b), p. 7; Appendix architecture ablations Table A.3, pp. 26–27",
+    "confidence": "high",
+    "contradictions": "None identified within inspected evidence",
+    "verification_scope": "Specific model/failure example; not all occlusion conditions."
+  },
+  {
+    "claim_id": "WC09",
+    "claim": "SlotFormer reasons jointly across object slots and time using an autoregressive Transformer.",
+    "claim_type": "ESTABLISHED",
+    "source_ids": [
+      "W07"
+    ],
+    "exact_source_location": "Sections 3.1–3.3, pp. 3–5",
+    "confidence": "high",
+    "contradictions": "None identified within inspected evidence",
+    "verification_scope": "Learned interaction representation, not calibrated joint belief."
+  },
+  {
+    "claim_id": "WC10",
+    "claim": "Trajectron++ supplies a classical probabilistic forecasting baseline integrating dynamics, map input, and optional robot-future conditioning.",
+    "claim_type": "ESTABLISHED",
+    "source_ids": [
+      "W08"
+    ],
+    "exact_source_location": "Full paper method; Table 5 legend and evaluation discussion p. 13",
+    "confidence": "high",
+    "contradictions": "None identified within inspected evidence",
+    "verification_scope": "Model inputs and ablations; forecasting rather than closed-loop safety."
+  },
+  {
+    "claim_id": "WC11",
+    "claim": "Scene Transformer explicitly produces scene-level joint futures and evaluates joint metrics, with better joint consistency but possible worse marginal prediction as agent count grows.",
+    "claim_type": "ESTABLISHED",
+    "source_ids": [
+      "W09"
+    ],
+    "exact_source_location": "Fig. 1; Section 4.2 Table 3; Appendix B.1 Fig. 5, p. 22",
+    "confidence": "high",
+    "contradictions": "None identified within inspected evidence",
+    "verification_scope": "Within-paper comparisons; does not establish general dominance."
+  },
+  {
+    "claim_id": "WC12",
+    "claim": "MotionDiffuser represents a joint multimodal distribution of multiple agents' future trajectories and supports cost-guided sampling.",
+    "claim_type": "ESTABLISHED",
+    "source_ids": [
+      "W10"
+    ],
+    "exact_source_location": "Sections 3.2–3.4, pp. 4–6",
+    "confidence": "high",
+    "contradictions": "None identified within inspected evidence",
+    "verification_scope": "Verified full primary paper method; opened author-institution page confirms CVPR 2023."
+  },
+  {
+    "claim_id": "WC13",
+    "claim": "CODA's 2026 preprint combines contextual diffusion with energy-based joint refinement and evaluates both marginal and joint forecast errors.",
+    "claim_type": "ESTABLISHED",
+    "source_ids": [
+      "W11"
+    ],
+    "exact_source_location": "Abstract; Section 3; Section 4.1, p. 6",
+    "confidence": "moderate",
+    "contradictions": "None identified within inspected evidence",
+    "verification_scope": "Preprint method only; reported superiority not independently reproduced."
+  },
+  {
+    "claim_id": "WC14",
+    "claim": "Learning state estimation with weighted particles and learnable motion/measurement components predates TEC.",
+    "claim_type": "ESTABLISHED",
+    "source_ids": [
+      "W12"
+    ],
+    "exact_source_location": "Section III and method; RSS 2018 metadata",
+    "confidence": "high",
+    "contradictions": "None identified within inspected evidence",
+    "verification_scope": "Architecture prior art; does not equate all TEC variants with particles."
+  },
+  {
+    "claim_id": "WC15",
+    "claim": "Differentiable particle filtering can use transport resampling with assumption-dependent convergence analysis.",
+    "claim_type": "ESTABLISHED",
+    "source_ids": [
+      "W13"
+    ],
+    "exact_source_location": "Section 4, Proposition 4.3; Assumptions B.1–B.4",
+    "confidence": "high",
+    "contradictions": "None identified within inspected evidence",
+    "verification_scope": "Bounded-space/regularity assumptions must be retained."
+  },
+  {
+    "claim_id": "WC16",
+    "claim": "A 2021 particle-filter preprint describes stop-gradient weight correction that preserves the forward filtering operation while changing gradients.",
+    "claim_type": "ESTABLISHED",
+    "source_ids": [
+      "W14"
+    ],
+    "exact_source_location": "Introduction p. 1; Algorithm 1; Section 2.1",
+    "confidence": "moderate",
+    "contradictions": "None identified within inspected evidence",
+    "verification_scope": "Preprint algorithm; paper assumes standard particle-filter convergence conditions."
+  },
+  {
+    "claim_id": "WC17",
+    "claim": "An RFS intensity integrates to expected cardinality and is a first-order statistic, rather than a normalized single-object probability distribution.",
+    "claim_type": "ESTABLISHED",
+    "source_ids": [
+      "W15"
+    ],
+    "exact_source_location": "Section II-C, Eq. 14 and following paragraph, p. 4",
+    "confidence": "high",
+    "contradictions": "None identified within inspected evidence",
+    "verification_scope": "Definition and interpretation."
+  },
+  {
+    "claim_id": "WC18",
+    "claim": "The inspected GM-PHD recursion assumes independent targets and Poisson clutter/predicted RFS; its closed Gaussian-mixture form adds linear-Gaussian and specified birth/detection assumptions.",
+    "claim_type": "ESTABLISHED",
+    "source_ids": [
+      "W15"
+    ],
+    "exact_source_location": "Assumptions A.1–A.6, pp. 4–5",
+    "confidence": "high",
+    "contradictions": "None identified within inspected evidence",
+    "verification_scope": "Specific derivation; not all modern PHD extensions."
+  },
+  {
+    "claim_id": "WC19",
+    "claim": "LMB prediction is closed in its family but its update uses an approximation preserving first moment; the full cardinality distribution can change.",
+    "claim_type": "ESTABLISHED",
+    "source_ids": [
+      "W16"
+    ],
+    "exact_source_location": "Section III-B; Remarks 5–6, pp. 6–7",
+    "confidence": "high",
+    "contradictions": "None identified within inspected evidence",
+    "verification_scope": "Specific LMB approximation, not universal RFS behavior."
+  },
+  {
+    "claim_id": "WC20",
+    "claim": "Delta-GLMB priors are closed under the stated multi-object prediction/update model, and practical GLMB filtering truncates weighted hypotheses with characterized L1 error.",
+    "claim_type": "ESTABLISHED",
+    "source_ids": [
+      "W17",
+      "W18"
+    ],
+    "exact_source_location": "W17 Propositions 10–11, p. 9; W18 Section III and Sections IV–V",
+    "confidence": "high",
+    "contradictions": "None identified within inspected evidence",
+    "verification_scope": "Model-specific exact recursion and implementation approximation."
+  },
+  {
+    "claim_id": "WC21",
+    "claim": "For 0<beta<2 and the stated finite-moment class, the energy score is strictly proper; CRPS is its univariate beta=1 case.",
+    "claim_type": "ESTABLISHED",
+    "source_ids": [
+      "W19"
+    ],
+    "exact_source_location": "Section 4.3, Eq. 22, printed p. 367",
+    "confidence": "high",
+    "contradictions": "None identified within inspected evidence",
+    "verification_scope": "Scoring theorem assumptions; no safety or calibration guarantee."
+  },
+  {
+    "claim_id": "WC22",
+    "claim": "Regression calibration as defined by aggregate quantile coverage does not ensure a useful forecast; sharpness and calibration data assumptions matter.",
+    "claim_type": "ESTABLISHED",
+    "source_ids": [
+      "W20"
+    ],
+    "exact_source_location": "Sections 3.1–3.2, Eqs. 3–5, Fig. 4, Algorithm 1",
+    "confidence": "high",
+    "contradictions": "None identified within inspected evidence",
+    "verification_scope": "Marginal calibration with enough i.i.d. data; not conditional/OOD guarantees."
+  },
+  {
+    "claim_id": "WC23",
+    "claim": "Suppressing inconsistent multi-agent futures, retaining particle hypotheses, or assigning stable object labels alone cannot establish novelty for PSC or TEC.",
+    "claim_type": "INFERENCE",
+    "source_ids": [
+      "W09",
+      "W10",
+      "W12",
+      "W17",
+      "W18"
+    ],
+    "exact_source_location": "Synthesis of scene-joint forecasting, particle filtering and labeled-RFS evidence above",
+    "confidence": "high",
+    "contradictions": "None identified within inspected evidence",
+    "verification_scope": "Novelty boundary within retrieved corpus; not proof of absence of a new component."
+  },
+  {
+    "claim_id": "WC24",
+    "claim": "PSC's fair test needs joint classical models such as joint mixtures, autoregressive scene models, or interaction-aware slots in addition to its factorized ablation.",
+    "claim_type": "INFERENCE",
+    "source_ids": [
+      "W06",
+      "W07",
+      "W09",
+      "W10"
+    ],
+    "exact_source_location": "Synthesis of interaction modeling and joint prediction prior art",
+    "confidence": "high",
+    "contradictions": "None identified within inspected evidence",
+    "verification_scope": "Design recommendation, not measured superiority."
+  },
+  {
+    "claim_id": "WC25",
+    "claim": "A first-moment intensity can be shared by different joint laws; expected counts alone cannot determine joint collision events.",
+    "claim_type": "INFERENCE",
+    "source_ids": [
+      "W15"
+    ],
+    "exact_source_location": "Eq. 14 plus explicit constructed counterexample in world_review.md",
+    "confidence": "high",
+    "contradictions": "None identified within inspected evidence",
+    "verification_scope": "Mathematical deduction; counterexample is proposed analytic demonstration, not empirical result."
+  },
+  {
+    "claim_id": "WC26",
+    "claim": "Best-of-K trajectory errors should be reported with a fixed sample budget and proper scores: adding candidate samples cannot increase a minimum error even if the predictive probabilities worsen.",
+    "claim_type": "INFERENCE",
+    "source_ids": [
+      "W09",
+      "W19"
+    ],
+    "exact_source_location": "Definition of best-of-K minimum in W09 Table 3; proper-score framework W19 Section 1",
+    "confidence": "high",
+    "contradictions": "None identified within inspected evidence",
+    "verification_scope": "Direct mathematical monotonicity; no external empirical claim."
+  },
+  {
+    "claim_id": "WC27",
+    "claim": "No retrieved paper establishes that QLC, PSC or TEC improves this project's robot navigation at matched compute.",
+    "claim_type": "UNKNOWN",
+    "source_ids": [],
+    "exact_source_location": "Corpus scope: world_papers.json and world_review.md",
+    "confidence": "high",
+    "contradictions": "Other unsearched or inaccessible evidence may exist",
+    "verification_scope": "Evidence absence in inspected papers only; not an exhaustive negative claim."
+  },
+  {
+    "claim_id": "WC28",
+    "claim": "FloMo offers a tractable conditional trajectory density using normalizing flows, but its inspected model focuses on individual agents rather than a joint scene distribution.",
+    "claim_type": "ESTABLISHED",
+    "source_ids": [
+      "W21"
+    ],
+    "exact_source_location": "Sections III–IV pp. 2–3, especially IV introductory paragraph",
+    "confidence": "high",
+    "contradictions": "Does not imply that normalizing flows generally cannot model interactions or joint scenes.",
+    "verification_scope": "Primary PDF method description; official metadata verified"
+  },
+  {
+    "claim_id": "WC29",
+    "claim": "FloMo reports trajectory-manifold likelihood artifacts and noise stabilization; the experiment discussion chooses displacement metrics instead of dataset likelihood.",
+    "claim_type": "ESTABLISHED",
+    "source_ids": [
+      "W21"
+    ],
+    "exact_source_location": "Section IV-D p. 4; Section V p. 5 paragraph preceding Table I",
+    "confidence": "high",
+    "contradictions": "Tractable density does not by itself make cross-model NLL meaningful under different noise or base measures.",
+    "verification_scope": "Primary method/evaluation discussion, no reproduction"
+  },
+  {
+    "claim_id": "WC30",
+    "claim": "Occupancy Flow Fields forecasts previously unobserved speculative agents and uses flow traces for occupancy-motion consistency and agent-ID recovery.",
+    "claim_type": "ESTABLISHED",
+    "source_ids": [
+      "W22"
+    ],
+    "exact_source_location": "Sections III-D, III-F.1 and III-G pp. 3–4",
+    "confidence": "high",
+    "contradictions": "An occupancy-flow field is not automatically a normalized probability distribution over entire joint scenes.",
+    "verification_scope": "Primary method and representation definition"
+  },
+  {
+    "claim_id": "WC31",
+    "claim": "ImplicitO represents occupancy and backward flow at continuous query points; its reported decoder runtime depends on query count, and closed-loop planning remains future work.",
+    "claim_type": "ESTABLISHED",
+    "source_ids": [
+      "W23"
+    ],
+    "exact_source_location": "Section 3.1 p. 3; Section 4 Inference Time Comparison and Fig. 5 p. 8; Section 5 final sentence p. 8",
+    "confidence": "high",
+    "contradictions": "The paper does not establish that improved occupancy prediction necessarily improves navigation.",
+    "verification_scope": "Primary method, runtime protocol and conclusion; no timing reproduction"
+  },
+  {
+    "claim_id": "WC32",
+    "claim": "Cell/point occupancy probabilities cannot alone determine the probability of a multi-cell or multi-time union event without dependence information or bounds.",
+    "claim_type": "INFERENCE",
+    "source_ids": [
+      "W22",
+      "W23"
+    ],
+    "exact_source_location": "W22 Section III-A; W23 Section 3.1; inference from the scope of their marginal output definitions and elementary probability",
+    "confidence": "high",
+    "contradictions": "Flow adds motion/identity information, but the inspected output definitions do not specify a full normalized scene-joint law.",
+    "verification_scope": "Analytic representation-scope inference, not a source-reported impossibility result"
+  }
+]

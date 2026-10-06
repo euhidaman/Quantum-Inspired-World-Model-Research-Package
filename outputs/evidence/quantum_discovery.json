@@ -1,0 +1,1842 @@
+[
+  {
+    "batch": "quantum_search1.json",
+    "returned_order": 1,
+    "title_as_returned": "Quantum Tensor Networks, Stochastic Processes, and Weighted Automata",
+    "url": "https://proceedings.mlr.press/v130/adhikary21a.html",
+    "web_reference": "turn2search0",
+    "selected_primary_record_ids": [
+      "Q04"
+    ],
+    "screening_decision": "LINKED_SELECTED_RECORD",
+    "reason": "See selected paper extraction and exact inspection scope"
+  },
+  {
+    "batch": "quantum_search1.json",
+    "returned_order": 2,
+    "title_as_returned": "Hidden Quantum Markov Models and non-adaptive read-out of many-body states",
+    "url": "https://arxiv.org/abs/1002.2337",
+    "web_reference": "turn2academia12",
+    "selected_primary_record_ids": [
+      "Q01"
+    ],
+    "screening_decision": "LINKED_SELECTED_RECORD",
+    "reason": "See selected paper extraction and exact inspection scope"
+  },
+  {
+    "batch": "quantum_search1.json",
+    "returned_order": 3,
+    "title_as_returned": "Quantum Tensor Networks,",
+    "url": "https://proceedings.mlr.press/v130/adhikary21a/adhikary21a.pdf",
+    "web_reference": "turn2search13",
+    "selected_primary_record_ids": [],
+    "screening_decision": "DISCOVERY_ONLY_UNASSESSED",
+    "reason": "Returned discovery hit; not treated as independently verified evidence"
+  },
+  {
+    "batch": "quantum_search1.json",
+    "returned_order": 4,
+    "title_as_returned": "Tensor networks contraction and the belief propagation algorithm | Phys. Rev. Research",
+    "url": "https://journals.aps.org/prresearch/abstract/10.1103/PhysRevResearch.3.023073",
+    "web_reference": "turn2search1",
+    "selected_primary_record_ids": [
+      "Q08"
+    ],
+    "screening_decision": "LINKED_SELECTED_RECORD",
+    "reason": "See selected paper extraction and exact inspection scope"
+  },
+  {
+    "batch": "quantum_search1.json",
+    "returned_order": 5,
+    "title_as_returned": "untitled",
+    "url": "https://www.research.unipd.it/retrieve/e14fb26f-89f5-3de1-e053-1705fe0ac030/PhysRevLett.116.237201.pdf",
+    "web_reference": "turn2search14",
+    "selected_primary_record_ids": [],
+    "screening_decision": "DISCOVERY_ONLY_UNASSESSED",
+    "reason": "Returned discovery hit; not treated as independently verified evidence"
+  },
+  {
+    "batch": "quantum_search1.json",
+    "returned_order": 6,
+    "title_as_returned": "A positive tensor network approach for simulating open quantum many-body systems",
+    "url": "https://arxiv.org/abs/1412.5746",
+    "web_reference": "turn2academia15",
+    "selected_primary_record_ids": [
+      "Q07"
+    ],
+    "screening_decision": "LINKED_SELECTED_RECORD",
+    "reason": "See selected paper extraction and exact inspection scope"
+  },
+  {
+    "batch": "quantum_search1.json",
+    "returned_order": 7,
+    "title_as_returned": "Quantum Tensor Networks, Stochastic Processes, and Weighted Automata",
+    "url": "https://arxiv.org/abs/2010.10653",
+    "web_reference": "turn2academia16",
+    "selected_primary_record_ids": [],
+    "screening_decision": "DISCOVERY_ONLY_UNASSESSED",
+    "reason": "Returned discovery hit; not treated as independently verified evidence"
+  },
+  {
+    "batch": "quantum_search1.json",
+    "returned_order": 8,
+    "title_as_returned": "Hidden Quantum Markov Models with one qubit",
+    "url": "https://arxiv.org/abs/1207.4304",
+    "web_reference": "turn2academia17",
+    "selected_primary_record_ids": [],
+    "screening_decision": "DISCOVERY_ONLY_UNASSESSED",
+    "reason": "Returned discovery hit; not treated as independently verified evidence"
+  },
+  {
+    "batch": "quantum_search1.json",
+    "returned_order": 9,
+    "title_as_returned": "Positive Tensor Network Approach for Simulating Open Quantum Many-Body Systems",
+    "url": "https://tore.tuhh.de/entities/publication/32cbb355-d090-4e5b-a3ed-56e70ab1ca55",
+    "web_reference": "turn2search2",
+    "selected_primary_record_ids": [],
+    "screening_decision": "DISCOVERY_ONLY_UNASSESSED",
+    "reason": "Returned discovery hit; not treated as independently verified evidence"
+  },
+  {
+    "batch": "quantum_search1.json",
+    "returned_order": 10,
+    "title_as_returned": "Hidden Quantum Markov Models and non-adaptive read-out of many-body states - University of Bristol",
+    "url": "https://research-information.bris.ac.uk/en/publications/hidden-quantum-markov-models-and-non-adaptive-read-out-of-many-bo/",
+    "web_reference": "turn2search3",
+    "selected_primary_record_ids": [],
+    "screening_decision": "DISCOVERY_ONLY_UNASSESSED",
+    "reason": "Returned discovery hit; not treated as independently verified evidence"
+  },
+  {
+    "batch": "quantum_search1.json",
+    "returned_order": 11,
+    "title_as_returned": "Positive Tensor Network Approach for Simulating Open Quantum Many-Body Systems",
+    "url": "https://www.research.unipd.it/handle/11577/3258490?mode=complete",
+    "web_reference": "turn2search4",
+    "selected_primary_record_ids": [],
+    "screening_decision": "DISCOVERY_ONLY_UNASSESSED",
+    "reason": "Returned discovery hit; not treated as independently verified evidence"
+  },
+  {
+    "batch": "quantum_search1.json",
+    "returned_order": 12,
+    "title_as_returned": "Hidden Quantum Markov Models and non-adaptive read-out of many-body states | alphaXiv",
+    "url": "https://www.alphaxiv.org/abs/1002.2337v2",
+    "web_reference": "turn2search5",
+    "selected_primary_record_ids": [],
+    "screening_decision": "DISCOVERY_ONLY_UNASSESSED",
+    "reason": "Returned discovery hit; not treated as independently verified evidence"
+  },
+  {
+    "batch": "quantum_search1.json",
+    "returned_order": 13,
+    "title_as_returned": "(PDF) Quantum Tensor Networks, Stochastic Processes, and Weighted Automata",
+    "url": "https://www.researchgate.net/publication/344802856_Quantum_Tensor_Networks_Stochastic_Processes_and_Weighted_Automata",
+    "web_reference": "turn2search6",
+    "selected_primary_record_ids": [],
+    "screening_decision": "DISCOVERY_ONLY_UNASSESSED",
+    "reason": "Returned discovery hit; not treated as independently verified evidence"
+  },
+  {
+    "batch": "quantum_search1.json",
+    "returned_order": 14,
+    "title_as_returned": "Representation Theorems for Matrix Product States | SIAM Journal on Mathematics of Data Science",
+    "url": "https://epubs.siam.org/doi/epdf/10.1137/24M172010X",
+    "web_reference": "turn2search7",
+    "selected_primary_record_ids": [],
+    "screening_decision": "DISCOVERY_ONLY_UNASSESSED",
+    "reason": "Returned discovery hit; not treated as independently verified evidence"
+  },
+  {
+    "batch": "quantum_search1.json",
+    "returned_order": 15,
+    "title_as_returned": "Tensor networks contraction and the belief propagation algorithm (2021...",
+    "url": "https://bishtref.com/articles/10.1103/physrevresearch.3.023073",
+    "web_reference": "turn2search8",
+    "selected_primary_record_ids": [],
+    "screening_decision": "DISCOVERY_ONLY_UNASSESSED",
+    "reason": "Returned discovery hit; not treated as independently verified evidence"
+  },
+  {
+    "batch": "quantum_search1.json",
+    "returned_order": 16,
+    "title_as_returned": "Positive Tensor Network Approach for Simulating Open Quantum Many-Body Systems",
+    "url": "https://explore.openaire.eu/search/publication?pid=10.1103%2Fphysrevlett.116.237201",
+    "web_reference": "turn2search9",
+    "selected_primary_record_ids": [],
+    "screening_decision": "DISCOVERY_ONLY_UNASSESSED",
+    "reason": "Returned discovery hit; not treated as independently verified evidence"
+  },
+  {
+    "batch": "quantum_search1.json",
+    "returned_order": 17,
+    "title_as_returned": "Uniform matrix product states from an algebraic geometer's point of view - ScienceDirect",
+    "url": "https://www.sciencedirect.com/science/article/abs/pii/S0196885822001014",
+    "web_reference": "turn2search10",
+    "selected_primary_record_ids": [],
+    "screening_decision": "DISCOVERY_ONLY_UNASSESSED",
+    "reason": "Returned discovery hit; not treated as independently verified evidence"
+  },
+  {
+    "batch": "quantum_search1.json",
+    "returned_order": 18,
+    "title_as_returned": "Gauged Gaussian projected entangled pair states: A high dimensional tensor network formulation for lattice gauge theories | Phys. Rev. D",
+    "url": "https://doi.org/10.1103/PhysRevD.110.054511",
+    "web_reference": "turn2search11",
+    "selected_primary_record_ids": [],
+    "screening_decision": "DISCOVERY_ONLY_UNASSESSED",
+    "reason": "Returned discovery hit; not treated as independently verified evidence"
+  },
+  {
+    "batch": "quantum_search1.json",
+    "returned_order": 19,
+    "title_as_returned": "Expressive power of tensor-network factorizations for probabilistic modeling",
+    "url": "https://proceedings.neurips.cc/paper_files/paper/2019/file/b86e8d03fe992d1b0e19656875ee557c-Paper.pdf",
+    "web_reference": "turn2search18",
+    "selected_primary_record_ids": [
+      "Q17"
+    ],
+    "screening_decision": "LINKED_SELECTED_RECORD",
+    "reason": "See selected paper extraction and exact inspection scope"
+  },
+  {
+    "batch": "quantum_search1.json",
+    "returned_order": 20,
+    "title_as_returned": "Matrix product state",
+    "url": "https://en.wikipedia.org/wiki/Matrix_product_state",
+    "web_reference": "turn2search19",
+    "selected_primary_record_ids": [],
+    "screening_decision": "DISCOVERY_ONLY_UNASSESSED",
+    "reason": "Returned discovery hit; not treated as independently verified evidence"
+  },
+  {
+    "batch": "quantum_search1.json",
+    "returned_order": 21,
+    "title_as_returned": "Quantum Markov chain",
+    "url": "https://en.wikipedia.org/wiki/Quantum_Markov_chain",
+    "web_reference": "turn2search20",
+    "selected_primary_record_ids": [],
+    "screening_decision": "DISCOVERY_ONLY_UNASSESSED",
+    "reason": "Returned discovery hit; not treated as independently verified evidence"
+  },
+  {
+    "batch": "quantum_search1.json",
+    "returned_order": 22,
+    "title_as_returned": "Reduction criterion",
+    "url": "https://en.wikipedia.org/wiki/Reduction_criterion",
+    "web_reference": "turn2search21",
+    "selected_primary_record_ids": [],
+    "screening_decision": "DISCOVERY_ONLY_UNASSESSED",
+    "reason": "Returned discovery hit; not treated as independently verified evidence"
+  },
+  {
+    "batch": "quantum_search2.json",
+    "returned_order": 1,
+    "title_as_returned": "Learning Hidden Quantum Markov Models",
+    "url": "https://proceedings.mlr.press/v84/srinivasan18a.html",
+    "web_reference": "turn4search0",
+    "selected_primary_record_ids": [
+      "Q02"
+    ],
+    "screening_decision": "LINKED_SELECTED_RECORD",
+    "reason": "See selected paper extraction and exact inspection scope"
+  },
+  {
+    "batch": "quantum_search2.json",
+    "returned_order": 2,
+    "title_as_returned": "Gauging tensor networks with belief propagation",
+    "url": "https://arxiv.org/abs/2306.17837",
+    "web_reference": "turn4academia12",
+    "selected_primary_record_ids": [
+      "Q09"
+    ],
+    "screening_decision": "LINKED_SELECTED_RECORD",
+    "reason": "See selected paper extraction and exact inspection scope"
+  },
+  {
+    "batch": "quantum_search2.json",
+    "returned_order": 3,
+    "title_as_returned": "Observable Operator Models for Discrete Stochastic Time Series | Neural Computation | MIT Press",
+    "url": "https://doi.org/10.1162%2F089976600300015411",
+    "web_reference": "turn4search1",
+    "selected_primary_record_ids": [],
+    "screening_decision": "DISCOVERY_ONLY_UNASSESSED",
+    "reason": "Returned discovery hit; not treated as independently verified evidence"
+  },
+  {
+    "batch": "quantum_search2.json",
+    "returned_order": 4,
+    "title_as_returned": "Learning Hidden Quantum Markov Models",
+    "url": "https://arxiv.org/abs/1710.09016",
+    "web_reference": "turn4academia13",
+    "selected_primary_record_ids": [],
+    "screening_decision": "DISCOVERY_ONLY_UNASSESSED",
+    "reason": "Returned discovery hit; not treated as independently verified evidence"
+  },
+  {
+    "batch": "quantum_search2.json",
+    "returned_order": 5,
+    "title_as_returned": "Learning Hidden Quantum Markov Models",
+    "url": "https://proceedings.mlr.press/v84/srinivasan18a/srinivasan18a.pdf",
+    "web_reference": "turn4search14",
+    "selected_primary_record_ids": [],
+    "screening_decision": "DISCOVERY_ONLY_UNASSESSED",
+    "reason": "Returned discovery hit; not treated as independently verified evidence"
+  },
+  {
+    "batch": "quantum_search2.json",
+    "returned_order": 6,
+    "title_as_returned": "Belief Propagation-based Disentanglers for Tensor Network State Preparation",
+    "url": "https://arxiv.org/abs/2608.21902",
+    "web_reference": "turn4academia15",
+    "selected_primary_record_ids": [],
+    "screening_decision": "DISCOVERY_ONLY_UNASSESSED",
+    "reason": "Returned discovery hit; not treated as independently verified evidence"
+  },
+  {
+    "batch": "quantum_search2.json",
+    "returned_order": 7,
+    "title_as_returned": "Gauging Variational Inference",
+    "url": "https://arxiv.org/abs/1703.01056",
+    "web_reference": "turn4academia16",
+    "selected_primary_record_ids": [],
+    "screening_decision": "DISCOVERY_ONLY_UNASSESSED",
+    "reason": "Returned discovery hit; not treated as independently verified evidence"
+  },
+  {
+    "batch": "quantum_search2.json",
+    "returned_order": 8,
+    "title_as_returned": "Gauging tensor networks with belief propagation | alphaXiv",
+    "url": "https://www.alphaxiv.org/abs/2306.17837",
+    "web_reference": "turn4search2",
+    "selected_primary_record_ids": [],
+    "screening_decision": "DISCOVERY_ONLY_UNASSESSED",
+    "reason": "Returned discovery hit; not treated as independently verified evidence"
+  },
+  {
+    "batch": "quantum_search2.json",
+    "returned_order": 9,
+    "title_as_returned": "Modeling stochastic systems with Observable Operator Models • MINDS",
+    "url": "https://www.ai.rug.nl/minds/research/oomresearch/",
+    "web_reference": "turn4search3",
+    "selected_primary_record_ids": [],
+    "screening_decision": "DISCOVERY_ONLY_UNASSESSED",
+    "reason": "Returned discovery hit; not treated as independently verified evidence"
+  },
+  {
+    "batch": "quantum_search2.json",
+    "returned_order": 10,
+    "title_as_returned": "A bound on modeling error in observable operator models and an associated learning algorithm.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/19548805/",
+    "web_reference": "turn4search4",
+    "selected_primary_record_ids": [],
+    "screening_decision": "DISCOVERY_ONLY_UNASSESSED",
+    "reason": "Returned discovery hit; not treated as independently verified evidence"
+  },
+  {
+    "batch": "quantum_search2.json",
+    "returned_order": 11,
+    "title_as_returned": "Observable operator models for discrete stochastic time series¹ (with erratum note added August 2017)",
+    "url": "https://www.ai.rug.nl/minds/uploads/oom_neco00.pdf",
+    "web_reference": "turn4search17",
+    "selected_primary_record_ids": [
+      "Q05"
+    ],
+    "screening_decision": "LINKED_SELECTED_RECORD",
+    "reason": "See selected paper extraction and exact inspection scope"
+  },
+  {
+    "batch": "quantum_search2.json",
+    "returned_order": 12,
+    "title_as_returned": "Expressiveness and Learning of Hidden Quantum Markov Models",
+    "url": "https://homes.cs.washington.edu/~bboots/files/HQMM_Express.pdf",
+    "web_reference": "turn4search18",
+    "selected_primary_record_ids": [],
+    "screening_decision": "DISCOVERY_ONLY_UNASSESSED",
+    "reason": "Returned discovery hit; not treated as independently verified evidence"
+  },
+  {
+    "batch": "quantum_search2.json",
+    "returned_order": 13,
+    "title_as_returned": "SciPost Phys. 15, 222 (2023)",
+    "url": "https://scipost.org/SciPostPhys.15.6.222/pdf",
+    "web_reference": "turn4search19",
+    "selected_primary_record_ids": [],
+    "screening_decision": "DISCOVERY_ONLY_UNASSESSED",
+    "reason": "Returned discovery hit; not treated as independently verified evidence"
+  },
+  {
+    "batch": "quantum_search2.json",
+    "returned_order": 14,
+    "title_as_returned": "Tensor Networks",
+    "url": "https://indico.cern.ch/event/1288979/contributions/5595074/attachments/2755040/4796926/QTML23-Geneve_final.pdf",
+    "web_reference": "turn4search20",
+    "selected_primary_record_ids": [],
+    "screening_decision": "DISCOVERY_ONLY_UNASSESSED",
+    "reason": "Returned discovery hit; not treated as independently verified evidence"
+  },
+  {
+    "batch": "quantum_search2.json",
+    "returned_order": 15,
+    "title_as_returned": "H. Jaeger. 2000. Observable operator models for discrete stochastic time series. *Neural Computation*, 12(6):1371–1398.",
+    "url": "https://homepages.inf.ed.ac.uk/scohen/naacl13tensor.pdf",
+    "web_reference": "turn4search21",
+    "selected_primary_record_ids": [],
+    "screening_decision": "DISCOVERY_ONLY_UNASSESSED",
+    "reason": "Returned discovery hit; not treated as independently verified evidence"
+  },
+  {
+    "batch": "quantum_search2.json",
+    "returned_order": 16,
+    "title_as_returned": "(PDF) Gauging tensor networks with belief propagation",
+    "url": "https://www.researchgate.net/publication/376154680_Gauging_tensor_networks_with_belief_propagation",
+    "web_reference": "turn4search5",
+    "selected_primary_record_ids": [],
+    "screening_decision": "DISCOVERY_ONLY_UNASSESSED",
+    "reason": "Returned discovery hit; not treated as independently verified evidence"
+  },
+  {
+    "batch": "quantum_search2.json",
+    "returned_order": 17,
+    "title_as_returned": "physicsml.github.io/develop/content/pages/papers.md at master · AnnaGolubeva/physicsml.github.io · GitHub",
+    "url": "https://github.com/AnnaGolubeva/physicsml.github.io/blob/master/develop/content/pages/papers.md",
+    "web_reference": "turn4search6",
+    "selected_primary_record_ids": [],
+    "screening_decision": "DISCOVERY_ONLY_UNASSESSED",
+    "reason": "Returned discovery hit; not treated as independently verified evidence"
+  },
+  {
+    "batch": "quantum_search2.json",
+    "returned_order": 18,
+    "title_as_returned": "Statistical Structure of Quantum Mechanics",
+    "url": "https://www.researchgate.net/publication/387536976_Statistical_Structure_of_Quantum_Mechanics",
+    "web_reference": "turn4search7",
+    "selected_primary_record_ids": [],
+    "screening_decision": "DISCOVERY_ONLY_UNASSESSED",
+    "reason": "Returned discovery hit; not treated as independently verified evidence"
+  },
+  {
+    "batch": "quantum_search2.json",
+    "returned_order": 19,
+    "title_as_returned": "(PDF) Observable Operator Models",
+    "url": "https://www.researchgate.net/publication/319874295_Observable_Operator_Models",
+    "web_reference": "turn4search8",
+    "selected_primary_record_ids": [],
+    "screening_decision": "DISCOVERY_ONLY_UNASSESSED",
+    "reason": "Returned discovery hit; not treated as independently verified evidence"
+  },
+  {
+    "batch": "quantum_search2.json",
+    "returned_order": 20,
+    "title_as_returned": "quimb.tensor.belief_propagation.d2bp - quimb 0.1.dev56+g8120ab0a3 documentation",
+    "url": "https://quimb.readthedocs.io/en/latest/autoapi/quimb/tensor/belief_propagation/d2bp/index.html",
+    "web_reference": "turn4search9",
+    "selected_primary_record_ids": [],
+    "screening_decision": "DISCOVERY_ONLY_UNASSESSED",
+    "reason": "Returned discovery hit; not treated as independently verified evidence"
+  },
+  {
+    "batch": "quantum_search2.json",
+    "returned_order": 21,
+    "title_as_returned": "1 01 QIC Preskill 0 | PDF | Quantum Computing | Information",
+    "url": "https://es.scribd.com/document/942895550/1-01-QIC-Preskill-0",
+    "web_reference": "turn4search10",
+    "selected_primary_record_ids": [],
+    "screening_decision": "DISCOVERY_ONLY_UNASSESSED",
+    "reason": "Returned discovery hit; not treated as independently verified evidence"
+  },
+  {
+    "batch": "quantum_search2.json",
+    "returned_order": 22,
+    "title_as_returned": "Gauging tensor networks with belief propagation | Article Information | J-GLOBAL",
+    "url": "https://jglobal.jst.go.jp/en/public/202302207529406385",
+    "web_reference": "turn4search11",
+    "selected_primary_record_ids": [],
+    "screening_decision": "DISCOVERY_ONLY_UNASSESSED",
+    "reason": "Returned discovery hit; not treated as independently verified evidence"
+  },
+  {
+    "batch": "quantum_search3.json",
+    "returned_order": 1,
+    "title_as_returned": "A complete classification of quantum ensembles having a given density matrix - ScienceDirect",
+    "url": "https://www.sciencedirect.com/science/article/pii/0375960193908809",
+    "web_reference": "turn8search0",
+    "selected_primary_record_ids": [],
+    "screening_decision": "DISCOVERY_ONLY_UNASSESSED",
+    "reason": "Returned discovery hit; not treated as independently verified evidence"
+  },
+  {
+    "batch": "quantum_search3.json",
+    "returned_order": 2,
+    "title_as_returned": "Completely positive linear maps on complex matrices - ScienceDirect",
+    "url": "https://www.sciencedirect.com/science/article/pii/0024379575900750",
+    "web_reference": "turn8search1",
+    "selected_primary_record_ids": [],
+    "screening_decision": "DISCOVERY_ONLY_UNASSESSED",
+    "reason": "Returned discovery hit; not treated as independently verified evidence"
+  },
+  {
+    "batch": "quantum_search3.json",
+    "returned_order": 3,
+    "title_as_returned": "Choi's theorem on completely positive maps",
+    "url": "https://en.wikipedia.org/wiki/Choi%27s_theorem_on_completely_positive_maps",
+    "web_reference": "turn8search12",
+    "selected_primary_record_ids": [],
+    "screening_decision": "DISCOVERY_ONLY_UNASSESSED",
+    "reason": "Returned discovery hit; not treated as independently verified evidence"
+  },
+  {
+    "batch": "quantum_search3.json",
+    "returned_order": 4,
+    "title_as_returned": "On the generators of quantum dynamical semigroups | CiNii Research",
+    "url": "https://cir.nii.ac.jp/crid/1360574096324067968",
+    "web_reference": "turn8search2",
+    "selected_primary_record_ids": [],
+    "screening_decision": "DISCOVERY_ONLY_UNASSESSED",
+    "reason": "Returned discovery hit; not treated as independently verified evidence"
+  },
+  {
+    "batch": "quantum_search3.json",
+    "returned_order": 5,
+    "title_as_returned": "A complete classification of quantum ensembles having a given density matrix",
+    "url": "https://eurekamag.com/research/073/636/073636774.php",
+    "web_reference": "turn8search3",
+    "selected_primary_record_ids": [],
+    "screening_decision": "DISCOVERY_ONLY_UNASSESSED",
+    "reason": "Returned discovery hit; not treated as independently verified evidence"
+  },
+  {
+    "batch": "quantum_search3.json",
+    "returned_order": 6,
+    "title_as_returned": "Open system dynamics in interacting quantum field theories - INSPIRE",
+    "url": "https://inspirehep.net/literature/2772370",
+    "web_reference": "turn8search4",
+    "selected_primary_record_ids": [],
+    "screening_decision": "DISCOVERY_ONLY_UNASSESSED",
+    "reason": "Returned discovery hit; not treated as independently verified evidence"
+  },
+  {
+    "batch": "quantum_search3.json",
+    "returned_order": 7,
+    "title_as_returned": "Dynamics of Open Quantum Systems—Markovian Semigroups and Beyond",
+    "url": "https://www.mdpi.com/2073-8994/14/8/1752",
+    "web_reference": "turn8search5",
+    "selected_primary_record_ids": [],
+    "screening_decision": "DISCOVERY_ONLY_UNASSESSED",
+    "reason": "Returned discovery hit; not treated as independently verified evidence"
+  },
+  {
+    "batch": "quantum_search3.json",
+    "returned_order": 8,
+    "title_as_returned": "brought to you by",
+    "url": "https://core.ac.uk/download/pdf/82789302.pdf",
+    "web_reference": "turn8search13",
+    "selected_primary_record_ids": [],
+    "screening_decision": "DISCOVERY_ONLY_UNASSESSED",
+    "reason": "Returned discovery hit; not treated as independently verified evidence"
+  },
+  {
+    "batch": "quantum_search3.json",
+    "returned_order": 9,
+    "title_as_returned": "SPECIAL CLASSES OF COMPLETELY POSITIVE LINEAR MAPS",
+    "url": "https://www.collectionscanada.gc.ca/obj/thesescanada/vol2/002/MR67433.PDF",
+    "web_reference": "turn8search14",
+    "selected_primary_record_ids": [],
+    "screening_decision": "DISCOVERY_ONLY_UNASSESSED",
+    "reason": "Returned discovery hit; not treated as independently verified evidence"
+  },
+  {
+    "batch": "quantum_search3.json",
+    "returned_order": 10,
+    "title_as_returned": "Which differential equations correspond to the Lindblad equation? | Phys. Rev. Research",
+    "url": "https://journals.aps.org/prresearch/abstract/10.1103/PhysRevResearch.5.043163",
+    "web_reference": "turn8search6",
+    "selected_primary_record_ids": [],
+    "screening_decision": "DISCOVERY_ONLY_UNASSESSED",
+    "reason": "Returned discovery hit; not treated as independently verified evidence"
+  },
+  {
+    "batch": "quantum_search3.json",
+    "returned_order": 11,
+    "title_as_returned": "On the generators of quantum dynamical semigroups",
+    "url": "https://explore.openaire.eu/search/publication?pid=10.1007%2Fbf01608499",
+    "web_reference": "turn8search7",
+    "selected_primary_record_ids": [],
+    "screening_decision": "DISCOVERY_ONLY_UNASSESSED",
+    "reason": "Returned discovery hit; not treated as independently verified evidence"
+  },
+  {
+    "batch": "quantum_search3.json",
+    "returned_order": 12,
+    "title_as_returned": "Chapter 15 Quantum Dynamical Semi-Group - ScienceDirect",
+    "url": "https://www.sciencedirect.com/science/article/abs/pii/S1574691707000153",
+    "web_reference": "turn8search8",
+    "selected_primary_record_ids": [],
+    "screening_decision": "DISCOVERY_ONLY_UNASSESSED",
+    "reason": "Returned discovery hit; not treated as independently verified evidence"
+  },
+  {
+    "batch": "quantum_search3.json",
+    "returned_order": 13,
+    "title_as_returned": "| Quantum stochastic semigroups",
+    "url": "https://www.up.ac.za/media/shared/666/Talks/lindsay.zp124454.pdf",
+    "web_reference": "turn8search15",
+    "selected_primary_record_ids": [],
+    "screening_decision": "DISCOVERY_ONLY_UNASSESSED",
+    "reason": "Returned discovery hit; not treated as independently verified evidence"
+  },
+  {
+    "batch": "quantum_search3.json",
+    "returned_order": 14,
+    "title_as_returned": "Factorization property of positive maps on C*-algebras",
+    "url": "https://meetings.ams.org/math/jmm2022/mediafile/Handout/Paper7129/factorization_property_of_positive_maps_4.pdf",
+    "web_reference": "turn8search16",
+    "selected_primary_record_ids": [],
+    "screening_decision": "DISCOVERY_ONLY_UNASSESSED",
+    "reason": "Returned discovery hit; not treated as independently verified evidence"
+  },
+  {
+    "batch": "quantum_search3.json",
+    "returned_order": 15,
+    "title_as_returned": "(PDF) Quantum information: How much information in a state vector?",
+    "url": "https://www.researchgate.net/publication/2201465_Quantum_information_How_much_information_in_a_state_vector",
+    "web_reference": "turn8search9",
+    "selected_primary_record_ids": [],
+    "screening_decision": "DISCOVERY_ONLY_UNASSESSED",
+    "reason": "Returned discovery hit; not treated as independently verified evidence"
+  },
+  {
+    "batch": "quantum_search3.json",
+    "returned_order": 16,
+    "title_as_returned": "Completely positive dynamical semigroups of <i>N</i> -level systems",
+    "url": "https://ouci.dntb.gov.ua/en/works/7XoQ1Wq9/",
+    "web_reference": "turn8search10",
+    "selected_primary_record_ids": [],
+    "screening_decision": "DISCOVERY_ONLY_UNASSESSED",
+    "reason": "Returned discovery hit; not treated as independently verified evidence"
+  },
+  {
+    "batch": "quantum_search3.json",
+    "returned_order": 17,
+    "title_as_returned": "Technische Universität München",
+    "url": "https://mediatum.ub.tum.de/doc/1692505/document.pdf",
+    "web_reference": "turn8search17",
+    "selected_primary_record_ids": [],
+    "screening_decision": "DISCOVERY_ONLY_UNASSESSED",
+    "reason": "Returned discovery hit; not treated as independently verified evidence"
+  },
+  {
+    "batch": "quantum_search3.json",
+    "returned_order": 18,
+    "title_as_returned": "Quantum Markov semigroup",
+    "url": "https://en.wikipedia.org/wiki/Quantum_Markov_semigroup",
+    "web_reference": "turn8search18",
+    "selected_primary_record_ids": [],
+    "screening_decision": "DISCOVERY_ONLY_UNASSESSED",
+    "reason": "Returned discovery hit; not treated as independently verified evidence"
+  },
+  {
+    "batch": "quantum_search3.json",
+    "returned_order": 19,
+    "title_as_returned": "(PDF) All 2-positive linear maps from M3(C) to M3(C) are decomposable",
+    "url": "https://www.researchgate.net/publication/301579166_All_2-positive_linear_maps_from_M3C_to_M3C_are_decomposable",
+    "web_reference": "turn8search11",
+    "selected_primary_record_ids": [],
+    "screening_decision": "DISCOVERY_ONLY_UNASSESSED",
+    "reason": "Returned discovery hit; not treated as independently verified evidence"
+  },
+  {
+    "batch": "quantum_search3.json",
+    "returned_order": 20,
+    "title_as_returned": "Dynamics of Open Quantum Systems—Markovian Semigroups and Beyond",
+    "url": "https://inspirehep.net/files/2549de50538d9c643073ffd082296557",
+    "web_reference": "turn8search19",
+    "selected_primary_record_ids": [],
+    "screening_decision": "DISCOVERY_ONLY_UNASSESSED",
+    "reason": "Returned discovery hit; not treated as independently verified evidence"
+  },
+  {
+    "batch": "quantum_search3.json",
+    "returned_order": 21,
+    "title_as_returned": "Understanding and Generalizing Unique Decompositions of Generators of Dynamical Semigroups",
+    "url": "https://arxiv.org/abs/2310.04037",
+    "web_reference": "turn8academia20",
+    "selected_primary_record_ids": [],
+    "screening_decision": "DISCOVERY_ONLY_UNASSESSED",
+    "reason": "Returned discovery hit; not treated as independently verified evidence"
+  },
+  {
+    "batch": "quantum_search3.json",
+    "returned_order": 22,
+    "title_as_returned": "Application complètement positive",
+    "url": "https://fr.wikipedia.org/wiki/Application_compl%C3%A8tement_positive",
+    "web_reference": "turn8search21",
+    "selected_primary_record_ids": [],
+    "screening_decision": "DISCOVERY_ONLY_UNASSESSED",
+    "reason": "Returned discovery hit; not treated as independently verified evidence"
+  },
+  {
+    "batch": "quantum_search3.json",
+    "returned_order": 23,
+    "title_as_returned": "Stinespring dilation theorem",
+    "url": "https://en.wikipedia.org/wiki/Stinespring_dilation_theorem",
+    "web_reference": "turn8search22",
+    "selected_primary_record_ids": [],
+    "screening_decision": "DISCOVERY_ONLY_UNASSESSED",
+    "reason": "Returned discovery hit; not treated as independently verified evidence"
+  },
+  {
+    "batch": "quantum_search3.json",
+    "returned_order": 24,
+    "title_as_returned": "Göran Lindblad (physicist)",
+    "url": "https://en.wikipedia.org/wiki/G%C3%B6ran_Lindblad_%28physicist%29",
+    "web_reference": "turn8search23",
+    "selected_primary_record_ids": [],
+    "screening_decision": "DISCOVERY_ONLY_UNASSESSED",
+    "reason": "Returned discovery hit; not treated as independently verified evidence"
+  },
+  {
+    "batch": "quantum_search3.json",
+    "returned_order": 25,
+    "title_as_returned": "The Gorini-Kossakowski-Sudarshan-Lindblad generation theorem,and a generalization to non-stationary evolutions",
+    "url": "https://arxiv.org/abs/2507.11766",
+    "web_reference": "turn8academia24",
+    "selected_primary_record_ids": [],
+    "screening_decision": "DISCOVERY_ONLY_UNASSESSED",
+    "reason": "Returned discovery hit; not treated as independently verified evidence"
+  },
+  {
+    "batch": "quantum_search3.json",
+    "returned_order": 26,
+    "title_as_returned": "Lindbladian",
+    "url": "https://en.wikipedia.org/wiki/Lindbladian",
+    "web_reference": "turn8search25",
+    "selected_primary_record_ids": [],
+    "screening_decision": "DISCOVERY_ONLY_UNASSESSED",
+    "reason": "Returned discovery hit; not treated as independently verified evidence"
+  },
+  {
+    "batch": "quantum_search3.json",
+    "returned_order": 27,
+    "title_as_returned": "Nonstandard derivation of the Gorini-Kossakowski-Sudarshan-Lindblad master equation of a quantum dynamical semigroup from the Kraus representation",
+    "url": "https://arxiv.org/abs/2406.03775",
+    "web_reference": "turn8academia26",
+    "selected_primary_record_ids": [],
+    "screening_decision": "DISCOVERY_ONLY_UNASSESSED",
+    "reason": "Returned discovery hit; not treated as independently verified evidence"
+  },
+  {
+    "batch": "quantum_search3.json",
+    "returned_order": 28,
+    "title_as_returned": "Linear matrix maps for which positivity and complete positivity coincide",
+    "url": "https://arxiv.org/abs/2103.14501",
+    "web_reference": "turn8academia27",
+    "selected_primary_record_ids": [],
+    "screening_decision": "DISCOVERY_ONLY_UNASSESSED",
+    "reason": "Returned discovery hit; not treated as independently verified evidence"
+  },
+  {
+    "batch": "quantum_search4.json",
+    "returned_order": 1,
+    "title_as_returned": "Geometry of quantum evolution | Phys. Rev. Lett.",
+    "url": "https://doi.org/10.1103/PhysRevLett.65.1697",
+    "web_reference": "turn12search0",
+    "selected_primary_record_ids": [],
+    "screening_decision": "DISCOVERY_ONLY_UNASSESSED",
+    "reason": "Returned discovery hit; not treated as independently verified evidence"
+  },
+  {
+    "batch": "quantum_search4.json",
+    "returned_order": 2,
+    "title_as_returned": "Wave-function approach to dissipative processes in quantum optics | Phys. Rev. Lett.",
+    "url": "https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.68.580",
+    "web_reference": "turn12search1",
+    "selected_primary_record_ids": [
+      "Q12"
+    ],
+    "screening_decision": "LINKED_SELECTED_RECORD",
+    "reason": "See selected paper extraction and exact inspection scope"
+  },
+  {
+    "batch": "quantum_search4.json",
+    "returned_order": 3,
+    "title_as_returned": "Wave-function approach to dissipative processes in quantum optics",
+    "url": "https://harvest.aps.org/v2/journals/articles/10.1103/PhysRevLett.68.580/fulltext",
+    "web_reference": "turn12search12",
+    "selected_primary_record_ids": [],
+    "screening_decision": "DISCOVERY_ONLY_UNASSESSED",
+    "reason": "Returned discovery hit; not treated as independently verified evidence"
+  },
+  {
+    "batch": "quantum_search4.json",
+    "returned_order": 4,
+    "title_as_returned": "Predictive Representations of State",
+    "url": "https://proceedings.neurips.cc/paper/2001/file/1e4d36177d71bbb3558e43af9577d70e-Paper.pdf",
+    "web_reference": "turn12search13",
+    "selected_primary_record_ids": [
+      "Q06"
+    ],
+    "screening_decision": "LINKED_SELECTED_RECORD",
+    "reason": "See selected paper extraction and exact inspection scope"
+  },
+  {
+    "batch": "quantum_search4.json",
+    "returned_order": 5,
+    "title_as_returned": "Predictive Representations of State",
+    "url": "https://papers.nips.cc/paper_files/paper/2001/hash/1e4d36177d71bbb3558e43af9577d70e-Abstract.html",
+    "web_reference": "turn12search2",
+    "selected_primary_record_ids": [],
+    "screening_decision": "DISCOVERY_ONLY_UNASSESSED",
+    "reason": "Returned discovery hit; not treated as independently verified evidence"
+  },
+  {
+    "batch": "quantum_search4.json",
+    "returned_order": 6,
+    "title_as_returned": "Wave-function approach to dissipative processes: are there quantum jumps? - ScienceDirect",
+    "url": "https://www.sciencedirect.com/science/article/pii/037596019290264M",
+    "web_reference": "turn12search3",
+    "selected_primary_record_ids": [],
+    "screening_decision": "DISCOVERY_ONLY_UNASSESSED",
+    "reason": "Returned discovery hit; not treated as independently verified evidence"
+  },
+  {
+    "batch": "quantum_search4.json",
+    "returned_order": 7,
+    "title_as_returned": "A Wave Function approach to dissipative processes",
+    "url": "https://arxiv.org/abs/0805.4002",
+    "web_reference": "turn12academia14",
+    "selected_primary_record_ids": [],
+    "screening_decision": "DISCOVERY_ONLY_UNASSESSED",
+    "reason": "Returned discovery hit; not treated as independently verified evidence"
+  },
+  {
+    "batch": "quantum_search4.json",
+    "returned_order": 8,
+    "title_as_returned": "Rankless | Wave-function approach to dissipative processes in quantum optics",
+    "url": "https://www.rankless.org/hit-papers/10.1103/physrevlett.68.580",
+    "web_reference": "turn12search4",
+    "selected_primary_record_ids": [],
+    "screening_decision": "DISCOVERY_ONLY_UNASSESSED",
+    "reason": "Returned discovery hit; not treated as independently verified evidence"
+  },
+  {
+    "batch": "quantum_search4.json",
+    "returned_order": 9,
+    "title_as_returned": "dblp: Predictive Representations of State.",
+    "url": "https://dblp.org/rec/conf/nips/LittmanSS01.html",
+    "web_reference": "turn12search5",
+    "selected_primary_record_ids": [],
+    "screening_decision": "DISCOVERY_ONLY_UNASSESSED",
+    "reason": "Returned discovery hit; not treated as independently verified evidence"
+  },
+  {
+    "batch": "quantum_search4.json",
+    "returned_order": 10,
+    "title_as_returned": "Wave-function approach to dissipative processes in quantum optics (199...",
+    "url": "https://bishtref.com/articles/10.1103/physrevlett.68.580",
+    "web_reference": "turn12search6",
+    "selected_primary_record_ids": [],
+    "screening_decision": "DISCOVERY_ONLY_UNASSESSED",
+    "reason": "Returned discovery hit; not treated as independently verified evidence"
+  },
+  {
+    "batch": "quantum_search4.json",
+    "returned_order": 11,
+    "title_as_returned": "Expressiveness and Learning of Hidden Quantum Markov Models",
+    "url": "https://proceedings.mlr.press/v108/adhikary20a.html",
+    "web_reference": "turn12search7",
+    "selected_primary_record_ids": [
+      "Q03"
+    ],
+    "screening_decision": "LINKED_SELECTED_RECORD",
+    "reason": "See selected paper extraction and exact inspection scope"
+  },
+  {
+    "batch": "quantum_search4.json",
+    "returned_order": 12,
+    "title_as_returned": "Geometry of quantum evolution and the coherent state | Phys. Rev. A",
+    "url": "https://journals.aps.org/pra/abstract/10.1103/PhysRevA.43.3217",
+    "web_reference": "turn12search8",
+    "selected_primary_record_ids": [],
+    "screening_decision": "DISCOVERY_ONLY_UNASSESSED",
+    "reason": "Returned discovery hit; not treated as independently verified evidence"
+  },
+  {
+    "batch": "quantum_search4.json",
+    "returned_order": 13,
+    "title_as_returned": "Expressiveness and Learning of Hidden Quantum Markov Models",
+    "url": "https://arxiv.org/abs/1912.02098",
+    "web_reference": "turn12academia15",
+    "selected_primary_record_ids": [],
+    "screening_decision": "DISCOVERY_ONLY_UNASSESSED",
+    "reason": "Returned discovery hit; not treated as independently verified evidence"
+  },
+  {
+    "batch": "quantum_search4.json",
+    "returned_order": 14,
+    "title_as_returned": "Quantum dimension reduction of hidden Markov models | Phys. Rev. A",
+    "url": "https://journals.aps.org/pra/abstract/10.1103/plt9-cm1x",
+    "web_reference": "turn12search9",
+    "selected_primary_record_ids": [
+      "Q16"
+    ],
+    "screening_decision": "LINKED_SELECTED_RECORD",
+    "reason": "See selected paper extraction and exact inspection scope"
+  },
+  {
+    "batch": "quantum_search4.json",
+    "returned_order": 15,
+    "title_as_returned": "publication_list_aharonov_1",
+    "url": "https://www.tau.ac.il/~yakir/yahp/publication_list_aharonov_1.html",
+    "web_reference": "turn12search10",
+    "selected_primary_record_ids": [],
+    "screening_decision": "DISCOVERY_ONLY_UNASSESSED",
+    "reason": "Returned discovery hit; not treated as independently verified evidence"
+  },
+  {
+    "batch": "quantum_search4.json",
+    "returned_order": 16,
+    "title_as_returned": "PHYSICAL REVIEW LETTERS1 October 1990VOLUME 65, NUMBER 14Geometry of Quantum EvolutionJ. Anandan<sup>(a)</sup>",
+    "url": "https://www.tau.ac.il/~yakir/yahp/yh64",
+    "web_reference": "turn12search16",
+    "selected_primary_record_ids": [],
+    "screening_decision": "DISCOVERY_ONLY_UNASSESSED",
+    "reason": "Returned discovery hit; not treated as independently verified evidence"
+  },
+  {
+    "batch": "quantum_search4.json",
+    "returned_order": 17,
+    "title_as_returned": "Geometry of quantum evolution | OpenAlex",
+    "url": "https://openalex.org/W2017028422",
+    "web_reference": "turn12search11",
+    "selected_primary_record_ids": [],
+    "screening_decision": "DISCOVERY_ONLY_UNASSESSED",
+    "reason": "Returned discovery hit; not treated as independently verified evidence"
+  },
+  {
+    "batch": "quantum_search4.json",
+    "returned_order": 18,
+    "title_as_returned": "paper.dvi",
+    "url": "https://web.eecs.umich.edu/~baveja/Papers/nipspsr.pdf",
+    "web_reference": "turn12search17",
+    "selected_primary_record_ids": [],
+    "screening_decision": "DISCOVERY_ONLY_UNASSESSED",
+    "reason": "Returned discovery hit; not treated as independently verified evidence"
+  },
+  {
+    "batch": "quantum_search4.json",
+    "returned_order": 19,
+    "title_as_returned": "SciPost Physics",
+    "url": "https://scipost.org/preprints/scipost_202303_00025v1/",
+    "web_reference": "turn12search18",
+    "selected_primary_record_ids": [],
+    "screening_decision": "DISCOVERY_ONLY_UNASSESSED",
+    "reason": "Returned discovery hit; not treated as independently verified evidence"
+  },
+  {
+    "batch": "quantum_search4.json",
+    "returned_order": 20,
+    "title_as_returned": "Expressiveness and Learning of Hidden Quantum Markov Models",
+    "url": "https://homes.cs.washington.edu/~bboots/files/HQMM_Express.pdf",
+    "web_reference": "turn12search19",
+    "selected_primary_record_ids": [],
+    "screening_decision": "DISCOVERY_ONLY_UNASSESSED",
+    "reason": "Returned discovery hit; not treated as independently verified evidence"
+  },
+  {
+    "batch": "quantum_search4.json",
+    "returned_order": 21,
+    "title_as_returned": "Learning Hidden Quantum Markov Models",
+    "url": "https://arxiv.org/abs/1710.09016",
+    "web_reference": "turn12academia20",
+    "selected_primary_record_ids": [],
+    "screening_decision": "DISCOVERY_ONLY_UNASSESSED",
+    "reason": "Returned discovery hit; not treated as independently verified evidence"
+  },
+  {
+    "batch": "quantum_search4.json",
+    "returned_order": 22,
+    "title_as_returned": "Expressive power of tensor-network factorizations for probabilistic modeling, with applications from hidden Markov models to quantum machine learning",
+    "url": "https://arxiv.org/abs/1907.03741",
+    "web_reference": "turn12academia21",
+    "selected_primary_record_ids": [],
+    "screening_decision": "DISCOVERY_ONLY_UNASSESSED",
+    "reason": "Returned discovery hit; not treated as independently verified evidence"
+  },
+  {
+    "batch": "quantum_search4.json",
+    "returned_order": 23,
+    "title_as_returned": "Quantum jump method",
+    "url": "https://en.wikipedia.org/wiki/Quantum_jump_method",
+    "web_reference": "turn12search22",
+    "selected_primary_record_ids": [],
+    "screening_decision": "DISCOVERY_ONLY_UNASSESSED",
+    "reason": "Returned discovery hit; not treated as independently verified evidence"
+  },
+  {
+    "batch": "quantum_search4.json",
+    "returned_order": 24,
+    "title_as_returned": "Predictive state representation",
+    "url": "https://en.wikipedia.org/wiki/Predictive_state_representation",
+    "web_reference": "turn12search23",
+    "selected_primary_record_ids": [],
+    "screening_decision": "DISCOVERY_ONLY_UNASSESSED",
+    "reason": "Returned discovery hit; not treated as independently verified evidence"
+  },
+  {
+    "batch": "quantum_search4.json",
+    "returned_order": 25,
+    "title_as_returned": "Quantum Trajectory Theory",
+    "url": "https://en.wikipedia.org/wiki/Quantum_Trajectory_Theory",
+    "web_reference": "turn12search24",
+    "selected_primary_record_ids": [],
+    "screening_decision": "DISCOVERY_ONLY_UNASSESSED",
+    "reason": "Returned discovery hit; not treated as independently verified evidence"
+  },
+  {
+    "batch": "quantum_search4.json",
+    "returned_order": 26,
+    "title_as_returned": "Метод квантового скачка",
+    "url": "https://ru.wikipedia.org/wiki/%D0%9C%D0%B5%D1%82%D0%BE%D0%B4_%D0%BA%D0%B2%D0%B0%D0%BD%D1%82%D0%BE%D0%B2%D0%BE%D0%B3%D0%BE_%D1%81%D0%BA%D0%B0%D1%87%D0%BA%D0%B0",
+    "web_reference": "turn12search25",
+    "selected_primary_record_ids": [],
+    "screening_decision": "DISCOVERY_ONLY_UNASSESSED",
+    "reason": "Returned discovery hit; not treated as independently verified evidence"
+  },
+  {
+    "batch": "quantum_search4.json",
+    "returned_order": 27,
+    "title_as_returned": "Quantum Viterbi Decoding Algorithm for Hidden Quantum Markov Models",
+    "url": "https://www.reddit.com/r/informaq/comments/1tigo7y/quantum_viterbi_decoding_algorithm_for_hidden/",
+    "web_reference": "turn12reddit26",
+    "selected_primary_record_ids": [],
+    "screening_decision": "DISCOVERY_ONLY_UNASSESSED",
+    "reason": "Returned discovery hit; not treated as independently verified evidence"
+  },
+  {
+    "batch": "quantum_search4.json",
+    "returned_order": 28,
+    "title_as_returned": "Honest summary of where quantum ML stands in 2026 — am I missing anything?",
+    "url": "https://www.reddit.com/r/QuantumComputing/comments/1t2eiuh/honest_summary_of_where_quantum_ml_stands_in_2026/",
+    "web_reference": "turn12reddit27",
+    "selected_primary_record_ids": [],
+    "screening_decision": "DISCOVERY_ONLY_UNASSESSED",
+    "reason": "Returned discovery hit; not treated as independently verified evidence"
+  },
+  {
+    "batch": "quantum_search4.json",
+    "returned_order": 29,
+    "title_as_returned": "Phase-space formulation",
+    "url": "https://en.wikipedia.org/wiki/Phase-space_formulation",
+    "web_reference": "turn12search28",
+    "selected_primary_record_ids": [],
+    "screening_decision": "DISCOVERY_ONLY_UNASSESSED",
+    "reason": "Returned discovery hit; not treated as independently verified evidence"
+  },
+  {
+    "batch": "quantum_search5.json",
+    "returned_order": 1,
+    "title_as_returned": "Completely positive linear maps on complex matrices - ScienceDirect",
+    "url": "https://www.sciencedirect.com/science/article/pii/0024379575900750",
+    "web_reference": "turn33search0",
+    "selected_primary_record_ids": [],
+    "screening_decision": "DISCOVERY_ONLY_UNASSESSED",
+    "reason": "Returned discovery hit; not treated as independently verified evidence"
+  },
+  {
+    "batch": "quantum_search5.json",
+    "returned_order": 2,
+    "title_as_returned": "A Complete Classification of Quantum Ensembles Having a Given Density Matrix (1993) | Lane P. Hughston | 785 Citations",
+    "url": "https://scispace.com/papers/a-complete-classification-of-quantum-ensembles-having-a-4w6rglcx9j",
+    "web_reference": "turn33search1",
+    "selected_primary_record_ids": [],
+    "screening_decision": "DISCOVERY_ONLY_UNASSESSED",
+    "reason": "Returned discovery hit; not treated as independently verified evidence"
+  },
+  {
+    "batch": "quantum_search5.json",
+    "returned_order": 3,
+    "title_as_returned": "On the generators of quantum dynamical semigroups | CiNii Research",
+    "url": "https://cir.nii.ac.jp/crid/1360574096324067968",
+    "web_reference": "turn33search2",
+    "selected_primary_record_ids": [],
+    "screening_decision": "DISCOVERY_ONLY_UNASSESSED",
+    "reason": "Returned discovery hit; not treated as independently verified evidence"
+  },
+  {
+    "batch": "quantum_search5.json",
+    "returned_order": 4,
+    "title_as_returned": "A complete classification of quantum ensembles having a given density matrix",
+    "url": "https://eurekamag.com/research/073/636/073636774.php",
+    "web_reference": "turn33search3",
+    "selected_primary_record_ids": [],
+    "screening_decision": "DISCOVERY_ONLY_UNASSESSED",
+    "reason": "Returned discovery hit; not treated as independently verified evidence"
+  },
+  {
+    "batch": "quantum_search5.json",
+    "returned_order": 5,
+    "title_as_returned": "(PDF) Quantum information: How much information in a state vector?",
+    "url": "https://www.researchgate.net/publication/2201465_Quantum_information_How_much_information_in_a_state_vector",
+    "web_reference": "turn33search4",
+    "selected_primary_record_ids": [],
+    "screening_decision": "DISCOVERY_ONLY_UNASSESSED",
+    "reason": "Returned discovery hit; not treated as independently verified evidence"
+  },
+  {
+    "batch": "quantum_search5.json",
+    "returned_order": 6,
+    "title_as_returned": "On the generators of quantum dynamical semigroups",
+    "url": "https://explore.openaire.eu/search/publication?pid=10.1007%2Fbf01608499",
+    "web_reference": "turn33search5",
+    "selected_primary_record_ids": [],
+    "screening_decision": "DISCOVERY_ONLY_UNASSESSED",
+    "reason": "Returned discovery hit; not treated as independently verified evidence"
+  },
+  {
+    "batch": "quantum_search5.json",
+    "returned_order": 7,
+    "title_as_returned": "On the generators of quantum dynamical semigroups (1976) – Communications in Mathematical Physics | Metascience Observatory Explorer",
+    "url": "https://explore.metascienceobservatory.org/papers/W2015683881",
+    "web_reference": "turn33search6",
+    "selected_primary_record_ids": [],
+    "screening_decision": "DISCOVERY_ONLY_UNASSESSED",
+    "reason": "Returned discovery hit; not treated as independently verified evidence"
+  },
+  {
+    "batch": "quantum_search5.json",
+    "returned_order": 8,
+    "title_as_returned": "Choi's theorem on completely positive maps",
+    "url": "https://en.wikipedia.org/wiki/Choi%27s_theorem_on_completely_positive_maps",
+    "web_reference": "turn33search12",
+    "selected_primary_record_ids": [],
+    "screening_decision": "DISCOVERY_ONLY_UNASSESSED",
+    "reason": "Returned discovery hit; not treated as independently verified evidence"
+  },
+  {
+    "batch": "quantum_search5.json",
+    "returned_order": 9,
+    "title_as_returned": "On Scattering theory for Lindblad operators",
+    "url": "https://iecl.univ-lorraine.fr/wp-content/uploads/2020/12/Lindblad.pdf",
+    "web_reference": "turn33search13",
+    "selected_primary_record_ids": [],
+    "screening_decision": "DISCOVERY_ONLY_UNASSESSED",
+    "reason": "Returned discovery hit; not treated as independently verified evidence"
+  },
+  {
+    "batch": "quantum_search5.json",
+    "returned_order": 10,
+    "title_as_returned": "Items where Year is 1976 - Publications of the IAS Fellows",
+    "url": "https://repository.ias.ac.in/view/year/1976.default.html",
+    "web_reference": "turn33search7",
+    "selected_primary_record_ids": [],
+    "screening_decision": "DISCOVERY_ONLY_UNASSESSED",
+    "reason": "Returned discovery hit; not treated as independently verified evidence"
+  },
+  {
+    "batch": "quantum_search5.json",
+    "returned_order": 11,
+    "title_as_returned": "Quantum ensembles of quantum classifiers - PMC",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5807322/",
+    "web_reference": "turn33search8",
+    "selected_primary_record_ids": [],
+    "screening_decision": "DISCOVERY_ONLY_UNASSESSED",
+    "reason": "Returned discovery hit; not treated as independently verified evidence"
+  },
+  {
+    "batch": "quantum_search5.json",
+    "returned_order": 12,
+    "title_as_returned": "Positive Linear Maps on Matrix Algebras",
+    "url": "https://kcik.ug.edu.pl/wp-content/uploads/2023/03/Choi_CJ23b.pdf",
+    "web_reference": "turn33search14",
+    "selected_primary_record_ids": [],
+    "screening_decision": "DISCOVERY_ONLY_UNASSESSED",
+    "reason": "Returned discovery hit; not treated as independently verified evidence"
+  },
+  {
+    "batch": "quantum_search5.json",
+    "returned_order": 13,
+    "title_as_returned": "CONSTRUCTION AND ANALYSIS OF QUANTUM",
+    "url": "https://teras.ng/api/asset/document/6c7554d3-59f8-4525-87fb-6ebb90466def",
+    "web_reference": "turn33search15",
+    "selected_primary_record_ids": [],
+    "screening_decision": "DISCOVERY_ONLY_UNASSESSED",
+    "reason": "Returned discovery hit; not treated as independently verified evidence"
+  },
+  {
+    "batch": "quantum_search5.json",
+    "returned_order": 14,
+    "title_as_returned": "(PDF) All 2-positive linear maps from M3(C) to M3(C) are decomposable",
+    "url": "https://www.researchgate.net/publication/301579166_All_2-positive_linear_maps_from_M3C_to_M3C_are_decomposable",
+    "web_reference": "turn33search9",
+    "selected_primary_record_ids": [],
+    "screening_decision": "DISCOVERY_ONLY_UNASSESSED",
+    "reason": "Returned discovery hit; not treated as independently verified evidence"
+  },
+  {
+    "batch": "quantum_search5.json",
+    "returned_order": 15,
+    "title_as_returned": "[2] Choi, M.-D. *Completely Positive Linear Maps on Complex Matrices*, Linear Algebra and its Applications, 10, pp. 285290, 1975.",
+    "url": "https://clarisson31415.wordpress.com/wp-content/uploads/2018/11/laa-canlubo.pdf",
+    "web_reference": "turn33search16",
+    "selected_primary_record_ids": [],
+    "screening_decision": "DISCOVERY_ONLY_UNASSESSED",
+    "reason": "Returned discovery hit; not treated as independently verified evidence"
+  },
+  {
+    "batch": "quantum_search5.json",
+    "returned_order": 16,
+    "title_as_returned": "Positive Maps in Quantum Information Theory | PDF | Matrix (Mathematics) | Linear Map",
+    "url": "https://www.scribd.com/document/752937456/QIT-230730",
+    "web_reference": "turn33search10",
+    "selected_primary_record_ids": [],
+    "screening_decision": "DISCOVERY_ONLY_UNASSESSED",
+    "reason": "Returned discovery hit; not treated as independently verified evidence"
+  },
+  {
+    "batch": "quantum_search5.json",
+    "returned_order": 17,
+    "title_as_returned": "11 G. Lindblad, “On the generators of quantum dynamical semigroups,” *Commun. Math. Phys.*, 48, No. 2, 119–130 (1976).",
+    "url": "https://www.kurims.kyoto-u.ac.jp/~kyodo/kokyuroku/contents/pdf/1035-4.pdf",
+    "web_reference": "turn33search17",
+    "selected_primary_record_ids": [],
+    "screening_decision": "DISCOVERY_ONLY_UNASSESSED",
+    "reason": "Returned discovery hit; not treated as independently verified evidence"
+  },
+  {
+    "batch": "quantum_search5.json",
+    "returned_order": 18,
+    "title_as_returned": "Generalized Information-Disturbance Theorem | PDF | Uncertainty Principle | Basis (Linear Algebra)",
+    "url": "https://www.scribd.com/document/889549390/0707-4559v1-Information-Disturbance-Theorem-And",
+    "web_reference": "turn33search11",
+    "selected_primary_record_ids": [],
+    "screening_decision": "DISCOVERY_ONLY_UNASSESSED",
+    "reason": "Returned discovery hit; not treated as independently verified evidence"
+  },
+  {
+    "batch": "quantum_search5.json",
+    "returned_order": 19,
+    "title_as_returned": "PHY 4105: Quantum Information Theory",
+    "url": "https://faculty.iisertvm.ac.in/shaji/IISER_Home/Teaching_files/lecture10.pdf",
+    "web_reference": "turn33search18",
+    "selected_primary_record_ids": [],
+    "screening_decision": "DISCOVERY_ONLY_UNASSESSED",
+    "reason": "Returned discovery hit; not treated as independently verified evidence"
+  },
+  {
+    "batch": "quantum_search5.json",
+    "returned_order": 20,
+    "title_as_returned": "Completely positive map",
+    "url": "https://en.wikipedia.org/wiki/Completely_positive_map",
+    "web_reference": "turn33search19",
+    "selected_primary_record_ids": [],
+    "screening_decision": "DISCOVERY_ONLY_UNASSESSED",
+    "reason": "Returned discovery hit; not treated as independently verified evidence"
+  },
+  {
+    "batch": "quantum_search5.json",
+    "returned_order": 21,
+    "title_as_returned": "Square root of a matrix",
+    "url": "https://en.wikipedia.org/wiki/Square_root_of_a_matrix",
+    "web_reference": "turn33search20",
+    "selected_primary_record_ids": [],
+    "screening_decision": "DISCOVERY_ONLY_UNASSESSED",
+    "reason": "Returned discovery hit; not treated as independently verified evidence"
+  },
+  {
+    "batch": "quantum_search5.json",
+    "returned_order": 22,
+    "title_as_returned": "Stinespring dilation theorem",
+    "url": "https://en.wikipedia.org/wiki/Stinespring_dilation_theorem",
+    "web_reference": "turn33search21",
+    "selected_primary_record_ids": [],
+    "screening_decision": "DISCOVERY_ONLY_UNASSESSED",
+    "reason": "Returned discovery hit; not treated as independently verified evidence"
+  },
+  {
+    "batch": "quantum_search5.json",
+    "returned_order": 23,
+    "title_as_returned": "Application complètement positive",
+    "url": "https://fr.wikipedia.org/wiki/Application_compl%C3%A8tement_positive",
+    "web_reference": "turn33search22",
+    "selected_primary_record_ids": [],
+    "screening_decision": "DISCOVERY_ONLY_UNASSESSED",
+    "reason": "Returned discovery hit; not treated as independently verified evidence"
+  },
+  {
+    "batch": "quantum_search5.json",
+    "returned_order": 24,
+    "title_as_returned": "Göran Lindblad (physicist)",
+    "url": "https://en.wikipedia.org/wiki/G%C3%B6ran_Lindblad_%28physicist%29",
+    "web_reference": "turn33search23",
+    "selected_primary_record_ids": [],
+    "screening_decision": "DISCOVERY_ONLY_UNASSESSED",
+    "reason": "Returned discovery hit; not treated as independently verified evidence"
+  },
+  {
+    "batch": "quantum_search5.json",
+    "returned_order": 25,
+    "title_as_returned": "Choi matrices revisited. II",
+    "url": "https://arxiv.org/abs/2307.09247",
+    "web_reference": "turn33academia24",
+    "selected_primary_record_ids": [],
+    "screening_decision": "DISCOVERY_ONLY_UNASSESSED",
+    "reason": "Returned discovery hit; not treated as independently verified evidence"
+  },
+  {
+    "batch": "quantum_search5.json",
+    "returned_order": 26,
+    "title_as_returned": "Notes on extremality of the Choi map",
+    "url": "https://arxiv.org/abs/1306.0945",
+    "web_reference": "turn33academia25",
+    "selected_primary_record_ids": [],
+    "screening_decision": "DISCOVERY_ONLY_UNASSESSED",
+    "reason": "Returned discovery hit; not treated as independently verified evidence"
+  },
+  {
+    "batch": "quantum_search5.json",
+    "returned_order": 27,
+    "title_as_returned": "The Choi-Cholesky algorithm for completely positive maps",
+    "url": "https://arxiv.org/abs/2603.19444",
+    "web_reference": "turn33academia26",
+    "selected_primary_record_ids": [],
+    "screening_decision": "DISCOVERY_ONLY_UNASSESSED",
+    "reason": "Returned discovery hit; not treated as independently verified evidence"
+  },
+  {
+    "batch": "quantum_search5.json",
+    "returned_order": 28,
+    "title_as_returned": "Generators of Quantum Markov Semigroups",
+    "url": "https://arxiv.org/abs/1406.3417",
+    "web_reference": "turn33academia27",
+    "selected_primary_record_ids": [],
+    "screening_decision": "DISCOVERY_ONLY_UNASSESSED",
+    "reason": "Returned discovery hit; not treated as independently verified evidence"
+  },
+  {
+    "batch": "quantum_search6.json",
+    "returned_order": 1,
+    "title_as_returned": "Quantum theory in finite dimension cannot explain every general process with finite memory",
+    "url": "https://arxiv.org/abs/2209.11225",
+    "web_reference": "turn43academia12",
+    "selected_primary_record_ids": [],
+    "screening_decision": "DISCOVERY_ONLY_UNASSESSED",
+    "reason": "Returned discovery hit; not treated as independently verified evidence"
+  },
+  {
+    "batch": "quantum_search6.json",
+    "returned_order": 2,
+    "title_as_returned": "Completely positive linear maps on complex matrices - ScienceDirect",
+    "url": "https://www.sciencedirect.com/science/article/pii/0024379575900750",
+    "web_reference": "turn43search0",
+    "selected_primary_record_ids": [],
+    "screening_decision": "DISCOVERY_ONLY_UNASSESSED",
+    "reason": "Returned discovery hit; not treated as independently verified evidence"
+  },
+  {
+    "batch": "quantum_search6.json",
+    "returned_order": 3,
+    "title_as_returned": "Quantum Theory in Finite Dimension Cannot Explain Every General Process with Finite Memory",
+    "url": "https://explore.openaire.eu/search/publication?pid=10.1007%2Fs00220-023-04913-4",
+    "web_reference": "turn43search1",
+    "selected_primary_record_ids": [],
+    "screening_decision": "DISCOVERY_ONLY_UNASSESSED",
+    "reason": "Returned discovery hit; not treated as independently verified evidence"
+  },
+  {
+    "batch": "quantum_search6.json",
+    "returned_order": 4,
+    "title_as_returned": "brought to you by",
+    "url": "https://core.ac.uk/download/pdf/82789302.pdf",
+    "web_reference": "turn43search13",
+    "selected_primary_record_ids": [],
+    "screening_decision": "DISCOVERY_ONLY_UNASSESSED",
+    "reason": "Returned discovery hit; not treated as independently verified evidence"
+  },
+  {
+    "batch": "quantum_search6.json",
+    "returned_order": 5,
+    "title_as_returned": "Quantum Theory in Finite Dimension Cannot Explain Every General Process with Finite Memory",
+    "url": "https://d-nb.info/1328551083/34",
+    "web_reference": "turn43search14",
+    "selected_primary_record_ids": [],
+    "screening_decision": "DISCOVERY_ONLY_UNASSESSED",
+    "reason": "Returned discovery hit; not treated as independently verified evidence"
+  },
+  {
+    "batch": "quantum_search6.json",
+    "returned_order": 6,
+    "title_as_returned": "Quantum Theory in Finite Dimension Cannot Explain Every General Process with Finite Memory | Communications in Mathematical Physics | Springer Nature Link",
+    "url": "https://link.springer.com/article/10.1007/s00220-023-04913-4",
+    "web_reference": "turn43search2",
+    "selected_primary_record_ids": [
+      "Q14"
+    ],
+    "screening_decision": "LINKED_SELECTED_RECORD",
+    "reason": "See selected paper extraction and exact inspection scope"
+  },
+  {
+    "batch": "quantum_search6.json",
+    "returned_order": 7,
+    "title_as_returned": "Quantum theory in finite dimension cannot explain every general process with finite memory | Article Information | J-GLOBAL",
+    "url": "https://jglobal.jst.go.jp/en/detail?JGLOBAL_ID=202202217248425192",
+    "web_reference": "turn43search3",
+    "selected_primary_record_ids": [],
+    "screening_decision": "DISCOVERY_ONLY_UNASSESSED",
+    "reason": "Returned discovery hit; not treated as independently verified evidence"
+  },
+  {
+    "batch": "quantum_search6.json",
+    "returned_order": 8,
+    "title_as_returned": "Completely positive dynamical semigroups of N-level systems - Publications of the IAS Fellows",
+    "url": "https://repository.ias.ac.in/51137/",
+    "web_reference": "turn43search4",
+    "selected_primary_record_ids": [],
+    "screening_decision": "DISCOVERY_ONLY_UNASSESSED",
+    "reason": "Returned discovery hit; not treated as independently verified evidence"
+  },
+  {
+    "batch": "quantum_search6.json",
+    "returned_order": 9,
+    "title_as_returned": "Lecture Notes on",
+    "url": "https://www.math.uni-tuebingen.de/de/forschung/maphy/lehre/ws-2019-20/quantmech/dateien/script2019.pdf",
+    "web_reference": "turn43search15",
+    "selected_primary_record_ids": [],
+    "screening_decision": "DISCOVERY_ONLY_UNASSESSED",
+    "reason": "Returned discovery hit; not treated as independently verified evidence"
+  },
+  {
+    "batch": "quantum_search6.json",
+    "returned_order": 10,
+    "title_as_returned": "QuICS - Quantum:",
+    "url": "https://agenda.infn.it/event/47484/contributions/contributions.pdf",
+    "web_reference": "turn43search16",
+    "selected_primary_record_ids": [],
+    "screening_decision": "DISCOVERY_ONLY_UNASSESSED",
+    "reason": "Returned discovery hit; not treated as independently verified evidence"
+  },
+  {
+    "batch": "quantum_search6.json",
+    "returned_order": 11,
+    "title_as_returned": "About QIP\nThe international conference on Quantum",
+    "url": "https://indico.cern.ch/event/1175020/attachments/2560351/4459234/QIP2023Program.pdf",
+    "web_reference": "turn43search17",
+    "selected_primary_record_ids": [],
+    "screening_decision": "DISCOVERY_ONLY_UNASSESSED",
+    "reason": "Returned discovery hit; not treated as independently verified evidence"
+  },
+  {
+    "batch": "quantum_search6.json",
+    "returned_order": 12,
+    "title_as_returned": "A complete classification of quantum ensembles having a given density matrix (1993) – Physics Letters A | Metascience Observatory Explorer",
+    "url": "https://explore.metascienceobservatory.org/papers/W2004304976",
+    "web_reference": "turn43search5",
+    "selected_primary_record_ids": [],
+    "screening_decision": "DISCOVERY_ONLY_UNASSESSED",
+    "reason": "Returned discovery hit; not treated as independently verified evidence"
+  },
+  {
+    "batch": "quantum_search6.json",
+    "returned_order": 13,
+    "title_as_returned": "A Complete Classification of Quantum Ensembles having a Given Density Matrix - Goldsmiths Research Online",
+    "url": "https://research.gold.ac.uk/id/eprint/31593/",
+    "web_reference": "turn43search6",
+    "selected_primary_record_ids": [
+      "Q11"
+    ],
+    "screening_decision": "LINKED_SELECTED_RECORD",
+    "reason": "See selected paper extraction and exact inspection scope"
+  },
+  {
+    "batch": "quantum_search6.json",
+    "returned_order": 14,
+    "title_as_returned": "Andreas Winter — Researcher Profile",
+    "url": "https://bishtref.com/authors/82658/andreas-winter",
+    "web_reference": "turn43search7",
+    "selected_primary_record_ids": [],
+    "screening_decision": "DISCOVERY_ONLY_UNASSESSED",
+    "reason": "Returned discovery hit; not treated as independently verified evidence"
+  },
+  {
+    "batch": "quantum_search6.json",
+    "returned_order": 15,
+    "title_as_returned": "The calculi of emergence: Computation, dynamics and induction - MaRDI portal",
+    "url": "https://portal.mardi4nfdi.de/wiki/Publication%3A1817022",
+    "web_reference": "turn43search8",
+    "selected_primary_record_ids": [],
+    "screening_decision": "DISCOVERY_ONLY_UNASSESSED",
+    "reason": "Returned discovery hit; not treated as independently verified evidence"
+  },
+  {
+    "batch": "quantum_search6.json",
+    "returned_order": 16,
+    "title_as_returned": "(PDF) Quantum Theory in Finite Dimension Cannot Explain Every General Process with Finite Memory",
+    "url": "https://www.researchgate.net/publication/378338374_Quantum_Theory_in_Finite_Dimension_Cannot_Explain_Every_General_Process_with_Finite_Memory",
+    "web_reference": "turn43search9",
+    "selected_primary_record_ids": [],
+    "screening_decision": "DISCOVERY_ONLY_UNASSESSED",
+    "reason": "Returned discovery hit; not treated as independently verified evidence"
+  },
+  {
+    "batch": "quantum_search6.json",
+    "returned_order": 17,
+    "title_as_returned": "Memory-minimal quantum generation of stochastic processes: spectral invariants of quantum hidden Markov models",
+    "url": "https://api.emergentmind.com/papers/2412.12812",
+    "web_reference": "turn43search10",
+    "selected_primary_record_ids": [],
+    "screening_decision": "DISCOVERY_ONLY_UNASSESSED",
+    "reason": "Returned discovery hit; not treated as independently verified evidence"
+  },
+  {
+    "batch": "quantum_search6.json",
+    "returned_order": 18,
+    "title_as_returned": "Generalized Information-Disturbance Theorem | PDF | Uncertainty Principle | Basis (Linear Algebra)",
+    "url": "https://www.scribd.com/document/889549390/0707-4559v1-Information-Disturbance-Theorem-And",
+    "web_reference": "turn43search11",
+    "selected_primary_record_ids": [],
+    "screening_decision": "DISCOVERY_ONLY_UNASSESSED",
+    "reason": "Returned discovery hit; not treated as independently verified evidence"
+  },
+  {
+    "batch": "quantum_search6.json",
+    "returned_order": 19,
+    "title_as_returned": "Karl Kraus (physicist)",
+    "url": "https://en.wikipedia.org/wiki/Karl_Kraus_%28physicist%29",
+    "web_reference": "turn43search18",
+    "selected_primary_record_ids": [],
+    "screening_decision": "DISCOVERY_ONLY_UNASSESSED",
+    "reason": "Returned discovery hit; not treated as independently verified evidence"
+  },
+  {
+    "batch": "quantum_search6.json",
+    "returned_order": 20,
+    "title_as_returned": "Karl Kraus (Physiker)",
+    "url": "https://de.wikipedia.org/wiki/Karl_Kraus_%28Physiker%29",
+    "web_reference": "turn43search19",
+    "selected_primary_record_ids": [],
+    "screening_decision": "DISCOVERY_ONLY_UNASSESSED",
+    "reason": "Returned discovery hit; not treated as independently verified evidence"
+  },
+  {
+    "batch": "quantum_search6.json",
+    "returned_order": 21,
+    "title_as_returned": "Choi's theorem on completely positive maps",
+    "url": "https://en.wikipedia.org/wiki/Choi%27s_theorem_on_completely_positive_maps",
+    "web_reference": "turn43search20",
+    "selected_primary_record_ids": [],
+    "screening_decision": "DISCOVERY_ONLY_UNASSESSED",
+    "reason": "Returned discovery hit; not treated as independently verified evidence"
+  },
+  {
+    "batch": "quantum_search6.json",
+    "returned_order": 22,
+    "title_as_returned": "Stinespring dilation theorem",
+    "url": "https://en.wikipedia.org/wiki/Stinespring_dilation_theorem",
+    "web_reference": "turn43search21",
+    "selected_primary_record_ids": [],
+    "screening_decision": "DISCOVERY_ONLY_UNASSESSED",
+    "reason": "Returned discovery hit; not treated as independently verified evidence"
+  },
+  {
+    "batch": "quantum_search6.json",
+    "returned_order": 23,
+    "title_as_returned": "Quantum operation",
+    "url": "https://en.wikipedia.org/wiki/Quantum_operation",
+    "web_reference": "turn43search22",
+    "selected_primary_record_ids": [],
+    "screening_decision": "DISCOVERY_ONLY_UNASSESSED",
+    "reason": "Returned discovery hit; not treated as independently verified evidence"
+  },
+  {
+    "batch": "quantum_search6.json",
+    "returned_order": 24,
+    "title_as_returned": "斯坦斯普林扩张定理",
+    "url": "https://zh.wikipedia.org/wiki/%E6%96%AF%E5%9D%A6%E6%96%AF%E6%99%AE%E6%9E%97%E6%89%A9%E5%BC%A0%E5%AE%9A%E7%90%86",
+    "web_reference": "turn43search23",
+    "selected_primary_record_ids": [],
+    "screening_decision": "DISCOVERY_ONLY_UNASSESSED",
+    "reason": "Returned discovery hit; not treated as independently verified evidence"
+  },
+  {
+    "batch": "quantum_search6.json",
+    "returned_order": 25,
+    "title_as_returned": "New examples of extremal positive linear maps",
+    "url": "https://arxiv.org/abs/1611.09513",
+    "web_reference": "turn43academia24",
+    "selected_primary_record_ids": [],
+    "screening_decision": "DISCOVERY_ONLY_UNASSESSED",
+    "reason": "Returned discovery hit; not treated as independently verified evidence"
+  },
+  {
+    "batch": "quantum_search7.json",
+    "returned_order": 1,
+    "title_as_returned": "Proof of the strong subadditivity of quantum-mechanical entropy - Princeton University",
+    "url": "https://collaborate.princeton.edu/en/publications/proof-of-the-strong-subadditivity-of-quantum-mechanical-entropy/",
+    "web_reference": "turn69search0",
+    "selected_primary_record_ids": [],
+    "screening_decision": "DISCOVERY_ONLY_UNASSESSED",
+    "reason": "Returned discovery hit; not treated as independently verified evidence"
+  },
+  {
+    "batch": "quantum_search7.json",
+    "returned_order": 2,
+    "title_as_returned": "A Fundamental Property of Quantum-Mechanical Entropy | Phys. Rev. Lett.",
+    "url": "https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.30.434",
+    "web_reference": "turn69search1",
+    "selected_primary_record_ids": [],
+    "screening_decision": "DISCOVERY_ONLY_UNASSESSED",
+    "reason": "Returned discovery hit; not treated as independently verified evidence"
+  },
+  {
+    "batch": "quantum_search7.json",
+    "returned_order": 3,
+    "title_as_returned": "Proof of the strong subadditivity of quantum-mechanical entropy",
+    "url": "https://oamonitor.ireland.openaire.eu/national/search/publication?pid=10.1007%2F978-3-642-55925-9_6",
+    "web_reference": "turn69search2",
+    "selected_primary_record_ids": [],
+    "screening_decision": "DISCOVERY_ONLY_UNASSESSED",
+    "reason": "Returned discovery hit; not treated as independently verified evidence"
+  },
+  {
+    "batch": "quantum_search7.json",
+    "returned_order": 4,
+    "title_as_returned": "Proof of the strong subadditivity of quantum-mechanical entropy",
+    "url": "https://explore.openaire.eu/search/result?pid=10.1007%2F978-3-642-55925-9_6",
+    "web_reference": "turn69search3",
+    "selected_primary_record_ids": [],
+    "screening_decision": "DISCOVERY_ONLY_UNASSESSED",
+    "reason": "Returned discovery hit; not treated as independently verified evidence"
+  },
+  {
+    "batch": "quantum_search7.json",
+    "returned_order": 5,
+    "title_as_returned": "Proof of the Strong Subadditivity of Quantum-Mechanical Entropy",
+    "url": "https://www.numdam.org/item/RCP25_1973__19__A5_0.pdf",
+    "web_reference": "turn69search12",
+    "selected_primary_record_ids": [
+      "Q19"
+    ],
+    "screening_decision": "LINKED_SELECTED_RECORD",
+    "reason": "See selected paper extraction and exact inspection scope"
+  },
+  {
+    "batch": "quantum_search7.json",
+    "returned_order": 6,
+    "title_as_returned": "Bulletin of the American Mathematical Society",
+    "url": "https://doi.org/10.1090/S0002-9904-1975-13621-4",
+    "web_reference": "turn69search4",
+    "selected_primary_record_ids": [],
+    "screening_decision": "DISCOVERY_ONLY_UNASSESSED",
+    "reason": "Returned discovery hit; not treated as independently verified evidence"
+  },
+  {
+    "batch": "quantum_search7.json",
+    "returned_order": 7,
+    "title_as_returned": "Proof of the strong subadditivity of quantum-mechanical entropy",
+    "url": "https://explore.metascienceobservatory.org/papers/W2105918132",
+    "web_reference": "turn69search5",
+    "selected_primary_record_ids": [],
+    "screening_decision": "DISCOVERY_ONLY_UNASSESSED",
+    "reason": "Returned discovery hit; not treated as independently verified evidence"
+  },
+  {
+    "batch": "quantum_search7.json",
+    "returned_order": 8,
+    "title_as_returned": "Inequalities in Matrix Algebras",
+    "url": "https://doi.org/10.1090/gsm/251",
+    "web_reference": "turn69search6",
+    "selected_primary_record_ids": [],
+    "screening_decision": "DISCOVERY_ONLY_UNASSESSED",
+    "reason": "Returned discovery hit; not treated as independently verified evidence"
+  },
+  {
+    "batch": "quantum_search7.json",
+    "returned_order": 9,
+    "title_as_returned": "Proof of the strong subadditivity of quantum-mechanical entropy - New Jersey Research Community",
+    "url": "https://www.researchwithnj.com/en/publications/proof-of-the-strong-subadditivity-of-quantum-mechanical-entropy/",
+    "web_reference": "turn69search7",
+    "selected_primary_record_ids": [],
+    "screening_decision": "DISCOVERY_ONLY_UNASSESSED",
+    "reason": "Returned discovery hit; not treated as independently verified evidence"
+  },
+  {
+    "batch": "quantum_search7.json",
+    "returned_order": 10,
+    "title_as_returned": "Proof of the strong subadditivity of quantum‐mechanical entropy (1973) | Elliott H. Lieb | 1084 Citations",
+    "url": "https://scispace.com/papers/proof-of-the-strong-subadditivity-of-quantum-mechanical-1h9bzxm7rp?citations_page=71",
+    "web_reference": "turn69search8",
+    "selected_primary_record_ids": [],
+    "screening_decision": "DISCOVERY_ONLY_UNASSESSED",
+    "reason": "Returned discovery hit; not treated as independently verified evidence"
+  },
+  {
+    "batch": "quantum_search7.json",
+    "returned_order": 11,
+    "title_as_returned": "Academy of Europe: Publications",
+    "url": "https://www.ae-info.org/ae/Member/Lieb_Elliott_Hershel/Publications",
+    "web_reference": "turn69search9",
+    "selected_primary_record_ids": [],
+    "screening_decision": "DISCOVERY_ONLY_UNASSESSED",
+    "reason": "Returned discovery hit; not treated as independently verified evidence"
+  },
+  {
+    "batch": "quantum_search7.json",
+    "returned_order": 12,
+    "title_as_returned": "Proof of the strong subadditivity of quantum‐mechanical entropy (1973) | Elliott H. Lieb | 1084 Citations",
+    "url": "https://scispace.com/papers/proof-of-the-strong-subadditivity-of-quantum-mechanical-1h9bzxm7rp?citations_page=130",
+    "web_reference": "turn69search10",
+    "selected_primary_record_ids": [],
+    "screening_decision": "DISCOVERY_ONLY_UNASSESSED",
+    "reason": "Returned discovery hit; not treated as independently verified evidence"
+  },
+  {
+    "batch": "quantum_search7.json",
+    "returned_order": 13,
+    "title_as_returned": "Mathematical",
+    "url": "https://www.ams.org/books/surv/120/surv120-endmatter.pdf",
+    "web_reference": "turn69search13",
+    "selected_primary_record_ids": [],
+    "screening_decision": "DISCOVERY_ONLY_UNASSESSED",
+    "reason": "Returned discovery hit; not treated as independently verified evidence"
+  },
+  {
+    "batch": "quantum_search7.json",
+    "returned_order": 14,
+    "title_as_returned": "Geometric entropy, area, and strong subadditivity - INSPIRE",
+    "url": "https://inspirehep.net/literature/636058",
+    "web_reference": "turn69search11",
+    "selected_primary_record_ids": [],
+    "screening_decision": "DISCOVERY_ONLY_UNASSESSED",
+    "reason": "Returned discovery hit; not treated as independently verified evidence"
+  },
+  {
+    "batch": "quantum_search7.json",
+    "returned_order": 15,
+    "title_as_returned": "GRADUATE STUDIES",
+    "url": "https://www.ams.org/books/gsm/251/gsm251-endmatter.pdf",
+    "web_reference": "turn69search14",
+    "selected_primary_record_ids": [],
+    "screening_decision": "DISCOVERY_ONLY_UNASSESSED",
+    "reason": "Returned discovery hit; not treated as independently verified evidence"
+  },
+  {
+    "batch": "quantum_search7.json",
+    "returned_order": 16,
+    "title_as_returned": "[4] E.H. Lieb and M.B. Ruskai, *Proof of the strong subadditivity of quantum-mechanical entropy*, *J. Math. Phys.* **14** (1973) 1938 [INSPIRE].",
+    "url": "https://inspirehep.net/files/9c0afa2be76bcdb4a679164c08bca4d8",
+    "web_reference": "turn69search15",
+    "selected_primary_record_ids": [],
+    "screening_decision": "DISCOVERY_ONLY_UNASSESSED",
+    "reason": "Returned discovery hit; not treated as independently verified evidence"
+  },
+  {
+    "batch": "quantum_search7.json",
+    "returned_order": 17,
+    "title_as_returned": "Letters in Mathematical Physics (2023) 113:18",
+    "url": "https://oar.princeton.edu/bitstream/88435/pr1j09w48p/1/s11005-023-01638-2.pdf",
+    "web_reference": "turn69search16",
+    "selected_primary_record_ids": [],
+    "screening_decision": "DISCOVERY_ONLY_UNASSESSED",
+    "reason": "Returned discovery hit; not treated as independently verified evidence"
+  },
+  {
+    "batch": "quantum_search7.json",
+    "returned_order": 18,
+    "title_as_returned": "Strong subadditivity of quantum entropy",
+    "url": "https://en.wikipedia.org/wiki/Strong_subadditivity_of_quantum_entropy",
+    "web_reference": "turn69search17",
+    "selected_primary_record_ids": [],
+    "screening_decision": "DISCOVERY_ONLY_UNASSESSED",
+    "reason": "Returned discovery hit; not treated as independently verified evidence"
+  },
+  {
+    "batch": "quantum_search7.json",
+    "returned_order": 19,
+    "title_as_returned": "Another Short and Elementary Proof of Strong Subadditivity of Quantum Entropy",
+    "url": "https://arxiv.org/abs/quant-ph/0604206",
+    "web_reference": "turn69academia18",
+    "selected_primary_record_ids": [],
+    "screening_decision": "DISCOVERY_ONLY_UNASSESSED",
+    "reason": "Returned discovery hit; not treated as independently verified evidence"
+  },
+  {
+    "batch": "quantum_search7.json",
+    "returned_order": 20,
+    "title_as_returned": "A Stronger Subadditivity of Entropy",
+    "url": "https://arxiv.org/abs/math-ph/0412009",
+    "web_reference": "turn69academia19",
+    "selected_primary_record_ids": [],
+    "screening_decision": "DISCOVERY_ONLY_UNASSESSED",
+    "reason": "Returned discovery hit; not treated as independently verified evidence"
+  },
+  {
+    "batch": "quantum_search7.json",
+    "returned_order": 21,
+    "title_as_returned": "Elliott H. Lieb",
+    "url": "https://en.wikipedia.org/wiki/Elliott_H._Lieb",
+    "web_reference": "turn69search20",
+    "selected_primary_record_ids": [],
+    "screening_decision": "DISCOVERY_ONLY_UNASSESSED",
+    "reason": "Returned discovery hit; not treated as independently verified evidence"
+  },
+  {
+    "batch": "quantum_search7.json",
+    "returned_order": 22,
+    "title_as_returned": "Inequalities for Quantum Entropy: A Review with Conditions for Equality",
+    "url": "https://arxiv.org/abs/quant-ph/0205064",
+    "web_reference": "turn69academia21",
+    "selected_primary_record_ids": [],
+    "screening_decision": "DISCOVERY_ONLY_UNASSESSED",
+    "reason": "Returned discovery hit; not treated as independently verified evidence"
+  },
+  {
+    "batch": "quantum_search7.json",
+    "returned_order": 23,
+    "title_as_returned": "Mary Beth Ruskai",
+    "url": "https://de.wikipedia.org/wiki/Mary_Beth_Ruskai",
+    "web_reference": "turn69search22",
+    "selected_primary_record_ids": [],
+    "screening_decision": "DISCOVERY_ONLY_UNASSESSED",
+    "reason": "Returned discovery hit; not treated as independently verified evidence"
+  },
+  {
+    "batch": "quantum_search7.json",
+    "returned_order": 24,
+    "title_as_returned": "Von Neumann entropy",
+    "url": "https://en.wikipedia.org/wiki/Von_Neumann_entropy",
+    "web_reference": "turn69search23",
+    "selected_primary_record_ids": [],
+    "screening_decision": "DISCOVERY_ONLY_UNASSESSED",
+    "reason": "Returned discovery hit; not treated as independently verified evidence"
+  },
+  {
+    "batch": "quantum_search7.json",
+    "returned_order": 25,
+    "title_as_returned": "A new inequality for the von Neumann entropy",
+    "url": "https://arxiv.org/abs/quant-ph/0406162",
+    "web_reference": "turn69academia24",
+    "selected_primary_record_ids": [],
+    "screening_decision": "DISCOVERY_ONLY_UNASSESSED",
+    "reason": "Returned discovery hit; not treated as independently verified evidence"
+  },
+  {
+    "batch": "quantum_search7.json",
+    "returned_order": 26,
+    "title_as_returned": "Trace inequality",
+    "url": "https://en.wikipedia.org/wiki/Trace_inequality",
+    "web_reference": "turn69search25",
+    "selected_primary_record_ids": [],
+    "screening_decision": "DISCOVERY_ONLY_UNASSESSED",
+    "reason": "Returned discovery hit; not treated as independently verified evidence"
+  },
+  {
+    "batch": "quantum_search7.json",
+    "returned_order": 27,
+    "title_as_returned": "Mary Beth Ruskai",
+    "url": "https://en.wikipedia.org/wiki/Mary_Beth_Ruskai",
+    "web_reference": "turn69search26",
+    "selected_primary_record_ids": [],
+    "screening_decision": "DISCOVERY_ONLY_UNASSESSED",
+    "reason": "Returned discovery hit; not treated as independently verified evidence"
+  }
+]

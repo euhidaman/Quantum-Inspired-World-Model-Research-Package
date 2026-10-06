@@ -1,0 +1,234 @@
+[
+  {
+    "id": "C01",
+    "source_ids": "A01",
+    "kind": "SOURCE",
+    "claim": "Frozen pretrained visual features can support a learned action-conditioned world model.",
+    "location_or_argument": "Methods 3.1-3.2; official checkpoint README",
+    "boundary": "Does not demonstrate our PSC or quantum-adapter benefit."
+  },
+  {
+    "id": "C02",
+    "source_ids": "A01",
+    "kind": "SOURCE",
+    "claim": "Official DINO-WM release links Wall, PointMaze and PushT world-model checkpoints.",
+    "location_or_argument": "README pretrained-model section",
+    "boundary": "Availability is reported; loading and reproduction not tested."
+  },
+  {
+    "id": "C03",
+    "source_ids": "A01",
+    "kind": "INFERENCE",
+    "claim": "Separate encoder and predictor modules permit a controlled predictor-adaptation pilot.",
+    "location_or_argument": "models/visual_world_model.py; models/vit.py",
+    "boundary": "Actual projection dimensions, optimizer membership and source hashes must be checked."
+  },
+  {
+    "id": "C04",
+    "source_ids": "A02",
+    "kind": "SOURCE",
+    "claim": "V-JEPA 2 trains action-conditioned dynamics while freezing its pretrained encoder.",
+    "location_or_argument": "Action-conditioned world-model methods",
+    "boundary": "Robot trajectories still include action/state metadata; not directly mobile navigation."
+  },
+  {
+    "id": "C05",
+    "source_ids": "A03",
+    "kind": "SOURCE",
+    "claim": "V-JEPA 2.1 reports navigation feature prediction and open-loop trajectory/planning metrics.",
+    "location_or_argument": "Section 3.4; Table 7",
+    "boundary": "Not closed-loop collision calibration; matching navigation predictor checkpoint unconfirmed."
+  },
+  {
+    "id": "C06",
+    "source_ids": "A04",
+    "kind": "SOURCE",
+    "claim": "NWM releases a navigation diffusion checkpoint; repo declares CC-BY-NC 4.0 code and weights.",
+    "location_or_argument": "Official README download/license/data sections",
+    "boundary": "Some data versions are not redistributed; no checkpoint load or Fir profile."
+  },
+  {
+    "id": "C07",
+    "source_ids": "A05",
+    "kind": "SOURCE",
+    "claim": "TD-MPC2 latent dynamics share an interface with reward, policy and value components.",
+    "location_or_argument": "Official common/world_model.py",
+    "boundary": "A latent-core replacement can require coordinated head changes."
+  },
+  {
+    "id": "C08",
+    "source_ids": "A06",
+    "kind": "SOURCE",
+    "claim": "Dreamer uses recurrent deterministic and stochastic state components.",
+    "location_or_argument": "Official rssm.py; original package Dreamer entry",
+    "boundary": "Task-matched pretrained navigation artifact not verified."
+  },
+  {
+    "id": "C09",
+    "source_ids": "A07",
+    "kind": "SOURCE",
+    "claim": "GNM, ViNT and NoMaD releases provide navigation policies.",
+    "location_or_argument": "Official repository README",
+    "boundary": "A policy is not an action-conditioned world model."
+  },
+  {
+    "id": "C10",
+    "source_ids": "A08;A09",
+    "kind": "SOURCE",
+    "claim": "Pretrained features and object slots have established perception and dynamics precedents.",
+    "location_or_argument": "DINOSAUR methods; SlotFormer abstract/project/repo",
+    "boundary": "Persistent identities and calibration in our crowd scenes remain unverified."
+  },
+  {
+    "id": "C11",
+    "source_ids": "A10",
+    "kind": "SOURCE",
+    "claim": "Low-rank updates provide an established pretrained-weight adaptation control.",
+    "location_or_argument": "Primary abstract and standard LoRA formulation",
+    "boundary": "Lower trainable parameter count does not establish lower end-to-end cost."
+  },
+  {
+    "id": "C12",
+    "source_ids": "A11;A12",
+    "kind": "SOURCE",
+    "claim": "Side-network adaptation is established; detached backbones can reduce gradient memory.",
+    "location_or_argument": "Author Side-Tuning project; LST abstract",
+    "boundary": "Internal adapters may retain backbone activation-gradient costs."
+  },
+  {
+    "id": "C13",
+    "source_ids": "A13",
+    "kind": "SOURCE",
+    "claim": "Classical tensor-train weight adaptation precedes this project.",
+    "location_or_argument": "NAACL paper Section 3",
+    "boundary": "A tensorized weight matrix is different from a purified scene belief."
+  },
+  {
+    "id": "C14",
+    "source_ids": "A14",
+    "kind": "SOURCE",
+    "claim": "QuanTA performs quantum-informed tensor adaptation of pretrained language-model weights.",
+    "location_or_argument": "Methods and limitations",
+    "boundary": "Language results do not establish world-model gains; GPU utilization can matter."
+  },
+  {
+    "id": "C15",
+    "source_ids": "A15",
+    "kind": "SOURCE",
+    "claim": "QuIC's inspected vision table reports 0.13M/82.61 versus LoRA 1.77M/83.24 for trainable parameters/average.",
+    "location_or_argument": "Table 2",
+    "boundary": "Author-reported aggregate; no confidence intervals used here; not Fir cost."
+  },
+  {
+    "id": "C16",
+    "source_ids": "A15",
+    "kind": "SOURCE",
+    "claim": "QuIC's first-order compound construction reduces to orthogonal fine-tuning.",
+    "location_or_argument": "Compound-adapter construction",
+    "boundary": "Include an orthogonal control to test higher-order benefit."
+  },
+  {
+    "id": "C17",
+    "source_ids": "A16",
+    "kind": "SOURCE",
+    "claim": "Quantum-PEFT parameterizes pretrained-layer updates with quantum-inspired unitary/tensor structures.",
+    "location_or_argument": "ICLR 2025 PDF methods and Figure 1",
+    "boundary": "No inspected world-model/navigation evidence."
+  },
+  {
+    "id": "C18",
+    "source_ids": "A17",
+    "kind": "SOURCE",
+    "claim": "QSWM complex model's ten-step accuracy is 0.5037 versus classical 0.5143 despite higher one-step accuracy.",
+    "location_or_argument": "Table 1",
+    "boundary": "Toy automata; inspected table has no uncertainty intervals; not pretrained adaptation."
+  },
+  {
+    "id": "C19",
+    "source_ids": "A18",
+    "kind": "SOURCE",
+    "claim": "UWM-JEPA already uses density states and action-conditioned unitary prediction.",
+    "location_or_argument": "Sections 2-5",
+    "boundary": "Toy setting; counterfactual targets require simulator access."
+  },
+  {
+    "id": "C20",
+    "source_ids": "A18",
+    "kind": "SOURCE",
+    "claim": "UWM-JEPA's 0.77 versus LSTM-JEPA 0.53 comparison coexists with a 0.960 supervised recurrent control.",
+    "location_or_argument": "Main task table; Appendix S3",
+    "boundary": "Objectives differ; not a universal separation from classical recurrent capacity."
+  },
+  {
+    "id": "C21",
+    "source_ids": "A19",
+    "kind": "SOURCE",
+    "claim": "FactorJEPA describes pretrained predictor replacement and staged adaptation.",
+    "location_or_argument": "Predictor Surgery section",
+    "boundary": "Inspected decoded-future appendix table contains result placeholders."
+  },
+  {
+    "id": "C22",
+    "source_ids": "A20",
+    "kind": "SOURCE",
+    "claim": "General transfer research separates in-domain fine-tuning benefits from out-of-distribution effects.",
+    "location_or_argument": "Primary abstract",
+    "boundary": "Not evidence about our quantum-inspired model; motivates retention evaluation."
+  },
+  {
+    "id": "C23",
+    "source_ids": "A21",
+    "kind": "SOURCE",
+    "claim": "Compact scratch-trained world models remain plausible controls.",
+    "location_or_argument": "Primary abstract",
+    "boundary": "Scale/runtime is author-reported and was not verified on Fir."
+  },
+  {
+    "id": "C24",
+    "source_ids": "A14;A15;A16;A17;A18;A19",
+    "kind": "INFERENCE",
+    "claim": "Broad first-use claims for quantum adapters, density-state world models or pretrained predictor surgery are untenable.",
+    "location_or_argument": "Combined prior art above",
+    "boundary": "Specific implementation novelty still needs wider citation and terminology search."
+  },
+  {
+    "id": "C25",
+    "source_ids": "",
+    "kind": "MATHEMATICAL_INFERENCE",
+    "claim": "A deterministic map cannot distinguish two inputs collapsed to the same original latent.",
+    "location_or_argument": "If E(h1)=E(h2), then g(E(h1))=g(E(h2))",
+    "boundary": "History, additional observations or encoder changes may overcome the original bottleneck."
+  },
+  {
+    "id": "C26",
+    "source_ids": "",
+    "kind": "PROPOSED",
+    "claim": "Compare predictor adapters separately from PSC belief augmentation.",
+    "location_or_argument": "Protocol 19 Experiments A and B",
+    "boundary": "No performance evidence yet."
+  },
+  {
+    "id": "C27",
+    "source_ids": "",
+    "kind": "PROPOSED",
+    "claim": "Shared features/history and strong joint classical beliefs are required PSC controls.",
+    "location_or_argument": "Protocol 19 Experiment B; original Stage 0",
+    "boundary": "Independent marginals alone cannot isolate quantum-inspired benefit."
+  },
+  {
+    "id": "C28",
+    "source_ids": "",
+    "kind": "PROPOSED",
+    "claim": "Start with DINO-WM reproduction; evaluate NWM transfer later.",
+    "location_or_argument": "Engineering decision informed by A01 and A04",
+    "boundary": "Not a measured model ranking; depends on accessible artifacts."
+  },
+  {
+    "id": "C29",
+    "source_ids": "",
+    "kind": "MATHEMATICAL_INFERENCE",
+    "claim": "Same-density ensembles have identical common linear-channel/Born-instrument statistics.",
+    "location_or_argument": "Original formulation 05 and exact TEC Stage 0",
+    "boundary": "Branch-specific added state changes the model; classical particles need equal access."
+  }
+]

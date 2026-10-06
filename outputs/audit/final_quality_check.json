@@ -1,0 +1,11 @@
+{
+  "date": "2026-10-06",
+  "relative_links": "PASS",
+  "utf8_replacement_scan": "PASS",
+  "bib_url_roundtrip": "PASS",
+  "bib_paper_id_coverage": "PASS",
+  "six_pngs_visually_inspected": true,
+  "figure_observation": "Labels, arrows and evidence counts legible; no clipping observed.",
+  "scientific_review": "Original specialist audits retained in evidence. Adaptation supplement uses one-assistant review; its separate validation is in sources/adaptation/validation.json.",
+  "limitations": "No navigation experiments, exhaustive systematic coverage or independent human peer review."
+}

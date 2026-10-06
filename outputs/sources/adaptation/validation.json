@@ -1,0 +1,25 @@
+{
+  "date": "2026-10-06",
+  "research_software_families": 21,
+  "workflow_attributions": 1,
+  "claims": 29,
+  "retrieval_batches": 21,
+  "search_queries": 26,
+  "id_url_utf8_relative_link_checks": "PASS",
+  "model_experiments": "NOT RUN",
+  "independent_review": false,
+  "limitations": "Structural artifact checks only; not scientific replication or exhaustive citation validation.",
+  "sha256": {
+    "18_pretrained_model_adaptation_review.md": "5a621f86d01bcf58a2bd10173ee01d7989087ac870b2857b2cd3d3dccf2f27ef",
+    "19_adaptation_experiment_protocol.md": "4c4cb7c7e1c1af7f3a9c41dc7fc82236d4e65ed729045ad6754cb1bb24e6ea00",
+    "20_pretrained_candidate_matrix.csv": "7c405ad93a26e8183aac972a1b0d31e41be5eea348b60d806f99effbb69ca4f2",
+    "21_adaptation_claim_ledger.csv": "533ce87cd395cde19b454b3f16e881adcc1ab9d4eac987534c7453d70ac2576b",
+    "adaptation_review_protocol.json": "f6ef2068524eb610229e16b4f2813086b2f5cad2f950413232ec9bd501c468b0",
+    "sources/adaptation/claims.json": "7e39d7e17c1fc9e6bfbb5703719b99f8d3345747cdeea54dd8c835791b2e546a",
+    "sources/adaptation/evidence_records.json": "77c7e9039a351adac35c0d7a394b7fc7db262c34fa8c7c57f2970d3bfba388b9",
+    "sources/adaptation/references.bib": "1828cd5d519b115398a599cfc6b824a9d0754eb0f822b08f6d54644a98fce3cf",
+    "sources/adaptation/search_log.json": "4a3d4eb97b5c4f529f7112af7791720ffd11f3eac8c54a2d01351eeae1ec672e",
+    "sources/adaptation/skill_log.md": "84b171719629761935bf58e6248d3425c521d93c6f0f78d06074cf41b2de6bbe",
+    "scripts/assemble_adaptation_supplement.py": "9e5fbd4a4049dc0e64539ebf79c5e83e43432f2f961c950c6487d7bf9dfdc6fb"
+  }
+}

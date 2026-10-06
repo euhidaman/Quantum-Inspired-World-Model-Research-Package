@@ -1,0 +1,1764 @@
+Master Research Prompt
+Structured Quantum-Inspired Latent World Models for Dynamic-Obstacle Robot Planning
+> **Use this entire Markdown document as one prompt.**
+>
+> You will receive no additional project files, slides, explanations, or follow-up context. Everything needed to understand the project is included here. Conduct the research independently, verify all external claims, and produce the requested research artifacts.
+---
+1. Your Role
+Act as an autonomous, evidence-bounded research team combining the expertise of:
+a senior robotics navigation and motion-planning researcher;
+a world-model and representation-learning researcher;
+a probabilistic inference and uncertainty-calibration researcher;
+a quantum-information theorist;
+a tensor-network researcher;
+an object-centric computer-vision researcher;
+an experimental-design and statistics specialist;
+a research-software and reproducibility engineer;
+a critical reviewer for CoRL, ICRA, IROS, RSS, ICML, NeurIPS, ICLR, AISTATS, CVPR, ICCV, ECCV, RA-L, T-RO, IJRR, TPAMI, IJCV, and JMLR.
+Your job is not to defend the proposal. Your job is to determine whether any part of it is scientifically valid, novel, useful, experimentally testable, and publication-worthy.
+---
+2. Scientific-Agent-Skills Environment
+The research will be conducted using the open-source repository:
+https://github.com/K-Dense-AI/scientific-agent-skills
+Use the repository's current structure at execution time. Do not assume that skill names, paths, versions, or dependencies are unchanged.
+2.1 Required operating procedure
+Before using any skill:
+inspect the repository's current `README.md`, `SECURITY.md`, and relevant documentation;
+locate the skill under the repository's current `skills/` structure;
+read the complete `SKILL.md`;
+record its `metadata.version`, license, dependencies, scripts, external services, and security implications;
+inspect any script before execution;
+install only the skills and dependencies needed for this project;
+do not execute untrusted code, destructive commands, or unrelated network operations;
+keep a reproducible log of commands, package versions, search dates, API use, and outputs;
+cache literature-search results when possible;
+preserve all intermediate evidence and failure logs.
+Where available and relevant, use procedures for:
+literature review;
+paper lookup and research lookup;
+hypothesis generation;
+scientific critical thinking;
+experimental design;
+statistical power;
+statistical analysis;
+scientific writing;
+citation management;
+scientific visualization;
+scientific schematics;
+peer review;
+venue templates;
+document generation.
+Do not invoke a skill merely because it exists. Use it only when it improves rigor or reproducibility.
+---
+3. Project Origin and Mentor Direction
+The mentor's feedback is:
+> The idea appears potentially publishable in robotics if it is justified using real robots or at least credible simulation. It must be compared with standard robotics path-planning and collision-avoidance algorithms. A promising angle is planning over the very large set of possible future obstacle trajectories. Begin with one dynamic obstacle, then scale to multiple dynamic obstacles to approximate real-world complexity, and test across several indoor and outdoor environments.
+Translate the informal phrase "infinite possibilities of obstacles" into rigorous, measurable concepts. Do not use it as a mathematical claim.
+Possible formal meanings include:
+a continuous distribution over future obstacle trajectories;
+a multimodal distribution over intentions or behavior modes;
+a combinatorial joint future over several interacting obstacles;
+uncertainty induced by partial observability and occlusion;
+increasing effective hypothesis count with horizon and obstacle count;
+an unbounded or variable number of obstacle hypotheses;
+support coverage of possible future occupancy.
+The project must establish why a new latent representation is needed instead of a standard predictor combined with MPC, ORCA, particle filtering, diffusion prediction, or another established planner.
+---
+4. Primary Mission
+Develop a publication-grade research program that tests whether structured quantum-inspired latent beliefs can improve robot navigation and path planning in environments containing uncertain dynamic obstacles.
+The central practical problem is:
+> A robot must plan safely when moving obstacles have continuous, multimodal, correlated, and partially observed future trajectories, especially under occlusion, sensor noise, hidden intent, and interactions among multiple agents.
+The central scientific question is:
+> At matched compute and model capacity, do explicit structured latent beliefs over obstacle futures provide safer, better-calibrated, more sample-efficient, more interpretable, or more computationally useful planning than standard latent vectors, factorized stochastic states, object slots, particle sets, Gaussian mixtures, normalizing flows, diffusion predictors, and classical robotics planners?
+The three principal approaches are:
+Quantum Latent Core (QLC);
+Purified Slot Core (PSC);
+Trajectory Ensemble Core (TEC).
+The Intensity Flow Core (IFC), random-finite-set methods, classical particle filters, Gaussian mixtures, normalizing flows, diffusion models, and conventional world models are important baselines or possible future extensions, but they are not the three main proposed approaches.
+Do not combine all approaches into one large hybrid before testing them independently. The goal is to discover which approach, if any, deserves to become the main contribution.
+---
+5. Non-Negotiable Scientific Rules
+5.1 Verification and anti-hallucination rules
+Never invent or silently assume:
+paper titles;
+author names;
+venues;
+years;
+theorem statements;
+benchmark scores;
+datasets;
+robot specifications;
+software capabilities;
+venue deadlines;
+page limits;
+code availability;
+licenses;
+hardware requirements;
+numerical results.
+For every paper used:
+open the official proceedings page, publisher page, DOI record, or full paper;
+verify title, authors, venue, year, and publication status;
+distinguish peer-reviewed work from preprints;
+save the DOI, official URL, or arXiv identifier;
+record the exact page, section, theorem, table, or figure supporting each major claim;
+do not cite a paper based only on a search-result snippet or a secondary summary;
+do not include a source in final conclusions unless it has been opened and inspected;
+mark unverifiable sources as `UNVERIFIED` and exclude them from evidence-backed claims.
+Use this claim taxonomy in all reports:
+`[ESTABLISHED]`: directly supported by a verified theorem or publication;
+`[OBSERVED]`: measured in an experiment actually executed during this project;
+`[INFERENCE]`: a reasoned conclusion from evidence, explicitly marked as inference;
+`[HYPOTHESIS]`: a testable proposal not yet established;
+`[SPECULATION]`: plausible but weakly grounded;
+`[UNKNOWN]`: insufficient evidence.
+Maintain a claim-evidence ledger linking each major statement to its source and exact supporting location.
+5.2 No fabricated results
+Do not write that an approach improves performance unless the corresponding experiment has been run and its raw outputs saved.
+Always distinguish:
+proposed experiment;
+expected qualitative behavior;
+pilot observation;
+completed benchmark result;
+statistical interpretation.
+5.3 Quantum-language boundary
+This is a quantum-inspired, classically simulated project.
+Do not claim:
+use of qubits;
+quantum hardware;
+quantum speedup;
+quantum supremacy;
+physical quantum effects inside the robot or environment;
+automatic advantage from quantum mathematics;
+that a larger parameter count proves greater useful expressiveness;
+that a 3D sphere is the literal geometry of a high-dimensional latent.
+Use this project boundary:
+> The project borrows density operators, positive maps, purification, tensor-network factorization, complex-projective geometry, and trajectory-unravelling mathematics as inductive biases for a classical world model. All computation is ordinary numerical linear algebra unless a separate future project explicitly introduces quantum hardware.
+5.4 Fair comparison
+All central comparisons must control or report:
+parameter count;
+latent-state memory;
+training transitions;
+encoder capacity;
+decoder capacity;
+optimizer and training schedule;
+planner horizon;
+number of planning samples;
+hyperparameter-search budget;
+wall-clock training time;
+inference latency;
+planner latency;
+GPU memory;
+rollout frequency;
+sensor inputs;
+data splits;
+number of random seeds.
+Report both matched-parameter and matched-latency comparisons when practical.
+5.5 Strong-baseline requirement
+A structured model is not justified merely because it is mathematically elegant.
+The work must compare against relevant representatives of:
+simple motion prediction;
+Bayesian tracking;
+standard robotics path planning;
+standard local collision avoidance;
+model-predictive control;
+risk-aware planning;
+belief-space planning;
+current latent world models;
+object-centric world models;
+particles and mixtures;
+diffusion or generative trajectory prediction.
+If a simpler method performs equally well, recommend the simpler method.
+---
+6. Correct Project Positioning
+Current world models may use:
+deterministic recurrent vectors;
+Gaussian stochastic latents;
+factorized categorical variables;
+discrete visual tokens;
+object-centric slots;
+particles or trajectory samples;
+diffusion-generated futures;
+predictive feature embeddings;
+mixtures or normalizing flows.
+Do not claim that current models cannot represent multiple futures. Many can approximate multimodal distributions through sampling, mixtures, autoregression, particles, or diffusion.
+The defensible research gap is:
+> Current methods often encode relations among possible futures implicitly, factorize them, or regenerate them through sampling. This project tests whether explicitly representing selected relations, dependencies, and persistent future identities improves filtering, calibration, planning, or failure detection.
+The proposed value is a structured inductive bias, not guaranteed universal expressiveness.
+A provisional ranking to investigate, not assume, is:
+QLC: mathematically clean baseline, but strongest prior-art and identifiability risk;
+PSC: strongest structured-capacity and robotics hypothesis;
+TEC: potentially novel and useful for active perception, but highest gauge-redundancy risk.
+Evidence may overturn this ranking.
+---
+7. Robotics Problem Formulation
+Model navigation as a partially observable controlled dynamical system.
+Let:
+(x_t^R): ego robot state;
+(m): static map or scene structure;
+(N_t): number of dynamic obstacles at time (t);
+(x_{j,t}): physical state of obstacle (j), such as position, heading, velocity, and acceleration;
+(i_{j,t}): hidden intention, goal, policy, or behavior mode of obstacle (j);
+(o_t): observation;
+(a_t): robot action.
+A scene state may be written as:
+[
+s_t = \left(x_t^R, m, {x_{j,t}, i_{j,t}}_{j=1}^{N_t}\right).
+]
+Meaning: the full state contains the robot, the static environment, and all moving obstacles together with hidden behavior variables.
+The observation process is:
+[
+o_t \sim p(o_t \mid s_t).
+]
+Meaning: the robot sees only a noisy and partial view of the true state.
+The Bayesian belief is:
+[
+b_t(s_t) = p(s_t \mid o_{0:t}, a_{0:t-1}).
+]
+Meaning: the belief is the probability distribution over possible current worlds given all past observations and actions.
+The learned world model approximates this belief using a latent representation such as a vector, Gaussian, categorical state, density matrix, tensor network, or trajectory ensemble.
+For planning horizon (H), the robot selects actions by minimizing expected task cost and risk:
+[
+a^*_{t:t+H-1}
+\arg\min_a
+\mathbb{E}\left[
+\sum_{h=0}^{H-1} c(s_{t+h},a_{t+h})
+\right]
++
+\lambda_{\mathrm{risk}}\operatorname{Risk}(C_{\mathrm{collision}}).
+]
+Meaning: choose actions that reach the goal efficiently while penalizing dangerous predicted futures.
+Investigate risk functions including:
+expected collision cost;
+chance constraints;
+Conditional Value at Risk, CVaR;
+worst-case cost over credible hypotheses;
+distributionally robust risk;
+information-aware or active-perception objectives.
+A representative chance constraint is:
+[
+P(\text{collision within horizon }H) \le \delta.
+]
+Meaning: the planned route is acceptable only when predicted collision probability remains below threshold (\delta).
+Do not select a risk measure because it sounds advanced. Compare its assumptions and usefulness for each latent representation.
+---
+8. Approach 1: Quantum Latent Core
+8.1 State
+Represent the belief as a density operator:
+[
+\rho_t \in \mathbb{C}^{d\times d},
+\qquad
+\rho_t=\rho_t^\dagger,
+\qquad
+\rho_t\succeq 0,
+\qquad
+\operatorname{Tr}\rho_t=1.
+]
+Where:
+(d): latent Hilbert-space dimension;
+(\rho_t^\dagger): conjugate transpose;
+(\rho_t\succeq 0): positive semidefinite;
+(\operatorname{Tr}\rho_t=1): normalized total probability.
+For numerical stability, optionally store a low-rank factor:
+[
+\rho_t = \frac{A_tA_t^\dagger}{\operatorname{Tr}(A_tA_t^\dagger)},
+\qquad
+A_t\in\mathbb{C}^{d\times r}.
+]
+Meaning: (A_tA_t^\dagger) is automatically Hermitian and positive semidefinite, and normalization gives unit trace.
+Possible basis interpretations to research include:
+obstacle-intention primitives;
+trajectory prototypes;
+joint room configurations;
+interaction outcomes;
+occupancy-flow modes.
+Do not assume one interpretation is correct.
+8.2 Readout
+For a positive measurement operator (M_y):
+[
+p(y\mid\rho_t)=\operatorname{Tr}(\rho_tM_y),
+]
+with:
+[
+M_y\succeq0,
+\qquad
+\sum_yM_y=I.
+]
+Interpretation:
+diagonal entries of (\rho) provide probabilities in one chosen basis;
+off-diagonal entries encode coherence or relations between basis alternatives;
+off-diagonal terms matter only if later dynamics or readouts make them operational.
+8.3 Dynamics
+A discrete completely positive trace-preserving update is:
+[
+\rho_{t+1}
+\sum_kK_k(a_t,h_t)\rho_tK_k^\dagger(a_t,h_t),
+]
+subject to:
+[
+\sum_kK_k^\dagger K_k=I.
+]
+Where:
+(K_k): learned Kraus operators;
+(a_t): robot action;
+(h_t): optional deterministic context.
+A continuous-time GKSL equation may be considered only under its assumptions:
+[
+\frac{d\rho}{dt}
+-i[H,\rho]
++
+\sum_k\gamma_k
+\left(
+L_k\rho L_k^\dagger
+\frac12{L_k^\dagger L_k,\rho}
+\right).
+]
+Interpretation:
+(H): Hamiltonian-like reversible transition term;
+(L_k): dissipative or uncertainty channels;
+(\gamma_k): rates;
+([H,\rho]): commutator;
+({A,B}): anticommutator.
+Required caveat:
+GKSL characterizes linear Markovian quantum dynamical semigroups;
+state-dependent nonlinear neural dynamics are not covered by the basic uniqueness theorem;
+do not invoke GKSL outside its assumptions.
+8.4 Capacity claim
+A categorical distribution over (d) outcomes has (d-1) independent real parameters.
+A general density matrix has (d^2-1) real degrees of freedom.
+This is only a parameterization statement. It is not proof of greater observable process expressiveness or better prediction.
+The correct QLC question is:
+> Do operational off-diagonal terms improve prediction, calibration, filtering, or planning compared with diagonal \(\rho\) and equally sized classical models?
+8.5 Prior-art and risk analysis
+Research and verify:
+hidden quantum Markov models;
+observable operator models;
+predictive-state representations;
+Born machines;
+density-matrix neural networks;
+quantum-inspired sequence models;
+finite-dimensional HQMM expressiveness;
+identifiability of coherence from classical sensors.
+Do not claim QLC is the first density-matrix sequence model.
+Main failure modes:
+the learned state becomes effectively diagonal;
+off-diagonal terms do not affect decoded predictions;
+a classical OOM, Gaussian mixture, flow, particle model, or diffusion model matches it;
+coherence is basis-dependent and not identifiable;
+fixed trace makes variable cardinality awkward;
+linear-channel restrictions limit modeling flexibility.
+8.6 Decisive QLC experiment
+Construct latent states with:
+identical diagonals;
+different off-diagonal entries.
+Apply:
+a diagonal or commuting transition/readout;
+a basis-changing transition/readout.
+Test whether:
+full QLC produces correctly different future predictions;
+diagonal (\rho) cannot;
+the effect survives matched parameters and regularization.
+If no operational difference appears, QLC should remain a theoretical baseline or be abandoned as the principal contribution.
+---
+9. Approach 2: Purified Slot Core
+9.1 State
+Use (L) potential object slots.
+Each slot may contain:
+existence;
+position or pose code;
+velocity code;
+intention code;
+semantic class;
+visibility;
+trajectory primitive;
+interaction state.
+Define:
+(L): maximum number of trackable slots;
+(d): local slot dimension;
+(\chi): bond dimension controlling cross-slot correlation;
+(\kappa): purification or Kraus dimension controlling mixedness.
+Represent the joint belief using a locally purified tensor-network state. A schematic representation is:
+[
+\rho = \frac{XX^\dagger}{\operatorname{Tr}(XX^\dagger)},
+]
+where (X) is a tensor network with physical, purification, and bond indices.
+A rough chain-like storage scaling is:
+[
+O(Ld\kappa\chi^2).
+]
+The full joint basis contains:
+[
+d^L
+]
+possible configurations.
+This does not mean that every distribution over all (d^L) configurations is freely represented at small (\chi).
+The hypothesis is:
+> A modest bond dimension may compactly encode the local and group correlations that dominate physical scenes.
+This is an area-law-like empirical hypothesis, not a proven property of robotics scenes.
+9.2 Capacity dial
+Conceptually:
+(\chi=1): slots are independent;
+larger (\chi): stronger cross-slot dependencies can be represented;
+very large (\chi): approach the dense joint state at prohibitive cost.
+Verify the exact entropy or mutual-information bound for the selected tensor-network topology. Do not copy a bound from pure MPS to LPDO, MPO, PEPS, tree, or graph states without checking applicability.
+9.3 Robotics interpretation
+Bonds may represent dependencies such as:
+two pedestrians moving together;
+one agent yielding to another;
+mutually exclusive doorway passage;
+a cart and operator moving together;
+one obstacle occluding another;
+multiple agents responding to the same signal;
+leader-follower behavior;
+joint collision avoidance.
+The key hypothesis is that independent slots may assign probability to impossible combinations, while bonded slots may suppress them.
+9.4 Dynamics
+A local-channel update with truncation is:
+[
+\rho_{t+1}
+\mathcal{T}_\chi
+\left[
+\sum_kK_k(a_t,h_t)\rho_tK_k^\dagger(a_t,h_t)
+\right].
+]
+Interpretation:
+local or pairwise gates update slots;
+dynamics generate correlation;
+bond dimensions may grow;
+the state is truncated back to (\chi);
+discarded weight measures lost structure.
+Do not hide that the channel is linear in (\rho). Truncation is state-dependent but partly an approximation mechanism.
+9.5 Inference and sensor fusion
+Attach sensor likelihood factors to relevant slots and use belief propagation or tensor contraction to estimate marginals.
+Investigate:
+exact inference on tree graphs;
+loopy belief propagation;
+damping;
+generalized belief propagation;
+neural message-passing approximations;
+contraction complexity;
+convergence diagnostics.
+Do not claim BP is exact on general loopy graphs.
+9.6 Representation-native capacity alarm
+Track discarded weight during truncation.
+Candidate hypothesis:
+> A spike in discarded weight predicts that the scene contains more dependency structure than the selected \(\chi\) can retain, making discarded weight a representation-level capacity alarm.
+This must be calibrated against actual rollout and planning error.
+9.7 Decisive PSC experiment
+Construct a minimal two-agent task whose futures are correlated.
+Examples:
+both yield or both continue;
+two group members move together;
+exactly one moving is impossible;
+two doorway choices are mutually exclusive.
+Compare:
+factorized categorical latent;
+PSC with (\chi=1);
+PSC with (\chi=2);
+PSC with (\chi=4);
+dense-joint oracle;
+classical mixture or particle baseline.
+Primary diagnostic:
+[
+P(\text{impossible joint configurations}).
+]
+PSC survives only if increasing (\chi) reduces impossible joint mass and improves planning at acceptable compute cost.
+---
+10. Approach 3: Trajectory Ensemble Core
+10.1 State
+Represent the latent as a weighted measure over pure-state branches:
+[
+\mu_t
+\sum_{m=1}^{M}w_{m,t},\delta_{[\psi_{m,t}]},
+]
+where:
+[
+\psi_m\in\mathbb{C}^d,
+\qquad
+|\psi_m|=1,
+\qquad
+\psi_m\sim e^{i\theta}\psi_m,
+\qquad
+\sum_mw_m=1.
+]
+The pure-state geometry is complex projective space:
+[
+\mathbb{CP}^{d-1}.
+]
+The corresponding density matrix is:
+[
+\rho_t
+\sum_mw_{m,t}|\psi_{m,t}\rangle\langle\psi_{m,t}|.
+]
+Thus QLC is the first moment or average of TEC.
+10.2 Robotics interpretation
+Each branch should represent one complete plausible scene future, such as:
+pedestrian crosses before the robot;
+pedestrian yields;
+person stops behind an occluder;
+cart turns into the corridor;
+group splits;
+second obstacle emerges from a doorway.
+A branch is a complete joint scene hypothesis, not one obstacle point.
+Weights are classical probabilities across branches.
+10.3 Central theoretical danger
+Different ensembles can produce the same density matrix.
+Under branch-independent linear CPTP evolution and Born-rule readout, ensembles with the same (\rho) are operationally indistinguishable.
+TEC adds useful capacity only if one or more of the following is true:
+dynamics depend on branch identity;
+planning directly uses branch-specific predictions;
+branch labels carry persistent environmental meaning;
+control uses information not recoverable from (\rho).
+Do not hide this issue.
+10.4 Branch-conditioned dynamics
+A general branch update may be written as:
+[
+\psi_{m,t+1}
+\frac{F_\theta(\psi_{m,t},a_t,h_t,\mu_t)}
+{|F_\theta(\psi_{m,t},a_t,h_t,\mu_t)|}.
+]
+Weights may update through observation likelihoods:
+[
+w'm
+\propto
+w_m,p(o{t+1}\mid\psi_{m,t+1}).
+]
+This is not automatically a standard quantum channel. Branch-conditioned dynamics deliberately move beyond ordinary branch-independent GKSL evolution.
+10.5 Planning with branches
+For each candidate action sequence, roll out every branch:
+[
+\tau_m(a_{t:t+H-1}).
+]
+A risk-aware objective may use:
+[
+J(a)
+\sum_mw_mC(\tau_m(a))
++
+\lambda_{\mathrm{risk}}
+\operatorname{CVaR}_\alpha({C(\tau_m(a))}).
+]
+An active-perception objective may reward actions that separate competing hypotheses:
+[
+I(a)
+\sum_{m<n}w_mw_n,d^2(\psi_m(a),\psi_n(a)).
+]
+Compare candidate distances:
+Fubini-Study distance;
+decoded trajectory distance;
+expected observation divergence;
+mutual information;
+Jensen-Shannon divergence.
+Do not assume Fubini-Study distance aligns with robot task value.
+10.6 Decisive TEC experiment
+Construct two different branch ensembles with the same density matrix.
+Compare:
+branch-independent dynamics;
+branch-conditioned dynamics;
+density-matrix average;
+matched classical particles.
+Measure:
+whether decoded rollouts diverge;
+whether divergence is correct;
+whether branch-aware planning selects safer or more informative actions;
+whether ordinary particles achieve the same effect with less complexity.
+If same-(\rho) ensembles remain behaviorally identical, TEC is redundant and should not be the main contribution.
+---
+11. Important Classical Baselines and Optional Extensions
+11.1 Intensity and random-finite-set baseline
+For changing obstacle count, include classical random-finite-set and intensity-based methods.
+A weighted particle intensity may be written:
+[
+\nu_t\approx\sum_iw_{i,t}\delta_{z_{i,t}},
+]
+with total mass:
+[
+\nu_t(Z)=\sum_iw_i.
+]
+Research:
+PHD filtering;
+CPHD filtering;
+multi-Bernoulli filters;
+labeled multi-Bernoulli filters;
+generalized labeled multi-Bernoulli filters;
+particle filters;
+differentiable particle filtering;
+unbalanced optimal transport.
+These are serious baselines when obstacles enter or leave the scene.
+11.2 Optional hybrid
+Only after independent decisive tests succeed, consider a hybrid such as:
+PSC for correlated existence and intention;
+Gaussian or particle heads for continuous pose;
+TEC branches for high-level joint futures;
+QLC for a local uncertainty representation;
+intensity mass for birth and death.
+Do not build the hybrid first. It would make failure diagnosis impossible.
+---
+12. Required Systematic Literature Review
+12.1 Date and venue priorities
+For AI, machine learning, robotics, and computer vision:
+prioritize 2021 to the present;
+prioritize CoRL, ICRA, IROS, RSS, ICML, NeurIPS, ICLR, AISTATS, AAAI, IJCAI, CVPR, ICCV, ECCV, RA-L, T-RO, IJRR, TPAMI, IJCV, and JMLR;
+include older work when it is foundational or defines a standard baseline.
+For quantum mathematics and tensor networks:
+use any year;
+prioritize seminal and highly reputable sources;
+include PRL, PRA, Communications in Mathematical Physics, Journal of Mathematical Physics, Science, Nature, SIAM, IEEE, ACM, AISTATS, and standard monographs when appropriate.
+12.2 Thematic categories
+Organize the review into at least:
+latent world models for control;
+deterministic, Gaussian, categorical, token, and diffusion latents;
+dynamic-obstacle prediction;
+multimodal trajectory forecasting;
+standard path planning and collision avoidance;
+risk-aware and chance-constrained planning;
+belief-space planning and POMDP methods;
+object-centric video and world models;
+particle world models and differentiable filtering;
+random-finite-set and multi-object tracking;
+density-matrix sequence models and HQMMs;
+observable operator and predictive-state models;
+locally purified tensor networks;
+tensor-network contraction and belief propagation;
+projective-state geometry and quantum trajectories;
+active perception and information-gathering control;
+uncertainty calibration and abstention;
+sim-to-real and real-robot dynamic navigation.
+12.3 Search queries
+Use and adapt queries such as:
+`world model dynamic obstacle robot navigation`;
+`latent world model path planning dynamic environments`;
+`multimodal obstacle trajectory prediction robot planning`;
+`belief space planning dynamic obstacles POMDP`;
+`chance constrained MPC multimodal motion prediction`;
+`CVaR robot motion planning dynamic obstacles`;
+`particle world model robotics`;
+`object centric world model occlusion planning`;
+`slot world model robot navigation`;
+`latent diffusion world model robotics planning`;
+`density matrix latent variable model`;
+`hidden quantum Markov model sequence learning`;
+`observable operator model HQMM expressiveness`;
+`locally purified tensor network machine learning`;
+`belief propagation tensor network contraction`;
+`quantum trajectory ensemble machine learning`;
+`active perception multiple hypotheses robot navigation`;
+`trajectory ensemble planning information gain`;
+`social navigation dynamic obstacles benchmark`;
+`pedestrian trajectory prediction planning integration`;
+`outdoor robot navigation moving obstacles`.
+Record every exact query, database, date, result count, and screening decision.
+12.4 Inclusion criteria
+Include papers contributing at least one of:
+relevant latent architecture;
+relevant planner;
+relevant predictor;
+relevant uncertainty representation;
+dynamic-obstacle benchmark;
+real-robot evaluation;
+theorem needed by QLC, PSC, or TEC;
+result limiting or contradicting the proposal;
+evaluation method needed for fair comparison.
+12.5 Exclusion criteria
+Exclude or demote:
+blog posts used as technical evidence;
+unverified workshop claims when stronger peer-reviewed work exists;
+papers related only through the word `quantum`;
+papers with no connection to world models, planning, uncertainty, trajectories, or representation;
+duplicates;
+citation padding;
+papers cited only because they are popular;
+sources whose full text or official metadata cannot be verified.
+12.6 Required paper-extraction fields
+For every core paper, record:
+full citation;
+venue and year;
+peer-reviewed or preprint status;
+main contribution;
+dataset, simulator, robot, or benchmark;
+representation type;
+planning method;
+uncertainty treatment;
+evaluation metrics;
+strongest reported result;
+assumptions;
+limitations;
+relevance to this project;
+component informed;
+whether it supports, weakens, or is neutral to QLC, PSC, or TEC;
+code and license;
+exact source location supporting major claims.
+12.7 Seed works to verify, not blindly cite
+Search for and verify the current publication status and relevance of candidate works in these families:
+World models and robot learning
+DreamerV3;
+TD-MPC2;
+IRIS;
+DIAMOND;
+DINO-WM or equivalent feature-space world models;
+latent diffusion world models;
+occupancy-flow world models;
+object-centric world models;
+structured world-belief models;
+recent particle world models;
+recent latent trajectory world models.
+Quantum and tensor foundations
+Gleason's theorem;
+Choi's theorem;
+Kraus representation;
+Gorini-Kossakowski-Sudarshan and Lindblad generators;
+hidden quantum Markov models;
+HQMM expressiveness and relation to observable operator models;
+quantum tensor networks, stochastic processes, and weighted automata;
+locally purified tensor operators;
+tensor-network contraction through belief propagation;
+belief-propagation gauging;
+HJW ensemble theorem;
+quantum-state diffusion;
+Monte Carlo wave-function trajectories;
+Fubini-Study geometry.
+Robotics planning
+A*;
+D* Lite;
+Hybrid A*;
+space-time search;
+Safe Interval Path Planning;
+Dynamic Window Approach;
+Timed Elastic Band;
+velocity obstacles;
+Reciprocal Velocity Obstacles;
+ORCA;
+Social Force models;
+kinodynamic RRT and RRT*;
+dynamic replanning variants;
+model predictive control;
+chance-constrained MPC;
+MPPI;
+Cross-Entropy Method planning;
+belief-space planning;
+CVaR planning;
+diffusion-based trajectory planning.
+Verify which remain appropriate baselines for the selected task and date.
+12.8 Required literature-review outputs
+Produce:
+a PRISMA-style search and screening flow;
+thematic research map;
+claim-evidence ledger;
+core-paper table;
+negative-result and limitation table;
+novelty-boundary analysis;
+`What is already solved` section;
+`What is not solved` section;
+`What this project can defensibly claim` section;
+complete BibTeX file.
+---
+13. Research Questions and Hypotheses
+Treat all hypotheses as provisional.
+RQ1: Structured uncertainty
+Does explicit structured uncertainty improve dynamic-obstacle prediction compared with implicit or sampled uncertainty?
+H1: At matched compute, at least one structured core improves calibrated prediction under occlusion.
+Null: Gaussian, mixture, particle, diffusion, categorical, or feature-based baselines perform equally well.
+RQ2: Cross-obstacle correlation
+Does explicit cross-obstacle dependence improve planning when behaviors interact?
+H2: PSC with sufficient (\chi) reduces impossible joint futures and collision rate compared with independent slots.
+Null: attention, particles, mixtures, or standard graph models learn the same dependencies.
+RQ3: Operational QLC coherence
+Do QLC off-diagonal terms have a measurable effect?
+H3: full QLC outperforms diagonal (\rho) when basis-changing dynamics are required;
+Null: the model becomes diagonal or a classical model matches it.
+RQ4: Persistent branch identity
+Does preserving branch identity improve planning?
+H4: TEC provides safer or more informative action choices than its density-matrix average and matched classical particles;
+Null: branch identity is gauge or classical ensembles provide the same benefit.
+RQ5: Native diagnostics
+Can representation-native diagnostics predict planning failure?
+H5: QLC entropy or purity, PSC discarded weight, and TEC effective branch count or spread predict rollout and collision failure;
+Null: they add no value beyond residual error or ordinary ensemble variance.
+RQ6: Scaling
+Do benefits survive increases in:
+forecast horizon;
+obstacle count;
+occlusion duration;
+behavioral correlation;
+environmental shift;
+sensor noise?
+H6: the best structured latent retains an advantage;
+Null: compute and approximation error erase the advantage.
+---
+14. Gated Experimental Program
+Do not proceed to expensive stages when a cheap decisive test fails.
+Stage 0: Theoretical and synthetic falsification
+Stage 0A: QLC operational-coherence test
+Build a controlled sequence task where:
+two latent states have identical diagonals;
+off-diagonal terms differ;
+a later basis-changing operation causes different correct observations.
+Compare:
+full QLC;
+diagonal QLC;
+categorical latent;
+OOM or predictive-state baseline;
+matched Gaussian mixture.
+Primary outcomes:
+next-observation NLL;
+calibration;
+effect of zeroing off-diagonals;
+parameter count;
+learned coherence magnitude.
+Stop QLC as a main approach if no operational gain appears.
+Stage 0B: PSC correlation-capacity test
+Create a room or corridor with two dynamic obstacles whose valid futures are jointly constrained.
+Compare:
+independent slots;
+PSC (\chi=1);
+PSC (\chi=2);
+PSC (\chi=4);
+dense-joint oracle;
+particle or mixture baseline.
+Primary outcome:
+[
+P(\text{impossible joint mode}).
+]
+Secondary outcomes:
+NLL;
+calibration;
+truncation error;
+latency;
+memory.
+Stop PSC if (\chi) does not control the expected dependency.
+Stage 0C: TEC branch-identity test
+Construct two branch ensembles with identical (\rho) but different decompositions.
+Compare:
+branch-independent updates;
+branch-conditioned updates;
+density-matrix average;
+matched classical weighted particles.
+Primary question:
+> Do the ensembles produce correctly different future predictions or action choices?
+Stop TEC if the decompositions remain behaviorally indistinguishable or ordinary particles match it more simply.
+Stage 1: Single dynamic obstacle
+Create a simulator where an ego robot moves through:
+an open room;
+narrow corridor;
+blind corner;
+doorway crossing;
+warehouse aisle.
+Obstacle types:
+person;
+wheeled cart;
+another mobile robot;
+bicycle or small vehicle in an outdoor setting.
+Avoid relying only on abstract balls.
+Hidden obstacle modes:
+cross;
+yield;
+stop;
+accelerate;
+turn left;
+turn right;
+reverse;
+emerge from occlusion;
+follow an unknown goal.
+Observation conditions should progress through:
+perfect state observation;
+noisy state observation;
+lidar or depth;
+RGB-D;
+monocular RGB only if justified;
+partial occlusion;
+delayed observations;
+missed detections.
+Perfect-state experiments isolate the latent representation. Sensor experiments test the full pipeline.
+Use the same planner with each predictor before comparing different planners.
+Stage 2: Multiple dynamic obstacles
+Scale obstacle count systematically, for example:
+[
+N\in{2,4,8,16},
+]
+or choose another justified sequence after pilot profiling.
+Include:
+independent agents;
+correlated groups;
+yielding interactions;
+crossing flows;
+overtaking;
+bottlenecks;
+opposing traffic;
+one obstacle occluding another;
+leader-follower behavior;
+shared destinations;
+births and exits;
+behavior changes.
+Measure scaling with:
+obstacle count;
+number of behavior modes;
+interaction-graph density;
+horizon;
+occlusion;
+noise;
+planning frequency.
+This is the most important stage for PSC.
+Stage 3: Environment generalization
+Indoor
+homes;
+offices;
+hospitals;
+warehouses;
+laboratories;
+corridors;
+intersections;
+crowded rooms.
+Outdoor
+campus paths;
+sidewalks;
+parking areas;
+delivery routes;
+road-like intersections;
+mixed pedestrian and wheeled-agent spaces.
+Research simulator options instead of assuming one. Compare candidate platforms on:
+dynamic-agent support;
+sensor realism;
+ROS2 integration;
+licensing;
+compute requirements;
+reproducibility;
+real-robot transfer.
+Candidate families to investigate:
+Gazebo or Ignition;
+Isaac Sim or Isaac Lab;
+MuJoCo;
+PyBullet;
+Webots;
+CoppeliaSim;
+Habitat;
+iGibson;
+CARLA;
+crowd and social-navigation simulators;
+ROS2 Nav2-compatible environments.
+Hold out:
+maps;
+geometry;
+policies;
+densities;
+speeds;
+noise;
+lighting;
+textures;
+obstacle types;
+interaction patterns.
+Report in-distribution and out-of-distribution results separately.
+Stage 4: Real robot or high-fidelity validation
+If hardware is available, propose three tiers:
+simulation only;
+low-cost indoor robot;
+indoor plus outdoor platform.
+Possible platform classes to investigate:
+differential-drive mobile robot;
+TurtleBot-class system;
+Clearpath Jackal-class system;
+another ROS2-compatible robot.
+Do not assume access to a specific platform.
+Safety progression:
+static foam obstacles;
+remotely controlled mobile obstacle;
+another robot;
+controlled human participant only after institutional safety and ethics review;
+multiple agents only after single-agent safety is validated.
+Include:
+emergency stop;
+speed limits;
+safety supervisor;
+geofencing;
+minimum-distance override;
+independent collision monitor;
+human operator;
+incident logging.
+Do not recommend uncontrolled tests around people.
+Measure sim-to-real factors:
+perception delay;
+actuation delay;
+localization drift;
+controller frequency;
+dropped observations;
+prediction latency;
+planning latency;
+safety overrides;
+transfer degradation.
+---
+15. Required Baselines
+15.1 Simple predictors
+constant position;
+constant velocity;
+constant acceleration;
+Kalman filter;
+interacting multiple-model filter;
+particle filter.
+A complex model that cannot beat constant velocity is not justified.
+15.2 Multi-object belief and tracking
+Research and select from:
+PHD;
+CPHD;
+multi-Bernoulli;
+labeled multi-Bernoulli;
+generalized labeled multi-Bernoulli;
+JPDA;
+MHT.
+15.3 Learned trajectory prediction
+Identify current, verified, code-available methods for:
+pedestrian prediction;
+social navigation;
+autonomous-driving motion forecasting;
+multimodal trajectory prediction;
+occupancy-flow prediction;
+diffusion trajectory prediction.
+Do not use an outdated fixed list without current verification.
+15.4 World models
+Include a justified subset of:
+Gaussian RSSM;
+DreamerV3-style categorical RSSM;
+TD-MPC2;
+IRIS;
+feature-predictive world models;
+DINO-WM or current equivalent;
+latent diffusion world model;
+DIAMOND-like diffusion world model;
+SlotFormer-like object-centric model;
+particle world model;
+mixture-density world model;
+normalizing-flow latent.
+15.5 Classical path planning
+Research and select from:
+A*;
+D* Lite;
+Hybrid A*;
+space-time A*;
+Safe Interval Path Planning;
+kinodynamic RRT;
+RRT*;
+dynamic replanning variants;
+graph-search planning with predicted occupancy.
+15.6 Local collision avoidance
+Research and select from:
+Dynamic Window Approach;
+Timed Elastic Band;
+velocity obstacles;
+Reciprocal Velocity Obstacles;
+ORCA;
+Social Force;
+ROS2 Nav2 local planners.
+15.7 Optimization-based planning
+Research and select from:
+MPC;
+chance-constrained MPC;
+stochastic MPC;
+distributionally robust MPC;
+MPPI;
+CEM;
+iLQR;
+risk-sensitive planning;
+CVaR planning.
+15.8 Belief-space planning
+Include at least one:
+POMDP planner;
+belief-space MPC;
+information-space planner;
+active-perception planner.
+15.9 Oracle upper bounds
+Use:
+oracle obstacle future;
+oracle state observation;
+oracle intention;
+oracle joint distribution.
+These identify whether failure arises from prediction, representation, or planning.
+---
+16. Factorial Design to Isolate Causes
+Separate:
+predictor or world model;
+latent representation;
+planner;
+sensor condition;
+obstacle behavior;
+obstacle count.
+At minimum evaluate:
+every latent with the same planner;
+every planner with the same predictor;
+oracle prediction with every planner;
+learned prediction with an oracle-like risk evaluator when possible.
+Use the conceptual matrix:
+[
+\text{Representation}
+\times
+\text{Planner}
+\times
+\text{Observation quality}
+\times
+\text{Obstacle complexity}.
+]
+Use blocking or fractional designs if the complete matrix is too expensive, while preserving comparisons needed for main effects and important interactions.
+---
+17. Shared Architecture for Fair Comparison
+Where possible, use:
+common sensor encoder;
+representation-specific belief core;
+common observation, trajectory, or occupancy decoder;
+common reward or cost model;
+common planner interface.
+```text
+sensor history
+    ↓
+shared encoder
+    ↓
+QLC / PSC / TEC / classical baseline
+    ↓
+common trajectory or occupancy decoder
+    ↓
+same risk-aware planner
+```
+Match:
+latent storage;
+total parameters;
+training data;
+prediction horizon;
+optimization steps;
+planner samples;
+inference frequency.
+Also report best-performance unconstrained versions, but do not mix them with matched-budget claims.
+---
+18. Required Ablations
+18.1 QLC
+full complex (\rho);
+real-symmetric (\rho);
+diagonal (\rho);
+low rank versus full rank;
+coherence regularization;
+commuting readouts only;
+basis-changing readouts;
+CPTP-constrained versus unconstrained update;
+matched OOM;
+matched Gaussian mixture.
+18.2 PSC
+(\chi=1,2,4,8,16);
+(\kappa=1,2,4);
+chain graph;
+tree graph;
+learned sparse graph;
+fully connected approximation;
+exact contraction on small tasks;
+loopy BP;
+damped BP;
+truncation with and without BP gauging;
+continuous head versus discretized state;
+fixed slot assignment versus dynamic binding.
+18.3 TEC
+(M=1,4,8,16,32,64);
+branch-independent dynamics;
+branch-conditioned dynamics;
+classical real branches;
+complex projective branches;
+jump unraveling;
+diffusive unraveling;
+Fubini-Study metric;
+decoded trajectory metric;
+resampling versus no resampling;
+density-matrix average only;
+matched classical particles.
+18.4 Planner
+expected cost;
+chance constraint;
+CVaR;
+worst credible branch;
+information gain;
+no information gain;
+fixed horizon;
+adaptive horizon.
+---
+19. Statistical Design
+19.1 Experimental unit
+Define the independent unit correctly. Candidate units include:
+map seed;
+obstacle-policy seed;
+complete navigation episode;
+real-robot trial.
+Do not treat timesteps from one episode as independent samples.
+19.2 Randomization and blocking
+Randomize:
+map order;
+obstacle behavior;
+start and goal;
+model seed;
+planner seed;
+trial order.
+Block by:
+environment;
+obstacle count;
+sensor type;
+robot platform;
+day or hardware session;
+behavior family.
+19.3 Replication
+Use:
+multiple training seeds;
+multiple environment seeds;
+multiple obstacle-policy seeds;
+repeated real-robot trials.
+Determine counts using pilot variance and power analysis.
+19.4 Primary endpoint
+Choose and preregister one primary outcome.
+Recommended candidate:
+collision rate, conditioned on or jointly reported with goal success.
+Alternatives:
+safety-adjusted success;
+CVaR collision cost;
+success rate under a fixed collision constraint.
+19.5 Analysis
+Use methods appropriate to the data:
+confidence intervals for proportions;
+bootstrap intervals;
+mixed-effects logistic regression for collision and success;
+mixed-effects linear or robust models for time and path length;
+survival analysis for time to collision where appropriate;
+calibration curves;
+paired scenario comparisons;
+effect sizes;
+multiple-comparison correction;
+Bayesian hierarchical analysis as a robustness check.
+Report:
+effect size;
+confidence or credible interval;
+practical significance;
+statistical significance;
+compute cost.
+19.6 Power
+Use pilot data to estimate:
+baseline collision rate;
+minimum worthwhile reduction;
+between-map variability;
+between-seed variability;
+intraclass correlation.
+Power the study using the correct experimental unit.
+---
+20. Evaluation Metrics
+20.1 Predictive distribution
+negative log likelihood;
+Brier score;
+ECE and adaptive ECE;
+CRPS;
+energy score;
+calibration slope and intercept;
+sharpness;
+prediction-region coverage;
+OOD-detection AUROC.
+20.2 Trajectory prediction
+ADE;
+FDE;
+minADE;
+minFDE;
+miss rate;
+mode recall;
+trajectory-set precision and recall;
+occupancy IoU;
+collision-region probability error.
+Explain that best-of-(K) metrics may reward generating many poor samples.
+20.3 Planning
+collision rate;
+success rate;
+near-miss rate;
+minimum distance;
+time to collision;
+time to goal;
+path efficiency;
+control smoothness;
+jerk;
+deadlock;
+replanning count;
+safety intervention;
+planner latency;
+end-to-end latency.
+20.4 Representation diagnostics
+QLC
+purity;
+von Neumann entropy;
+coherence magnitude;
+rank;
+difference between full and diagonal predictions.
+PSC
+discarded weight;
+verified correlation measure;
+BP residual;
+convergence;
+impossible-mode probability;
+active bond dimensions.
+TEC
+effective sample size;
+branch spread;
+branch overlap;
+branch survival;
+same-(\rho) rollout divergence;
+mode collapse.
+20.5 Efficiency
+parameter count;
+latent bytes;
+FLOPs;
+GPU memory;
+wall-clock training;
+inference milliseconds;
+planner milliseconds;
+energy use where measurable.
+Plot safety-latency and prediction-compute Pareto fronts.
+---
+21. Robustness Tests
+Test:
+sensor noise;
+observation dropout;
+occlusion;
+localization error;
+delayed observations;
+actuator delay;
+obstacle-model mismatch;
+unseen obstacle policy;
+unseen map;
+higher density;
+longer horizon;
+adversarial but physically plausible behavior;
+births and exits;
+capacity limits;
+OOD semantics;
+reduced planning frequency.
+Include catastrophic cases and qualitative failure videos.
+---
+22. Venue-Specific Publication Program
+Research current official scope, deadlines, page limits, review criteria, artifact policies, and dual-submission rules. Do not rely on memory.
+22.1 Robotics paper
+Likely venues:
+CoRL;
+IROS;
+ICRA;
+RA-L;
+RSS where appropriate.
+Possible focus:
+> Structured latent beliefs for risk-aware navigation among multimodal dynamic obstacles.
+Required evidence:
+strong classical planning baselines;
+one- and multi-obstacle simulation;
+multiple environments;
+latency analysis;
+preferably real robot or high-fidelity simulation;
+safety metrics;
+ablations;
+videos.
+Choose one main representation, likely PSC or TEC only if decisive tests support it. Do not place all three in a title unless all are scientifically necessary.
+22.2 Machine-learning representation paper
+Likely venues:
+ICML;
+NeurIPS;
+ICLR;
+AISTATS;
+JMLR.
+Possible focus:
+> Falsifiable structured belief cores for multimodal world models.
+Required evidence:
+benchmarks beyond one robot task;
+matched-capacity comparisons;
+theory or model nesting;
+multiple domains or environments;
+particle, mixture, diffusion, and OOM baselines;
+representation diagnostics;
+explicit failure conditions.
+22.3 Computer-vision paper
+Likely venues:
+CVPR;
+ICCV;
+ECCV;
+TPAMI;
+IJCV.
+Possible focus:
+> Object-centric visual world modeling under occlusion and interacting futures.
+Required evidence:
+RGB, RGB-D, or video;
+object discovery or tracking;
+occupancy or trajectory forecasting;
+comparison with recent visual world models;
+visual occlusion benchmark;
+downstream planning utility;
+high-quality qualitative results.
+22.4 TEC active-perception paper
+Only if the same-(\rho) test passes.
+Possible focus:
+> Persistent future identity for active robot perception and planning.
+Required evidence:
+actions selected to discriminate hypotheses;
+comparison with particle information gain;
+comparison with belief-space planning;
+proof that branch identity adds information not recoverable from (\rho);
+real or simulated sensing actions.
+22.5 Journal extension
+Possible venues:
+T-RO;
+IJRR;
+TPAMI;
+IJCV;
+JMLR.
+Required evidence:
+several environments;
+indoor and outdoor;
+simulation and real robot;
+several obstacle counts;
+theory;
+ablations;
+calibration;
+failure taxonomy;
+code and benchmark release.
+Do not recommend overlapping submissions that violate venue policy.
+---
+23. Novelty Analysis
+For each approach, answer:
+What exact mathematical object is used?
+Has it been used as a sequence model?
+Has it been used as a world model?
+Has it been used in robot navigation?
+Has it been used in dynamic-obstacle prediction?
+What is genuinely new?
+What is only a new application?
+What is only a parameterization change?
+What is a new optimization method?
+What is a new evaluation method?
+What simpler method could reproduce the behavior?
+What result would invalidate novelty?
+Create a table separating:
+established prior art;
+project synthesis;
+proposed contribution;
+untested benefit.
+---
+24. Reviewer-Attack Analysis
+Act as a hostile but fair reviewer. Evaluate:
+“This is quantum theatre; no quantum data or hardware exists.”
+“HQMMs already exist.”
+“A density matrix is only an expensive classical matrix.”
+“A neural network can encode these correlations implicitly.”
+“Particles already represent multiple futures.”
+“Diffusion already models multimodal trajectories.”
+“Tensor networks assume an area law that scenes may not satisfy.”
+“Belief propagation may not converge.”
+“Fixed slots fail when objects enter or leave.”
+“TEC branch information is gauge.”
+“Parameter counting is not expressiveness.”
+“Gains come from more compute.”
+“Classical planning baselines are weak.”
+“There is no real-robot evidence.”
+“The simulator is too simple.”
+“The method is too slow for online planning.”
+“The uncertainty is not calibrated.”
+“The planner, not the latent, caused improvement.”
+“The representation is not identifiable.”
+“The work combines known pieces without a new principle.”
+For each objection, provide:
+whether it is valid;
+evidence;
+experiment required;
+design change;
+response only when scientifically defensible.
+Do not write rhetorical rebuttals to valid criticism. Modify the research design.
+---
+25. Decision Gates
+Gate 1: QLC
+Proceed only if full (\rho) beats diagonal (\rho) and matched classical models on an operational-coherence task.
+Gate 2: PSC
+Proceed only if a (\chi) sweep controls impossible joint modes and discarded weight predicts capacity failure.
+Gate 3: TEC
+Proceed only if same-(\rho) branch ensembles produce useful, correct branch-dependent behavior.
+Gate 4: Robotics
+Proceed to real-robot work only if the selected approach improves simulation safety or prediction under matched compute.
+Gate 5: Multi-obstacle
+Proceed only after the single-obstacle pipeline is stable and computational scaling is acceptable.
+Gate 6: Publication
+Recommend a venue only when the completed evidence matches that venue's contribution standard.
+If no gate passes, produce a rigorous negative-result or methods-boundary paper rather than inventing success.
+---
+26. Implementation Roadmap
+Use a repository structure such as:
+```text
+project/
+  configs/
+  data/
+  environments/
+  sensors/
+  models/
+    shared_encoder/
+    gaussian_rssm/
+    categorical_rssm/
+    qlc/
+    psc/
+    tec/
+    particles/
+    diffusion/
+  planners/
+    dwa/
+    teb/
+    orca/
+    mpc/
+    mppi/
+    sampling/
+    belief_space/
+  training/
+  evaluation/
+  statistics/
+  scripts/
+  tests/
+  videos/
+  reports/
+  references/
+```
+Common belief-core interface:
+```python
+class BeliefCore:
+    def initialize(self, observation): ...
+    def update(self, belief, action, observation): ...
+    def predict(self, belief, action_sequence): ...
+    def decode_occupancy(self, belief, horizon): ...
+    def diagnostics(self, belief): ...
+```
+Planner interface:
+```python
+class Planner:
+    def plan(self, belief, goal, constraints): ...
+```
+Require:
+PSD and trace tests for density matrices;
+tensor shape and normalization tests;
+gauge-invariance tests for TEC;
+BP convergence tests;
+deterministic seeds;
+checkpoint metadata;
+config versioning;
+dataset versioning;
+simulator versioning;
+continuous integration;
+reproducible containers.
+Do not implement the full system before completing Stage 0.
+---
+27. Compute and Resource Tiers
+Tier A: Modest local compute
+one consumer GPU or CPU;
+synthetic 2D environments;
+Stage 0;
+one-obstacle pilot;
+low-dimensional cores;
+simple planners.
+Tier B: One research GPU
+larger room benchmark;
+RGB-D or lidar;
+multi-obstacle experiments;
+several seeds;
+object-centric encoder;
+limited real robot.
+Tier C: Multi-GPU lab resources
+high-fidelity simulation;
+larger visual encoder;
+extensive sweeps;
+outdoor tasks;
+journal-scale evaluation.
+Estimate:
+training hours;
+storage;
+episode counts;
+simulator throughput;
+inference targets;
+bottlenecks.
+Label all estimates and assumptions.
+---
+28. Required Output Files
+Create a single organized `outputs/` directory containing:
+`00_executive_summary.md`
+strongest recommendation;
+main evidence;
+main risks;
+next three actions.
+`01_systematic_literature_review.md`
+search methods;
+thematic synthesis;
+gaps;
+contradictions.
+`02_paper_database.csv`
+structured extraction for all included papers.
+`03_claim_evidence_ledger.csv`
+claim;
+claim type;
+source;
+exact source location;
+confidence;
+contradictions.
+`04_novelty_map.md`
+prior art versus proposed contribution.
+`05_mathematical_formulation.md`
+POMDP;
+QLC;
+PSC;
+TEC;
+planning objectives;
+assumptions.
+`06_hypothesis_registry.md`
+research questions;
+hypotheses;
+nulls;
+discriminating predictions;
+stop conditions.
+`07_baseline_matrix.csv`
+predictors;
+world models;
+planners;
+assumptions;
+code;
+license;
+compute.
+`08_stage0_falsification_protocols.md`
+exact synthetic tasks;
+pseudocode;
+expected outputs;
+decision rules.
+`09_robotics_experiment_program.md`
+single obstacle;
+multiple obstacles;
+indoor;
+outdoor;
+real robot.
+`10_statistical_analysis_plan.md`
+experimental unit;
+blocking;
+power;
+endpoints;
+models;
+corrections.
+`11_simulator_and_hardware_selection.md`
+simulator comparison;
+robot options;
+sensors;
+safety.
+`12_venue_strategy.md`
+venue fit;
+official requirements;
+evidence needed;
+risks.
+`13_paper_blueprints.md`
+title candidates;
+contribution statements;
+abstract outline;
+figure plan;
+experiment table;
+target venue.
+`14_risk_register.md`
+scientific;
+technical;
+computational;
+safety;
+publication risks.
+`15_reproducibility_checklist.md`
+`16_reviewer_attack_and_response.md`
+`references.bib`
+`figures/`
+PRISMA flow;
+literature taxonomy;
+representation comparison;
+experiment ladder;
+architecture diagram;
+decision-gate diagram.
+`search_log.md`
+database;
+query;
+date;
+result count;
+screening decision.
+`skill_usage_log.md`
+skill name;
+version;
+license;
+purpose;
+commands;
+output;
+warnings.
+---
+29. Final Report Structure
+The final synthesis must contain:
+Part I: Direct recommendation
+State:
+which approach should be the primary robotics paper;
+which approach should be a baseline;
+which should be deferred;
+why.
+Do not claim that all three are equally promising unless evidence supports it.
+Part II: Research gap
+Explain what current methods already solve and what remains unresolved.
+Part III: Literature synthesis
+Organize thematically, not chronologically.
+Part IV: Mathematical formulation
+For every equation:
+define every symbol;
+explain it in plain language;
+state assumptions;
+state why it matters;
+identify the experiment that tests it.
+Part V: Experiment program
+Present the gated sequence from synthetic falsification to real robot.
+Part VI: Baseline and fairness plan
+Explain how predictor, latent, and planner effects are separated.
+Part VII: Statistics and reproducibility
+Provide a preregistration-ready plan.
+Part VIII: Venue strategy
+Provide realistic publication tracks.
+Part IX: Risks and stop rules
+Be explicit.
+Part X: Immediate schedule
+Provide:
+first 2 weeks;
+first month;
+first 3 months;
+first 6 months.
+---
+30. Writing and Presentation Style
+Write clearly, directly, and technically.
+Avoid unexplained formula dumps.
+For every equation, provide a plain-language explanation immediately afterward.
+Avoid unsupported phrases such as:
+`quantum advantage`;
+`exponentially better`;
+`infinite capacity`;
+`guaranteed improvement`;
+`captures all possibilities`;
+`first ever`.
+Prefer:
+`candidate advantage`;
+`structured inductive bias`;
+`represented basis size`;
+`matched-compute improvement`;
+`falsifiable hypothesis`;
+`classically simulated quantum formalism`.
+The work must be understandable to:
+a robotics researcher;
+a machine-learning reviewer;
+a quantum-information reviewer;
+a first-year graduate student.
+---
+31. Success Criterion
+The project succeeds only if it produces a defensible answer to:
+> Why should a robotics researcher use this structured latent representation instead of a standard predictor combined with MPC, ORCA, particle filtering, a Gaussian mixture, or a diffusion trajectory model?
+A valid answer requires:
+a specific representational difference;
+a scenario where that difference matters;
+a simpler baseline that cannot reproduce the result under matched constraints;
+a measurable experiment;
+a failure condition;
+acceptable computational and safety cost.
+Mathematical richness alone is not sufficient.
+---
+32. Required Starting Sequence
+Begin in this exact order:
+inspect the scientific-agent-skills repository and relevant `SKILL.md` files;
+create `skill_usage_log.md`;
+create `search_log.md`;
+define and preregister the literature-review protocol;
+create the claim-evidence ledger;
+conduct the literature review;
+map prior art and novelty boundaries;
+refine the research questions and null hypotheses;
+design Stage 0 falsification experiments;
+recommend which approach should receive engineering effort;
+only then design the full robotics experiments and publication program.
+Do not skip directly to implementation. Do not assume the proposal is correct. Do not hide negative results. Preserve every decision, source, command, and limitation needed for another researcher to reproduce the process.

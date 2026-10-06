@@ -1,0 +1,357 @@
+[
+  {
+    "date": "2026-10-06",
+    "database": "Ranked web search (supplementary discovery)",
+    "query": "DreamerV3 Mastering diverse control tasks through world models Nature 2025",
+    "domains": "unrestricted",
+    "total_result_count": "UNKNOWN",
+    "result_count_reason": "Search tool does not expose query total; batched output merges ranked results.",
+    "raw_response": "outputs/sources/world_s1.json",
+    "screening": "Targeted primary records verified separately; incidental snippets not treated as an exhaustive screened corpus."
+  },
+  {
+    "date": "2026-10-06",
+    "database": "Ranked web search (supplementary discovery)",
+    "query": "TD-MPC2 scalable robust world models ICLR 2024",
+    "domains": "unrestricted",
+    "total_result_count": "UNKNOWN",
+    "result_count_reason": "Search tool does not expose query total; batched output merges ranked results.",
+    "raw_response": "outputs/sources/world_s1.json",
+    "screening": "Targeted primary records verified separately; incidental snippets not treated as an exhaustive screened corpus."
+  },
+  {
+    "date": "2026-10-06",
+    "database": "Ranked web search (supplementary discovery)",
+    "query": "IRIS Transformers are Sample-Efficient World Models ICLR 2023",
+    "domains": "unrestricted",
+    "total_result_count": "UNKNOWN",
+    "result_count_reason": "Search tool does not expose query total; batched output merges ranked results.",
+    "raw_response": "outputs/sources/world_s1.json",
+    "screening": "Targeted primary records verified separately; incidental snippets not treated as an exhaustive screened corpus."
+  },
+  {
+    "date": "2026-10-06",
+    "database": "Ranked web search (supplementary discovery)",
+    "query": "DIAMOND Diffusion for World Modeling Visual Details Matter NeurIPS 2024",
+    "domains": "unrestricted",
+    "total_result_count": "UNKNOWN",
+    "result_count_reason": "Search tool does not expose query total; batched output merges ranked results.",
+    "raw_response": "outputs/sources/world_s1.json",
+    "screening": "Targeted primary records verified separately; incidental snippets not treated as an exhaustive screened corpus."
+  },
+  {
+    "date": "2026-10-06",
+    "database": "Ranked web search (supplementary discovery)",
+    "query": "DINO-WM world models pretrained visual features ICLR 2025",
+    "domains": "unrestricted",
+    "total_result_count": "UNKNOWN",
+    "result_count_reason": "Search tool does not expose query total; batched output merges ranked results.",
+    "raw_response": "outputs/sources/world_s2o2.json",
+    "screening": "Targeted primary records verified separately; incidental snippets not treated as an exhaustive screened corpus."
+  },
+  {
+    "date": "2026-10-06",
+    "database": "Ranked web search (supplementary discovery)",
+    "query": "SAVi Conditional Object-Centric Learning from Video ICLR 2022",
+    "domains": "unrestricted",
+    "total_result_count": "UNKNOWN",
+    "result_count_reason": "Search tool does not expose query total; batched output merges ranked results.",
+    "raw_response": "outputs/sources/world_s2o2.json",
+    "screening": "Targeted primary records verified separately; incidental snippets not treated as an exhaustive screened corpus."
+  },
+  {
+    "date": "2026-10-06",
+    "database": "Ranked web search (supplementary discovery)",
+    "query": "SlotFormer Unsupervised Visual Dynamics Simulation with Object-Centric Models ICLR 2023",
+    "domains": "unrestricted",
+    "total_result_count": "UNKNOWN",
+    "result_count_reason": "Search tool does not expose query total; batched output merges ranked results.",
+    "raw_response": "outputs/sources/world_s2o2.json",
+    "screening": "Targeted primary records verified separately; incidental snippets not treated as an exhaustive screened corpus."
+  },
+  {
+    "date": "2026-10-06",
+    "database": "Ranked web search (supplementary discovery)",
+    "query": "Trajectron++ dynamically feasible trajectory forecasting ECCV 2020",
+    "domains": [
+      "arxiv.org",
+      "ecva.net"
+    ],
+    "total_result_count": "UNKNOWN",
+    "result_count_reason": "Search tool does not expose query total; batched output merges ranked results.",
+    "raw_response": "outputs/sources/world_s3o4.json",
+    "screening": "Targeted primary records verified separately; incidental snippets not treated as an exhaustive screened corpus."
+  },
+  {
+    "date": "2026-10-06",
+    "database": "Ranked web search (supplementary discovery)",
+    "query": "MotionDiffuser controllable multi-agent motion prediction diffusion CVPR 2023",
+    "domains": [
+      "openaccess.thecvf.com"
+    ],
+    "total_result_count": "UNKNOWN",
+    "result_count_reason": "Search tool does not expose query total; batched output merges ranked results.",
+    "raw_response": "outputs/sources/world_s3o4.json",
+    "screening": "Targeted primary records verified separately; incidental snippets not treated as an exhaustive screened corpus."
+  },
+  {
+    "date": "2026-10-06",
+    "database": "Ranked web search (supplementary discovery)",
+    "query": "Scene Transformer Joint Prediction Planning multi agent motions ICLR 2022",
+    "domains": [
+      "arxiv.org",
+      "openreview.net"
+    ],
+    "total_result_count": "UNKNOWN",
+    "result_count_reason": "Search tool does not expose query total; batched output merges ranked results.",
+    "raw_response": "outputs/sources/world_s3o4.json",
+    "screening": "Targeted primary records verified separately; incidental snippets not treated as an exhaustive screened corpus."
+  },
+  {
+    "date": "2026-10-06",
+    "database": "Ranked web search (supplementary discovery)",
+    "query": "Differentiable Particle Filters End-to-End Learning with Algorithmic Priors CoRL 2018",
+    "domains": [
+      "proceedings.mlr.press"
+    ],
+    "total_result_count": "UNKNOWN",
+    "result_count_reason": "Search tool does not expose query total; batched output merges ranked results.",
+    "raw_response": "outputs/sources/world_s4o5.json",
+    "screening": "Targeted primary records verified separately; incidental snippets not treated as an exhaustive screened corpus."
+  },
+  {
+    "date": "2026-10-06",
+    "database": "Ranked web search (supplementary discovery)",
+    "query": "labeled multi Bernoulli filter Reuter Vo Vo Dietmayer 2014",
+    "domains": "unrestricted",
+    "total_result_count": "UNKNOWN",
+    "result_count_reason": "Search tool does not expose query total; batched output merges ranked results.",
+    "raw_response": "outputs/sources/world_s4o5.json",
+    "screening": "Targeted primary records verified separately; incidental snippets not treated as an exhaustive screened corpus."
+  },
+  {
+    "date": "2026-10-06",
+    "database": "Ranked web search (supplementary discovery)",
+    "query": "labeled random finite sets multi object conjugate priors Vo Vo 2013",
+    "domains": "unrestricted",
+    "total_result_count": "UNKNOWN",
+    "result_count_reason": "Search tool does not expose query total; batched output merges ranked results.",
+    "raw_response": "outputs/sources/world_s4o5.json",
+    "screening": "Targeted primary records verified separately; incidental snippets not treated as an exhaustive screened corpus."
+  },
+  {
+    "date": "2026-10-06",
+    "database": "Ranked web search (supplementary discovery)",
+    "query": "Mahler 2003 Multitarget Bayes filtering via first order multitarget moments",
+    "domains": "unrestricted",
+    "total_result_count": "UNKNOWN",
+    "result_count_reason": "Search tool does not expose query total; batched output merges ranked results.",
+    "raw_response": "outputs/sources/world_s4o5.json",
+    "screening": "Targeted primary records verified separately; incidental snippets not treated as an exhaustive screened corpus."
+  },
+  {
+    "date": "2026-10-06",
+    "database": "Ranked web search (supplementary discovery)",
+    "query": "\"Differentiable Particle Filters\" Jonschkowski",
+    "domains": "unrestricted",
+    "total_result_count": "UNKNOWN",
+    "result_count_reason": "Search tool does not expose query total; batched output merges ranked results.",
+    "raw_response": "outputs/sources/world_s5o6.json",
+    "screening": "Targeted primary records verified separately; incidental snippets not treated as an exhaustive screened corpus."
+  },
+  {
+    "date": "2026-10-06",
+    "database": "Ranked web search (supplementary discovery)",
+    "query": "\"MotionDiffuser\" arxiv",
+    "domains": "unrestricted",
+    "total_result_count": "UNKNOWN",
+    "result_count_reason": "Search tool does not expose query total; batched output merges ranked results.",
+    "raw_response": "outputs/sources/world_s5o6.json",
+    "screening": "Targeted primary records verified separately; incidental snippets not treated as an exhaustive screened corpus."
+  },
+  {
+    "date": "2026-10-06",
+    "database": "Ranked web search (supplementary discovery)",
+    "query": "\"Strictly Proper Scoring Rules\" Gneiting Raftery pdf",
+    "domains": "unrestricted",
+    "total_result_count": "UNKNOWN",
+    "result_count_reason": "Search tool does not expose query total; batched output merges ranked results.",
+    "raw_response": "outputs/sources/world_s5o6.json",
+    "screening": "Targeted primary records verified separately; incidental snippets not treated as an exhaustive screened corpus."
+  },
+  {
+    "date": "2026-10-06",
+    "database": "Ranked web search (supplementary discovery)",
+    "query": "\"Accurate Uncertainties\" Kuleshov calibrated regression PMLR",
+    "domains": "unrestricted",
+    "total_result_count": "UNKNOWN",
+    "result_count_reason": "Search tool does not expose query total; batched output merges ranked results.",
+    "raw_response": "outputs/sources/world_s5o6.json",
+    "screening": "Targeted primary records verified separately; incidental snippets not treated as an exhaustive screened corpus."
+  },
+  {
+    "date": "2026-10-06",
+    "database": "Ranked web search (supplementary discovery)",
+    "query": "joint multi agent motion forecasting diffusion 2025 2026",
+    "domains": [
+      "openaccess.thecvf.com",
+      "proceedings.mlr.press",
+      "arxiv.org"
+    ],
+    "total_result_count": "UNKNOWN",
+    "result_count_reason": "Search tool does not expose query total; batched output merges ranked results.",
+    "raw_response": "outputs/sources/world_s6o7.json",
+    "screening": "Targeted primary records verified separately; incidental snippets not treated as an exhaustive screened corpus."
+  },
+  {
+    "date": "2026-10-06",
+    "database": "Ranked web search (supplementary discovery)",
+    "query": "\"Scene Transformer\" \"Published as\" ICLR",
+    "domains": "unrestricted",
+    "total_result_count": "UNKNOWN",
+    "result_count_reason": "Search tool does not expose query total; batched output merges ranked results.",
+    "raw_response": "outputs/sources/world_s6o7.json",
+    "screening": "Targeted primary records verified separately; incidental snippets not treated as an exhaustive screened corpus."
+  },
+  {
+    "date": "2026-10-06",
+    "database": "Ranked web search (supplementary discovery)",
+    "query": "\"The Gaussian Mixture Probability Hypothesis Density Filter\" pdf",
+    "domains": "unrestricted",
+    "total_result_count": "UNKNOWN",
+    "result_count_reason": "Search tool does not expose query total; batched output merges ranked results.",
+    "raw_response": "outputs/sources/world_s6o7.json",
+    "screening": "Targeted primary records verified separately; incidental snippets not treated as an exhaustive screened corpus."
+  },
+  {
+    "date": "2026-10-06",
+    "database": "Ranked web search (supplementary discovery)",
+    "query": "\"Differentiable Particle Filtering without Modifying\" proceedings",
+    "domains": "unrestricted",
+    "total_result_count": "UNKNOWN",
+    "result_count_reason": "Search tool does not expose query total; batched output merges ranked results.",
+    "raw_response": "outputs/sources/world_s6o7.json",
+    "screening": "Targeted primary records verified separately; incidental snippets not treated as an exhaustive screened corpus."
+  },
+  {
+    "date": "2026-10-06",
+    "database": "Ranked web search (supplementary discovery)",
+    "query": "\"Gaussian Mixture Probability\" \"ba-ngu.vo-au.com\"",
+    "domains": "unrestricted",
+    "total_result_count": "UNKNOWN",
+    "result_count_reason": "Search tool does not expose query total; batched output merges ranked results.",
+    "raw_response": "outputs/sources/world_s7o10.json",
+    "screening": "Targeted primary records verified separately; incidental snippets not treated as an exhaustive screened corpus."
+  },
+  {
+    "date": "2026-10-06",
+    "database": "Ranked web search (supplementary discovery)",
+    "query": "\"Mastering diverse control tasks\" 08744 PMC",
+    "domains": "unrestricted",
+    "total_result_count": "UNKNOWN",
+    "result_count_reason": "Search tool does not expose query total; batched output merges ranked results.",
+    "raw_response": "outputs/sources/world_s7o10.json",
+    "screening": "Targeted primary records verified separately; incidental snippets not treated as an exhaustive screened corpus."
+  },
+  {
+    "date": "2026-10-06",
+    "database": "Ranked web search (supplementary discovery)",
+    "query": "\"Diverse Yet Consistent\" Chu arxiv",
+    "domains": "unrestricted",
+    "total_result_count": "UNKNOWN",
+    "result_count_reason": "Search tool does not expose query total; batched output merges ranked results.",
+    "raw_response": "outputs/sources/world_s7o10.json",
+    "screening": "Targeted primary records verified separately; incidental snippets not treated as an exhaustive screened corpus."
+  },
+  {
+    "date": "2026-10-06",
+    "database": "Ranked web search (supplementary discovery)",
+    "query": "\"Differentiable Particle Filtering without Modifying\" NeurIPS 2021",
+    "domains": "unrestricted",
+    "total_result_count": "UNKNOWN",
+    "result_count_reason": "Search tool does not expose query total; batched output merges ranked results.",
+    "raw_response": "outputs/sources/world_s7o10.json",
+    "screening": "Targeted primary records verified separately; incidental snippets not treated as an exhaustive screened corpus."
+  },
+  {
+    "date": "2026-10-06",
+    "database": "Ranked web search (supplementary discovery)",
+    "query": "MotionDiffuser controllable multi agent motion prediction diffusion",
+    "domains": [
+      "research.google",
+      "waymo.com"
+    ],
+    "total_result_count": "UNKNOWN",
+    "result_count_reason": "Search tool does not expose query total; batched output merges ranked results.",
+    "raw_response": "outputs/sources/world_s8o17.json",
+    "screening": "Targeted primary records verified separately; incidental snippets not treated as an exhaustive screened corpus."
+  },
+  {
+    "date": "2026-10-06",
+    "database": "Ranked web search (supplementary discovery)",
+    "query": "Diverse Yet Consistent Chu Zhao CVPR 2026",
+    "domains": [
+      "cvpr.thecvf.com"
+    ],
+    "total_result_count": "UNKNOWN",
+    "result_count_reason": "Search tool does not expose query total; batched output merges ranked results.",
+    "raw_response": "outputs/sources/world_s8o17.json",
+    "screening": "Targeted primary records verified separately; incidental snippets not treated as an exhaustive screened corpus."
+  },
+  {
+    "date": "2026-10-06",
+    "database": "arXiv public API",
+    "query": "all:\"joint motion prediction\"",
+    "request": "https://export.arxiv.org/api/query?search_query=all%3A%22joint%20motion%20prediction%22&start=0&max_results=10",
+    "total_result_count": "UNKNOWN",
+    "returned_records": 0,
+    "status": "REQUEST_FAILED; zero retrieved is not zero matches",
+    "raw_response": "outputs/sources/world_arxiv_joint_motion_failure.txt; outputs/sources/world_s7o10.json",
+    "command": "Invoke-WebRequest -Uri <request> -UseBasicParsing",
+    "failure": "PowerShell unable to connect; web fetch internal error",
+    "screening": "None; no returned bibliographic records"
+  },
+  {
+    "date": "2026-10-06",
+    "database": "Ranked web search (supplementary discovery)",
+    "query": "FLOMO Tractable Motion Prediction with Normalizing Flows IROS 2021 Scholler Knoll",
+    "domains": "unrestricted",
+    "total_result_count": "UNKNOWN",
+    "result_count_reason": "Search tool does not expose query totals; batched results are ranked.",
+    "raw_response": "outputs/sources/world_s9.json",
+    "screening": "Focused flow/occupancy gap follow-up; primary records verified separately; incidental snippets are not an exhaustive corpus."
+  },
+  {
+    "date": "2026-10-06",
+    "database": "Ranked web search (supplementary discovery)",
+    "query": "Occupancy Flow Fields for Motion Forecasting in Autonomous Driving CVPR 2022",
+    "domains": "unrestricted",
+    "total_result_count": "UNKNOWN",
+    "result_count_reason": "Search tool does not expose query totals; batched results are ranked.",
+    "raw_response": "outputs/sources/world_s9.json",
+    "screening": "Focused flow/occupancy gap follow-up; primary records verified separately; incidental snippets are not an exhaustive corpus."
+  },
+  {
+    "date": "2026-10-06",
+    "database": "Ranked web search (supplementary discovery)",
+    "query": "Occupancy Flow Fields for Motion Forecasting in Autonomous Driving",
+    "domains": [
+      "waymo.com",
+      "research.google"
+    ],
+    "total_result_count": "UNKNOWN",
+    "result_count_reason": "Search tool does not expose query totals; batched results are ranked.",
+    "raw_response": "outputs/sources/world_s10o20.json",
+    "screening": "Focused flow/occupancy gap follow-up; primary records verified separately; incidental snippets are not an exhaustive corpus."
+  },
+  {
+    "date": "2026-10-06",
+    "database": "Ranked web search (supplementary discovery)",
+    "query": "Implicit Occupancy Flow Fields for Perception Prediction Self Driving Agro arxiv waabi",
+    "domains": "unrestricted",
+    "total_result_count": "UNKNOWN",
+    "result_count_reason": "Search tool does not expose query totals; batched results are ranked.",
+    "raw_response": "outputs/sources/world_s10o20.json",
+    "screening": "Focused flow/occupancy gap follow-up; primary records verified separately; incidental snippets are not an exhaustive corpus."
+  }
+]

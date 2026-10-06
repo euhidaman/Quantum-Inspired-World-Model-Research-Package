@@ -1,0 +1,28 @@
+{
+  "date": "2026-10-06",
+  "generator": "scripts/assemble_artifacts.py",
+  "matplotlib": "3.11.2",
+  "figure_inches": [
+    13,
+    8
+  ],
+  "png_dpi": 180,
+  "background": "white",
+  "fonts": "DejaVu Sans; SVG text searchable; PDF TrueType embedded",
+  "sources": [
+    "02_paper_database.csv",
+    "screening_audit.json",
+    "04_novelty_map.md",
+    "08_stage0_falsification_protocols.md",
+    "09_robotics_experiment_program.md"
+  ],
+  "conceptual_not_experimental": true,
+  "figures": [
+    "prisma_flow",
+    "literature_taxonomy",
+    "representation_comparison",
+    "experiment_ladder",
+    "architecture_diagram",
+    "decision_gate_diagram"
+  ]
+}

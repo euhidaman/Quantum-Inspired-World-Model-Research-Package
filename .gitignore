@@ -1,0 +1,45 @@
+# Local research and assistant environments
+/.research_build/
+/.agents/
+/.claude/
+/.codex/
+/.aws/
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+**/matplotlib_cache/
+node_modules/
+.vercel/
+
+# Credentials and local settings
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+
+# Experiment outputs: retain these on cluster storage, not in Git
+/data/
+/datasets/
+/checkpoints/
+/runs/
+/wandb/
+/logs/
+slurm-*.out
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+
+# Operating-system/editor files
+.DS_Store
+Thumbs.db
+Desktop.ini
+*.swp
+*.swo

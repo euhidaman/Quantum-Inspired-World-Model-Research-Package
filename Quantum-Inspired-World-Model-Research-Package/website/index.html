@@ -1,0 +1,229 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="An interactive 3D room comparison of current and proposed world-model latent representations.">
+  <title>Room Latent Lab</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <p class="eyebrow">WORLD-MODEL LATENT SPACE STUDY</p>
+    <h1>How does a model remember a room it cannot fully see?</h1>
+    <p>Follow a technician and cart behind a divider. Compare one compact estimate with three proposed ways to preserve richer uncertainty and relationships.</p>
+  </header>
+
+  <main id="quantumRoomLab" class="room-lab">
+    <nav class="method-tabs" aria-label="Latent representation">
+      <button class="method-tab is-active" type="button" data-method="current" aria-pressed="true"><span>01</span>Current baseline</button>
+      <button class="method-tab" type="button" data-method="qlc" aria-pressed="false"><span>02</span>Quantum core</button>
+      <button class="method-tab" type="button" data-method="psc" aria-pressed="false"><span>03</span>Purified slots</button>
+      <button class="method-tab" type="button" data-method="tec" aria-pressed="false"><span>04</span>Trajectory ensemble</button>
+    </nav>
+
+    <section class="lab-layout" aria-label="Interactive room simulator">
+      <div class="scene-column">
+        <div class="scene-heading">
+          <div>
+            <p class="section-kicker">DECODED PHYSICAL ROOM</p>
+            <h2 id="methodTitle">Current compact / factorized baseline</h2>
+          </div>
+          <p id="phaseBadge" class="phase-badge">Observed now</p>
+        </div>
+
+        <div class="scene-wrap">
+          <canvas id="roomCanvas" width="1100" height="650" role="img" aria-label="Perspective view of a room where a technician pushes a cart behind an opaque divider. Predicted paths update with the selected latent method.">
+            A perspective room simulation comparing world-model predictions during occlusion.
+          </canvas>
+          <div class="scene-status" aria-live="polite">
+            <strong id="statusLead">One visible scene is encoded.</strong>
+            <span id="statusDetail">Move the timeline until the cart passes behind the divider.</span>
+          </div>
+        </div>
+
+        <div class="legend" aria-label="Room visualization legend">
+          <span><i class="legend-solid"></i>Observed</span>
+          <span><i class="legend-hidden"></i>Hidden estimate</span>
+          <span><i class="legend-future"></i>Possible future</span>
+          <span><i class="legend-relation"></i>Retained relationship</span>
+        </div>
+
+        <div class="readout-line" aria-live="polite">
+          <span><b>Left route</b> <output id="leftProbability">50%</output></span>
+          <span><b>Right route</b> <output id="rightProbability">50%</output></span>
+          <span><b>Representation</b> <output id="representationReadout">One compact estimate</output></span>
+        </div>
+      </div>
+
+      <aside class="controls" aria-label="Simulation controls">
+        <div class="control-heading">
+          <p class="section-kicker">TRY THE MODEL</p>
+          <p id="methodSummary">A simplified baseline compresses the room into one state and predicts one main future.</p>
+        </div>
+
+        <div class="play-row">
+          <button id="playButton" class="primary-button" type="button" aria-pressed="false">Play</button>
+          <button id="resetButton" class="secondary-button" type="button">Reset</button>
+        </div>
+
+        <label class="control-label" for="timeline"><span>Timeline</span><output id="timelineValue">0.0 s</output></label>
+        <input id="timeline" class="range" type="range" min="0" max="100" value="0" step="1">
+        <div class="timeline-labels" aria-hidden="true"><span>Visible</span><span>Occluded</span><span>Reappears</span></div>
+
+        <label class="control-label" for="evidence">Sensor evidence</label>
+        <select id="evidence" class="select">
+          <option value="none">No new evidence</option>
+          <option value="audio-left">Caster sound on the left</option>
+          <option value="audio-right">Caster sound on the right</option>
+          <option value="door-left">Left door sensor opens</option>
+          <option value="door-right">Right door sensor opens</option>
+        </select>
+
+        <label class="control-label" for="action">Robot action</label>
+        <select id="action" class="select">
+          <option value="wait">Wait and predict</option>
+          <option value="inspect-left">Move to inspect left</option>
+          <option value="inspect-right">Move to inspect right</option>
+          <option value="forward">Move toward the divider</option>
+        </select>
+
+        <label class="control-label" for="horizon"><span>Prediction horizon</span><output id="horizonValue">4 s</output></label>
+        <input id="horizon" class="range" type="range" min="1" max="8" value="4" step="1">
+
+        <div id="methodControl" class="method-control">
+          <label class="control-label" for="methodRange"><span id="methodControlLabel">Baseline uncertainty</span><output id="methodRangeValue">60%</output></label>
+          <input id="methodRange" class="range" type="range" min="0" max="100" value="60" step="1">
+          <p id="methodControlHelp">Higher values widen the single uncertainty ribbon; they do not create separate linked futures.</p>
+        </div>
+
+        <details id="mathDetails" class="math-details">
+          <summary>Math in one line</summary>
+          <div id="mathFormula" class="formula">z<sub>t+1</sub> ∼ p<sub>θ</sub>(z<sub>t+1</sub> | z<sub>t</sub>, a<sub>t</sub>)</div>
+          <p id="mathMeaning">The model updates one compact hidden state after an action.</p>
+          <div id="matrixMini" class="matrix-mini" hidden aria-label="Two by two illustrative density matrix">
+            <span id="m00">0.50</span><span id="m01">0.35</span>
+            <span id="m10">0.35</span><span id="m11">0.50</span>
+          </div>
+        </details>
+      </aside>
+    </section>
+
+    <section class="explanation-strip" aria-live="polite">
+      <div>
+        <p class="section-kicker">WHAT CHANGED?</p>
+        <h3 id="changeTitle">The baseline keeps one compressed scene estimate.</h3>
+      </div>
+      <p id="changeText">When two routes are plausible, a compact prediction may become broad or settle on one route. This is only a teaching baseline: modern stochastic and diffusion world models can also represent multiple futures.</p>
+    </section>
+
+    <section class="object-inspector" aria-label="Object state inspector">
+      <div>
+        <p class="section-kicker">CLICK THE ROOM</p>
+        <h3 id="objectName">Rolling cart</h3>
+      </div>
+      <dl>
+        <div><dt>Position</dt><dd id="objectPosition">Visible, approaching divider</dd></div>
+        <div><dt>Motion</dt><dd id="objectMotion">Moving with technician</dd></div>
+        <div><dt>Confidence</dt><dd id="objectConfidence">High</dd></div>
+        <div><dt>Linked to</dt><dd id="objectLinks">Technician</dd></div>
+      </dl>
+    </section>
+
+    <section id="latentGeometryLab" class="latent-geometry-lab" aria-labelledby="geometrySectionTitle">
+      <header class="geometry-intro">
+        <p class="section-kicker">LATENT SPACE GEOMETRY</p>
+        <h2 id="geometrySectionTitle">What shape is the model’s memory?</h2>
+        <p>A latent space is the model’s internal map of possible situations. These views show how that map may be structured—not what the physical room looks like.</p>
+        <p class="geometry-projection-note"><strong>Important:</strong> every view is a 3D teaching projection of a much higher-dimensional space, not its complete literal shape.</p>
+      </header>
+
+      <nav class="geometry-tabs" role="tablist" aria-label="Latent-space geometry">
+        <button id="geometryTabCurrent" class="geometry-tab is-active" type="button" role="tab" aria-selected="true" aria-controls="geometryStage" data-geometry-method="current"><span>01</span>Current manifold</button>
+        <button id="geometryTabQlc" class="geometry-tab" type="button" role="tab" aria-selected="false" aria-controls="geometryStage" data-geometry-method="qlc"><span>02</span>Quantum matrix</button>
+        <button id="geometryTabPsc" class="geometry-tab" type="button" role="tab" aria-selected="false" aria-controls="geometryStage" data-geometry-method="psc"><span>03</span>Purified slots</button>
+        <button id="geometryTabTec" class="geometry-tab" type="button" role="tab" aria-selected="false" aria-controls="geometryStage" data-geometry-method="tec"><span>04</span>Future ensemble</button>
+      </nav>
+
+      <div class="geometry-layout">
+        <div class="geometry-stage-column">
+          <div class="geometry-stage-heading">
+            <div>
+              <p class="section-kicker">INTERACTIVE 3D PROJECTION</p>
+              <h3 id="geometryMethodTitle">Current world-model latent</h3>
+            </div>
+            <p id="geometryMethodBadge" class="geometry-method-badge">Curved occupied region</p>
+          </div>
+
+          <div id="geometryStage" class="geometry-canvas-wrap" role="tabpanel" aria-labelledby="geometryTabCurrent">
+            <canvas id="latentGeometryCanvas" width="1100" height="660" tabindex="0" role="img" aria-label="Interactive three-dimensional teaching projection of a current world-model latent manifold. Drag with a mouse or use the arrow keys to rotate.">
+              Interactive comparison of four latent-space geometries.
+            </canvas>
+            <div class="geometry-status" aria-live="polite">
+              <strong id="geometryStatusLead">One compact state moves along a learned surface.</strong>
+              <span id="geometryStatusDetail">The surrounding tube shows nearby uncertain predictions.</span>
+            </div>
+          </div>
+
+          <div id="geometryLegend" class="geometry-legend" aria-label="Geometry legend">
+            <span><i class="geometry-legend-surface"></i><b id="geometryLegendOne">Occupied manifold</b></span>
+            <span><i class="geometry-legend-path"></i><b id="geometryLegendTwo">State trajectory</b></span>
+            <span><i class="geometry-legend-band"></i><b id="geometryLegendThree">Uncertainty region</b></span>
+            <span><i class="geometry-legend-guide"></i><b id="geometryLegendFour">Ambient coordinates</b></span>
+          </div>
+        </div>
+
+        <aside class="geometry-controls" aria-label="Latent geometry controls">
+          <p id="geometrySummary" class="geometry-summary">The model stores one compact location in a high-dimensional space. Similar situations often occupy nearby parts of a learned curved region.</p>
+
+          <div class="geometry-button-row">
+            <button id="geometryPlayButton" class="primary-button" type="button" aria-pressed="false">Play evolution</button>
+            <button id="geometryResetButton" class="secondary-button" type="button">Reset view</button>
+            <button id="geometryRotateButton" class="secondary-button geometry-rotate-button" type="button" aria-pressed="false">Rotate on touch</button>
+          </div>
+
+          <label class="control-label" for="geometryPrimaryRange"><span id="geometryPrimaryLabel">Prediction uncertainty</span><output id="geometryPrimaryValue">45%</output></label>
+          <input id="geometryPrimaryRange" class="range" type="range" min="0" max="100" value="45" step="1">
+
+          <label class="control-label" for="geometrySecondaryRange"><span id="geometrySecondaryLabel">State evolution</span><output id="geometrySecondaryValue">35%</output></label>
+          <input id="geometrySecondaryRange" class="range" type="range" min="0" max="100" value="35" step="1">
+
+          <label class="geometry-check" for="geometryOptionToggle">
+            <input id="geometryOptionToggle" type="checkbox" checked>
+            <span id="geometryOptionLabel">Show ambient coordinate guide</span>
+          </label>
+
+          <details class="geometry-math-details">
+            <summary>Simple mathematical description</summary>
+            <div id="geometryFormula" class="formula">z<sub>t</sub> ∈ ℝ<sup>d</sup>, &nbsp; z<sub>t+1</sub> ∼ p<sub>θ</sub>(z<sub>t+1</sub> | h<sub>t</sub>, z<sub>t</sub>, a<sub>t</sub>)</div>
+            <p id="geometryFormulaMeaning">The displayed sheet is the region occupied by learned states inside a much larger coordinate space.</p>
+          </details>
+        </aside>
+      </div>
+
+      <div class="geometry-explanation" aria-live="polite">
+        <div>
+          <p class="section-kicker">WHAT YOU ARE SEEING</p>
+          <h3 id="geometryExplanationTitle">A compressed state on a learned manifold</h3>
+        </div>
+        <div>
+          <p id="geometryExplanationText">The surface groups similar room situations. The path shows how an action moves the state, while uncertainty remains local around that path.</p>
+          <p id="geometryCapacityText" class="geometry-capacity-text"><strong>Capacity:</strong> a vector has <em>d</em> real coordinates. Its useful geometry is learned from data.</p>
+        </div>
+      </div>
+
+      <p class="geometry-core-message"><strong>“Bigger” means that more independent values or relationships can be represented—not that the picture should become a physically larger object.</strong></p>
+    </section>
+
+    <section class="caveat-strip">
+      <strong>Research boundary.</strong>
+      <span id="caveatText">This demonstration compares structures, not benchmark results. A larger state is useful only if it improves prediction or planning at a matched compute budget.</span>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>No qubits or quantum hardware are used. The quantum proposal uses density-matrix mathematics on ordinary computers.</p>
+  </footer>
+  <script src="app.js"></script>
+</body>
+</html>

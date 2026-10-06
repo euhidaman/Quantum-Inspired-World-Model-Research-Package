@@ -1,0 +1,15 @@
+{
+  "date": "2026-10-06",
+  "question": "Can pretrained world models or visual representations be adapted with QLC, PSC or TEC modules instead of retraining the entire model?",
+  "type": "Focused bounded scoping supplement; not an exhaustive systematic review",
+  "scope": ["pretrained frozen representation plus learned dynamics", "world-model fine-tuning and latent adapters", "robot navigation checkpoint compatibility", "object-centric features", "tensor-network and quantum-inspired parameter adaptation", "negative evidence and information bottlenecks"],
+  "inclusion": "Primary papers and official author repositories/model cards with accessible claims relevant to adaptation, constraints or evaluation. Preprints allowed and labeled.",
+  "exclusion": "Marketing claims, secondary summaries as claim evidence, unrelated quantum hardware speedup, closed models with no usable latent access as implementation hosts.",
+  "search_sources": ["Web discovery targeting arXiv, OpenReview, proceedings and author repositories", "citation and repository chaining"],
+  "backend_limitation": "parallel-cli not on PATH and PARALLEL_API_KEY not configured; built-in web retrieval used. No authenticated Parallel pipeline or exhaustive database export claimed.",
+  "reviewers": "One assistant; no independent human screening",
+  "decision": "Compare side-module and core-replacement routes; do not presuppose pretrained PSC superiority or direct transfer from manipulation to dynamic navigation.",
+  "evidence_labels": ["source-supported", "proposed design", "inference", "unverified compatibility"],
+  "outputs": ["18_pretrained_model_adaptation_review.md", "19_adaptation_experiment_protocol.md", "20_pretrained_candidate_matrix.csv", "21_adaptation_claim_ledger.csv", "sources/adaptation/search_log.json", "sources/adaptation/references.bib"],
+  "execution": "Literature and design only; no model downloads, API spend, cluster submission or training authorized by this supplement."
+}

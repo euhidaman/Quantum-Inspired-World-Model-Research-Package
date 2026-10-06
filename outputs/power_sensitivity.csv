@@ -1,0 +1,13 @@
+﻿assumed_baseline,assumed_candidate,alpha,target_power,n_per_arm_approx,scope
+0.1,0.08,0.05,0.8,3213,Illustrative independent equal-group binomial normal approximation; NOT final crossed-design power
+0.1,0.08,0.05,0.9,4301,Illustrative independent equal-group binomial normal approximation; NOT final crossed-design power
+0.1,0.05,0.05,0.8,435,Illustrative independent equal-group binomial normal approximation; NOT final crossed-design power
+0.1,0.05,0.05,0.9,582,Illustrative independent equal-group binomial normal approximation; NOT final crossed-design power
+0.05,0.04,0.05,0.8,6745,Illustrative independent equal-group binomial normal approximation; NOT final crossed-design power
+0.05,0.04,0.05,0.9,9030,Illustrative independent equal-group binomial normal approximation; NOT final crossed-design power
+0.05,0.025,0.05,0.8,906,Illustrative independent equal-group binomial normal approximation; NOT final crossed-design power
+0.05,0.025,0.05,0.9,1212,Illustrative independent equal-group binomial normal approximation; NOT final crossed-design power
+0.02,0.01,0.05,0.8,2319,Illustrative independent equal-group binomial normal approximation; NOT final crossed-design power
+0.02,0.01,0.05,0.9,3103,Illustrative independent equal-group binomial normal approximation; NOT final crossed-design power
+0.01,0.005,0.05,0.8,4673,Illustrative independent equal-group binomial normal approximation; NOT final crossed-design power
+0.01,0.005,0.05,0.9,6256,Illustrative independent equal-group binomial normal approximation; NOT final crossed-design power

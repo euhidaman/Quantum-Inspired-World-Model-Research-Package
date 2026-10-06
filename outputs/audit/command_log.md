@@ -1,0 +1,19 @@
+# Command and failure log
+
+2026-10-06: Read supplied attachment using PowerShell Get-Content; inventory via rg --files and Get-ChildItem. No AGENTS.md found in workspace search. Existing nested research package preserved; new work is in root outputs/.
+
+2026-10-06: Read local literature-review and experimental-design SKILL.md. Opened current upstream README/SECURITY and skills with web tools. Attempted Invoke-WebRequest for eight documentation files and GitHub commit: sandbox connections failed; no data transferred. Repeated public read-only requests with sandbox escalation: succeeded. SHA: 92ace75ac21efe19a620434e0ca4e356081fe807. Python --version: 3.14.6.
+
+Tool transcripts contain exact invocation text. Source-query responses are saved separately as available. This file records command families and outcomes; it is not a claim to capture hidden provider operations.
+
+2026-10-06: Parallel domain teams retrieved primary papers, official records and software docs; exact queries/raw responses in sources/ and domain logs. Focused public arXiv API failed; Crossref singleton metadata retrieval succeeded for Q18. No service credentials were inspected or transmitted. PDF/publisher access failures were retained and claims restricted to inspected scope.
+
+2026-10-06: Root official venue searches/opens saved in sources/root_venues_01.json through root_venues_14.json (numbering also includes root_venues_2.json etc.). Four click requests passed URL rather than reference IDs and failed; corrected using returned reference IDs. IROS/TPAMI/current CVPR-author-guideline content remained unresolved. Root LICENSE path returned 404; license metadata read from skill frontmatter and README points to LICENSE.md. No untrusted upstream scripts executed.
+
+2026-10-06: One Python terminal print hit a cp1252 UnicodeEncodeError on provider citation markers; reran subsequent reads with `python -X utf8`. This did not modify or corrupt evidence files. Early reads of domain synthesis files before they existed produced file-not-found messages; completed files were read later.
+
+2026-10-06: Created project .research_build venv and installed Matplotlib 3.11.2 plus dependencies from PyPI for requested figures; package freeze saved. Authored and inspected outputs/scripts/assemble_artifacts.py, then ran with .research_build/Scripts/python.exe -X utf8. Initial Matplotlib default-cache permission warning caused allowed temporary-cache use; explicit outputs/audit/matplotlib_cache added. Script generated source tables/BibTeX, 12 illustrative power rows, six PNG/SVG/PDF conceptual figures, hashes and structural validation. No model/training/simulation/robot tests executed.
+
+2026-10-06: Viewed all six rendered PNG diagrams; labels/arrows and source-scope counts legible, no clipping observed. Independent specialist read-only checks caught rank-reset, forbidden-mass collapse, nonlinear-ensemble fairness, flow scope and BibTeX URL escaping issues; corrections applied. Novelty distinguished from performance advantage. Final validation checks CSV/BibTeX consistency, source links, required files and UTF-8. Structural checks do not certify scholarly completeness.
+
+2026-10-06 final commands: `.research_build/Scripts/python.exe -X utf8 outputs/scripts/assemble_artifacts.py` returned 58 papers, 103 claims, 41 baseline rows, 59 BibTeX entries, six figures and twelve planning-only power rows. Read-only Python local-link/encoding/BibTeX URL scan returned zero errors. Authored and inspected `outputs/scripts/finalize_package.py`; invoked with `python -X utf8 outputs/scripts/finalize_package.py` to save QA, refresh hashes, write the self-excluding portable archive and check ZIP CRC integrity. The archive excludes environment/font caches; source evidence, failure logs and intermediate extractions remain included.
